@@ -1,0 +1,26 @@
+# Site settings
+title: Kaffee Kantate
+author: Kay
+description: Blog about Life in Vancouver, Tech, Coffee, etc
+paginate: 5
+#baseurl: http://www.blog.keiyamagishi.com
+url: http://www.blog.keiyamagishi.com
+
+permalink: /:title/
+tag_permalink_style: pretty
+exclude: [Rakefile, Gemfile, Gemfile.lock, README.md]
+sass:
+  style: :compressed
+
+# Build settings
+markdown: kramdown
+
+# tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+#info
+email: kay.yamagishi.work@gmail.com
+github_username: kay-
+personal_info: Frontend Developer studying at BCIT, Vancouver
+

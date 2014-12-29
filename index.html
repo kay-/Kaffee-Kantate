@@ -7,7 +7,7 @@ layout: default
   <h3 class="page-heading">Entries</h3>
 
   <section class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <article class="post-article">
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

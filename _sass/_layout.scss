@@ -2,31 +2,40 @@
  * Site header
  */
 .site-header {
-    border-top: 3px solid $brown-color;
-    min-height: 70px;
+    min-height: 120px;
     // Positioning context for the mobile navigation icon
     position: relative;
+    background: url(../images/bk.png);
+    a:hover {
+        color: $text-color-grey;
+    }
+}
 
+.site-title-group {
+    float: left;
+    margin-top: 25px;
+}
+
+.site-title, .site-subtitle {
+    margin: 0;
+    color: $text-color-white;
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 70px;
-    //letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+    font-size: 30px;
+    font-family: $header-font-family;
+}
+
+.site-subtitle {
+    font-size: .8em;
+    font-family: $base-font-family;
 }
 
 .site-nav {
     float: right;
-    line-height: 70px;
-
-    .menu-icon {
-        display: none;
-    }
-
+    line-height: 120px;
     .page-link {
-        color: $text-color;
+        color: $text-color-white;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -44,47 +53,92 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: $background-color2;
+    h3 {
+        font-size: .9em;
+        text-align: center;
+        color: $text-color-black;
+    }
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+.footer-tags, .footer-info, .copyright {
+    text-align: center;
 }
 
-.contact-list,
-.social-media-list {
+.contact-list {
     list-style: none;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    &>li {
+        display: table-cell;
+        a {
+            margin-right: 7px;
+            color: $grey-color;
+            &:hover {
+                color: $brown-color;
+            }
+        }
+        i {
+            font-size: 28px;
+
+        }
+    }
+}
+
+.footer-tags {
+    a {
+        font-size: .7em;
+        text-decoration: underline;
+    }
+}
+
+.footer-info {
+    font-size: .7em;
+    margin-bottom: 10px;
+    color: $text-color-black;
+}
+
+.copyright {
+    font-size: .7em;
+    margin-top: 40px;
+    a {
+        color: $grey-color;
+        &:hover {
+            color: text-color;
+        }
+    }
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 1.2em;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
+    margin-right: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-left: $spacing-unit / 4;
+    padding-right: $spacing-unit / 4;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33.3% - (#{$spacing-unit} / 2));
+    width:         calc(33.3% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33.3% - (#{$spacing-unit} / 2));
+    width:         calc(33.3% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33.3% - (#{$spacing-unit} / 2));
+    width:         calc(33.3% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -98,6 +152,9 @@
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
+    .copyright {
+        margin-top: 20px;
+    }
 }
 
 @include media-query($on-palm) {
@@ -105,6 +162,9 @@
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+    .copyright {
+        margin-top: 20px;
     }
 }
 
@@ -120,12 +180,14 @@
 }
 .post-tag {
     font-size: $small-font-size;
-    text-decoration: underline;
 }
 
 .post-article {
-    padding: 60px 0;
-    border-bottom: 1px solid $grey-color;
+    padding: 40px 0 45px 0;
+    border-bottom: 1px dotted $grey-color;
+    &:first-child {
+        padding-top: 0;
+    }
 
 }
 
@@ -139,7 +201,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .post-list {
@@ -159,7 +221,12 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 1.5em;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 30px;
 }
 
 

@@ -2,28 +2,29 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
+
       <div class="footer-col  footer-col-1">
+        <h3>Tags</h3>
+        <div class="footer-tags">{{ site | tag_cloud }}</div>
+
+      </div>
+
+
+      <div class="footer-col  footer-col-2">
+        <h3>Author</h3>
+        <p class="text footer-info">{{ site.author }}: {{ site.personal_info }}</p>
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square"></i></a></li>
+          <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss-square"></i></a></li>
         </ul>
       </div>
 
-
-
-              <span class="username">{{ site.github_username }}</span>
-
-
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <p class="text copyright">&copy; 2014 <a href="{{ site.baseurl }}/">{{ site.title }}</a>, Powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
       </div>
     </div>
-<h2>Tag</h2>
-<div class="tags">{{ site | tag_cloud }}</div>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
   </div>
 
 </footer>

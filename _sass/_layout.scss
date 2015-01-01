@@ -55,15 +55,18 @@
 .site-footer {
     padding: $spacing-unit 0;
     background: $background-color2;
+    padding-left: 10px;
+    padding-right: 10px;
     h3 {
         font-size: .9em;
-        text-align: center;
+        text-align: left;
         color: $text-color-black;
     }
 }
 
 .footer-tags, .footer-info, .copyright {
-    text-align: center;
+    text-align: left;
+
 }
 
 .contact-list {

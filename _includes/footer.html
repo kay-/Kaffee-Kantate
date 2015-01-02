@@ -6,14 +6,14 @@
 
       <div class="footer-col  footer-col-1">
         <h3>Tags</h3>
-        <div class="footer-tags">{{ site | tag_cloud }}</div>
+        <div class="footer-tags tag-cloud">{{ site | tag_cloud }}</div>
 
       </div>
 
 
       <div class="footer-col  footer-col-2">
         <h3>Author</h3>
-        <p class="text footer-info tag-cloud">{{ site.author }}: {{ site.personal_info }}</p>
+        <p class="text footer-info">{{ site.author }}: {{ site.personal_info }}</p>
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square"></i></a></li>
           <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss-square"></i></a></li>

@@ -9,7 +9,7 @@ baseurl: http://kay-.github.io
 
 permalink: /:title/
 tag_permalink_style: pretty
-exclude: [Rakefile, Gemfile, Gemfile.lock, README.md]
+exclude: [README.md]
 sass:
   style: :compressed
 

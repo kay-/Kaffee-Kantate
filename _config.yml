@@ -3,14 +3,18 @@ title: Kaffee Kantate
 author: Kay
 description: Life in Vancouver, Tech, Coffee, etc
 paginate: 7
-baseurl: http://blog.kaffeekantate.xyz
-#url: http://www.blog.keiyamagishi.com
+baseurl: ""#http://blog.kaffeekantate.xyz
+#url: http://blog.kaffeekantate.xyz
 
 permalink: /:title/
 tag_permalink_style: pretty
 exclude: [Gemfile, Gemfile.lock, README.md]
 sass:
+  sass_dir: _sass
   style: :compressed
+
+#gems:
+  #- jekyll-sitemap
 
 # Build settings
 markdown: kramdown

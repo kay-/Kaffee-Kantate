@@ -3,7 +3,7 @@ title: Kaffee Kantate
 author: Kay
 description: Life in Vancouver, Tech, Coffee, etc
 paginate: 7
-#baseurl: http://www.blog.keiyamagishi.com
+baseurl: http://blog.kaffeekantate.xyz
 #url: http://www.blog.keiyamagishi.com
 
 permalink: /:title/

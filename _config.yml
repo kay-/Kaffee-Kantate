@@ -8,7 +8,7 @@ baseurl: ""#http://blog.kaffeekantate.xyz
 
 permalink: /:title/
 tag_permalink_style: pretty
-exclude: [Gemfile, Gemfile.lock, README.md]
+exclude: [Gemfile, Gemfile.lock, README.md, Rakefile]
 sass:
   sass_dir: _sass
   style: :compressed

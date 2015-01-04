@@ -1,10 +1,10 @@
-GH_REPOSITORY = 'git@github.com:kay8/kaffee-kantate'
+GH_REPOSITORY = 'git@github.com:kay8/kaffee-kantate.git'
 
 
 desc 'setup'
 task :setup do
   sh 'rm -rf _deploy'
-  sh 'git clone #{REPOSITORY} _deploy'
+  sh 'git clone #{GH_REPOSITORY} _deploy'
   cd '_deploy' do
     sh 'git checkout gh-pages'
   end

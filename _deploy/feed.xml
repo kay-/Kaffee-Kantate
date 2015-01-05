@@ -5,108 +5,17 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Jan 2015 22:36:24 -0800</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2015 22:36:24 -0800</lastBuildDate>
+    <pubDate>Sun, 04 Jan 2015 00:47:27 -0800</pubDate>
+    <lastBuildDate>Sun, 04 Jan 2015 00:47:27 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>First Post for Test</title>
         <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
 </description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/test%208/</link>
-        <guid isPermaLink="true">/test%208/</guid>
-        
-        <category>test</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>First Post for Test</title>
-        <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/test%207/</link>
-        <guid isPermaLink="true">/test%207/</guid>
-        
-        <category>test</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>First Post for Test</title>
-        <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/test%206/</link>
-        <guid isPermaLink="true">/test%206/</guid>
-        
-        <category>test</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>First Post for Test</title>
-        <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/test%205/</link>
-        <guid isPermaLink="true">/test%205/</guid>
-        
-        <category>test</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>First Post for Test</title>
-        <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/test%204/</link>
-        <guid isPermaLink="true">/test%204/</guid>
-        
-        <category>test</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>First Post for Test</title>
-        <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/test%203/</link>
-        <guid isPermaLink="true">/test%203/</guid>
-        
-        <category>test</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>First Post for Test</title>
-        <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/test%202/</link>
-        <guid isPermaLink="true">/test%202/</guid>
-        
-        <category>test</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>First Post for Test</title>
-        <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/test/</link>
-        <guid isPermaLink="true">/test/</guid>
+        <pubDate>Sat, 03 Jan 2015 00:00:00 -0800</pubDate>
+        <link>/first-post/</link>
+        <guid isPermaLink="true">/first-post/</guid>
         
         <category>test</category>
         

@@ -1,7 +1,7 @@
 GH_REPOSITORY = 'git@github.com:kay8/kaffee-kantate.git'
 
 
-desc 'setup'
+desc 'setup for cleaning up _deploy directory'
 task :setup do
   sh 'rm -rf _deploy'
   sh "git clone #{GH_REPOSITORY} _deploy"

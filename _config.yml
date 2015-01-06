@@ -3,8 +3,8 @@ title: Kaffee Kantate
 author: Kay
 description: Life in Vancouver, Tech, Coffee, etc
 paginate: 7
-baseurl: http://blog.kaffeekantate.xyz
-url: blog.kaffeekantate.xyz
+baseurl: "" # for subpath
+url: http://blog.kaffeekantate.xyz
 
 permalink: /:title/
 tag_permalink_style: pretty

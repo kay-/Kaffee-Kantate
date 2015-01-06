@@ -3,10 +3,10 @@
   <channel>
     <title>Kaffee Kantate</title>
     <description>Life in Vancouver, Tech, Coffee, etc</description>
-    <link>blog.kaffeekantate.xyz/</link>
-    <atom:link href="blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jan 2015 19:26:22 -0800</pubDate>
-    <lastBuildDate>Mon, 05 Jan 2015 19:26:22 -0800</lastBuildDate>
+    <link>http://blog.kaffeekantate.xyz/</link>
+    <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 05 Jan 2015 21:58:13 -0800</pubDate>
+    <lastBuildDate>Mon, 05 Jan 2015 21:58:13 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Jan 2015 00:00:00 -0800</pubDate>
-        <link>blog.kaffeekantate.xyz/first-post/</link>
-        <guid isPermaLink="true">blog.kaffeekantate.xyz/first-post/</guid>
+        <link>http://blog.kaffeekantate.xyz/first-post/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/first-post/</guid>
         
         <category>test</category>
         

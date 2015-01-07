@@ -71,8 +71,8 @@
 
 .contact-list {
     list-style: none;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    //margin-right: auto;
     display: table;
     &>li {
         display: table-cell;

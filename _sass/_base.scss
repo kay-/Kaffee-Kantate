@@ -1,6 +1,6 @@
 @charset "utf-8";
 // Our variables
-$base-font-family: "Helvetica Neue",Helvetica,Arial,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+$base-font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3",Helvetica,Arial,sans-serif,"ＭＳ Ｐゴシック","MS PGothic";
 $header-font-family: 'Courgette',cursive;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -151,7 +151,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #eee;
 }
 
 code {
@@ -160,7 +160,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    //overflow-x: scroll;
 
     > code {
         border: 0;

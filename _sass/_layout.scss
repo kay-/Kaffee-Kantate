@@ -278,6 +278,20 @@
             font-size: 18px;
         }
     }
+    ul, ol {
+        list-style: initial;
+    }
+    ul li {
+        list-style-type: disc;
+    }
+    ol li {
+        list-style-type: decimal;
+    }
+
+    img {
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 /**
@@ -287,8 +301,9 @@
  .social {
     padding: $spacing-unit 0;
     height: 20px;
-    .social-button {
+    .social-button, .social-button > img {
         vertical-align: bottom;
+        display: inline-block !important;
         padding-right: 10px;
     }
  }

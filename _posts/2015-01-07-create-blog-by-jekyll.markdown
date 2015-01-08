@@ -1,10 +1,10 @@
 ---
 layout: post
-title:
-date:   2015-00-00
-excerpt:
-tags:
-cover_image: /2015/
+title:  Jekyllで作ったブログをGitHub Pagesにホストする
+date:   2015-01-07
+excerpt: 新年ということでJekyllでブログ作ってgh-pagesにホストしてカスタムドメイン設定してみました。
+tags: jekyll github
+cover_image: /2015/0108-jekyll.png
 ---
 ![Jekyll](/images/2015/0108-jekyll.png)
 
@@ -41,11 +41,11 @@ cover_image: /2015/
 
 - [What are GitHub Pages?](https://help.github.com/articles/what-are-github-pages/)
 
-GitHub Pageを使えばmasterブランチにコミットするだけでサイトの公開が可能。ただ、GitHub Page上で動的にファイルを生成することができないためPluginは動かず。結局gh-pagesブランチにローカル環境でbuildしたファイルをデプロイすることにしました。
+GitHub Pagesを使えばmasterブランチにコミットするだけでサイトの公開が可能。ただし、GitHub Page上で動的にファイルを生成することができないためPluginは動かず。結局gh-pagesブランチにローカル環境でbuildしたファイルをデプロイすることにしました。
 
 ##カスタムドメイン
 
-お名前.comで取得したドメインにサブドメイン設定してCNAMEを追加しました。当初Aレコードを追加していましたが[このページ(Faster, More Awesome GitHub Pages)](https://github.com/blog/1715-faster-more-awesome-github-pages)をよく読めと怒られたので修正。*username.github.ioのusernameには自身のgithubアカウントを設定
+お名前.comで取得したドメインにサブドメイン設定してCNAMEを追加しました。当初Aレコードを追加していましたが”[このページ(Faster, More Awesome GitHub Pages)](https://github.com/blog/1715-faster-more-awesome-github-pages)をよく読め”と怒られたので修正。*username.github.ioのusernameには自身のgithubアカウントを設定
 
 ##デプロイ
 

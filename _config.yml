@@ -5,6 +5,7 @@ description: Life in Vancouver, Tech, Coffee, etc
 paginate: 7
 baseurl: "" # for subpath
 url: http://blog.kaffeekantate.xyz
+image: /images/title.jpg
 
 permalink: /:title/
 tag_permalink_style: pretty
@@ -28,5 +29,5 @@ tag_page_dir: tag
 #info
 email: kay.yamagishi.work@gmail.com
 github: https://github.com/kay8
-personal_info: About 4 years at System integrator in Tokyo and now studying at BCIT, Vancouver
+personal_info: About 4 years at System integrator in Tokyo and now studying at BCIT, Vancouver. Also writing a English blog in <a href="https://medium.com/@kay_ya">Medium</a>
 

@@ -12,10 +12,10 @@
 
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="page.excerpt" />
+  <meta property="og:description" content="{{ page.excerpt }}"/>
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:image" content="{{ site.url }}/images{{ page.cover_image }}" />
-  <meta property="og:site_name" content="site.title" />
+  <meta property="og:image" content="{% if page.cover_image %}{{ site.url }}/images{{ page.cover_image }}{% else %}{{ site.image}}{% endif %}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="fb:app_id" content="1420984721525609" />
 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">

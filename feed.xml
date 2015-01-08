@@ -5,19 +5,81 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jan 2015 21:58:13 -0800</pubDate>
-    <lastBuildDate>Mon, 05 Jan 2015 21:58:13 -0800</lastBuildDate>
+    <pubDate>Wed, 07 Jan 2015 18:30:41 -0800</pubDate>
+    <lastBuildDate>Wed, 07 Jan 2015 18:30:41 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>First Post for Test</title>
-        <description>&lt;p&gt;First post for testing blog powered by Jekyll&lt;/p&gt;
+        <title>Jekyllで作ったブログをGitHub Pagesにホストする</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/2015/0108-jekyll.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;(Image credit: &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;昨年末にブログを作ろう、と思い立ち検討した結果Jekyllになりました。その他の選択肢としては&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hatenablog.com/&quot;&gt;Hatena blog&lt;/a&gt;, &lt;a href=&quot;https://medium.com/&quot;&gt;Medium&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wordpress.org/&quot;&gt;WordPress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gohugo.io/&quot;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;等があったものの、
+1:カスタマイズ性に欠けるためメインには使いづらい、
+2:管理画面から操作するのが面倒、
+3:Go全く分からないのでそもそも完成するか怪しい(面白そうだけど…)&lt;/p&gt;
+
+&lt;p&gt;ということでシンプル且つそれなりに柔軟性がありそうなJekyllに。他の理由としては基本的にcommitとpushしかしていないGit/GitHubとRubyの勉強にもなりそうだという点が大きいです。&lt;/p&gt;
+
+&lt;p&gt;というわけで以下、導入から運用までのメモ。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;導入&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://melborne.github.io/2013/05/20/now-the-time-to-start-jekyll/&quot;&gt;Jekyllいつやるの？ジキやルの？今でしょ！&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/&quot;&gt;Build A Blog With Jekyll And GitHub Pages&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;構造含めてざっと把握したかったのでこの辺りから読みました。途中まで自分で作っていたもののゼロからCSS書くのが面倒になったため最終的に &lt;code&gt;jekyll new&lt;/code&gt; コマンドでひな形作成してカスタマイズ。一つ目はVersion1.0が前提なので最新版とは異なる点もありますが分かりやすかったです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;ホスト&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/what-are-github-pages/&quot;&gt;What are GitHub Pages?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;GitHub Pagesを使えばmasterブランチにコミットするだけでサイトの公開が可能。ただし、GitHub Page上で動的にファイルを生成することができないためPluginは動かず。結局gh-pagesブランチにローカル環境でbuildしたファイルをデプロイすることにしました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;カスタムドメイン&lt;/h2&gt;
+
+&lt;p&gt;お名前.comで取得したドメインにサブドメイン設定してCNAMEを追加しました。当初Aレコードを追加していましたが”&lt;a href=&quot;https://github.com/blog/1715-faster-more-awesome-github-pages&quot;&gt;このページ(Faster, More Awesome GitHub Pages)&lt;/a&gt;をよく読め”と怒られたので修正。*username.github.ioのusernameには自身のgithubアカウントを設定&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;デプロイ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://webtech-walker.com/archive/2012/09/fired-myblog.html&quot;&gt;俺の最強ブログシステムも火を噴いてたぜ&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chikathreesix.com/?p=297&quot;&gt;Jekyll + Github Pagesでブログを作る&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;gh-pagesブランチへの静的ファイルデプロイについては最終的に&lt;a href=&quot;https://github.com/hokaccha/webtech-walker/blob/f2b178baa3bb00776f089f50b7b3e2954c83694c/Rakefile#L10-20&quot;&gt;hokaccha氏&lt;/a&gt;のrakefileを参考にさせて頂きました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;その他&lt;/h2&gt;
+&lt;p&gt;コメント欄は&lt;a href=&quot;https://disqus.com/&quot;&gt;DISQUS&lt;/a&gt;を使って設置している方が多いみたいなので必要になったら要検討。&lt;/p&gt;
 </description>
-        <pubDate>Sat, 03 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://blog.kaffeekantate.xyz/first-post/</link>
-        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/first-post/</guid>
+        <pubDate>Wed, 07 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://blog.kaffeekantate.xyz/create-blog-by-jekyll/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/create-blog-by-jekyll/</guid>
         
-        <category>test</category>
+        <category>jekyll</category>
+        
+        <category>github</category>
         
         
       </item>

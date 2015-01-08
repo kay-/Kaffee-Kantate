@@ -10,8 +10,17 @@
   <meta name="description" content="Life in Vancouver, Tech, Coffee, etc">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.kaffeekantate.xyz/tag/test/">
+  <link rel="canonical" href="http://blog.kaffeekantate.xyz/tag/github/">
   <link rel="alternate" type="application/rss+xml" title="Kaffee Kantate" href="http://blog.kaffeekantate.xyz/feed.xml" />
+
+  <meta property="og:title" content="Tag | Kaffee Kantate" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content=""/>
+  <meta property="og:url" content="http://blog.kaffeekantate.xyz/tag/github/" />
+  <meta property="og:image" content="/images/title.jpg" />
+  <meta property="og:site_name" content="Kaffee Kantate" />
+  <meta property="fb:app_id" content="1420984721525609" />
+
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
@@ -40,6 +49,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -50,15 +61,15 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <h2>test</h2>
+        <h2>github</h2>
 <ul>
 
-  <li><a href="/first-post/">First Post for Test</a> (03 Jan 2015 | Tags: <a href="/tag/test" rel="tag">test</a>)</li>
+  <li><a href="/create-blog-by-jekyll/">Jekyllで作ったブログをGitHub Pagesにホストする</a> (07 Jan 2015 | Tags: <a href="/tag/jekyll" rel="tag">jekyll</a>, <a href="/tag/github" rel="tag">github</a>)</li>
 
 </ul>
 
 <div id="tag-cloud">
-  <a href="/tag/test" class="set-5">test</a>
+  <a href="/tag/github" class="set-5">github</a> <a href="/tag/jekyll" class="set-5">jekyll</a>
 </div>
       </div>
     </div>
@@ -71,17 +82,17 @@
 
       <div class="footer-col  footer-col-1">
         <h3>Tags</h3>
-        <div class="footer-tags"><a href="/tag/test" class="set-5">test</a></div>
+        <div class="footer-tags"><a href="/tag/github" class="set-5">github</a> <a href="/tag/jekyll" class="set-5">jekyll</a></div>
 
       </div>
 
 
       <div class="footer-col  footer-col-2">
         <h3>Author</h3>
-        <p class="text footer-info">Kay: About 4 years at System integrator in Tokyo and now studying at BCIT, Vancouver</p>
+        <p class="text footer-info">Kay: About 4 years at System integrator in Tokyo and now studying at BCIT, Vancouver. Also writing a English blog in <a href="https://medium.com/@kay_ya">Medium</a></p>
         <ul class="contact-list">
           <li><a href="/feed.xml"><i class="fa fa-rss-square"></i></a></li>
-          <li><a href="https://github.com/kay8"><i class="fa fa-github-square"></i></a></li>
+          <li><a href="https://github.com/kay8" target="_blank"><i class="fa fa-github-square"></i></a></li>
           <li><a href="mailto:kay.yamagishi.work@gmail.com"><i class="fa fa-envelope-square"></i></a></li>
         </ul>
       </div>
@@ -96,7 +107,31 @@
 </footer>
 
 
-  <script>
+  </body>
+      <script>
+  	// Async Sharing Buttons
+	(function(doc, script) {
+	  var js,
+	      fjs = doc.getElementsByTagName(script)[0],
+	      frag = doc.createDocumentFragment(),
+	      add = function(url, id) {
+	          if (doc.getElementById(id)) {return;}
+	          js = doc.createElement(script);
+	          js.src = url;
+	          id && (js.id = id);
+	          frag.appendChild( js );
+	      };
+
+	    // Facebook SDK
+	    add('//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1420984721525609&version=v2.2', 'facebook-jssdk');
+	    // Twitter SDK
+	    add('//platform.twitter.com/widgets.js', 'tweetjs');
+
+	    fjs.parentNode.insertBefore(frag, fjs);
+	}(document, 'script'));
+
+
+  	// Google Analystics
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -107,6 +142,5 @@
 
   </script>
 
-  </body>
-
+  <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 </html>

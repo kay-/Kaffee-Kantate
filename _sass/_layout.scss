@@ -245,7 +245,7 @@
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.2;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -254,7 +254,11 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+    line-height: $article-line-height;
+    letter-spacing: 0.01rem;
+    h2, h3, h4 {
+        margin-top: $spacing-unit;
+    }
     h2 {
         font-size: 32px;
 
@@ -280,6 +284,9 @@
     }
     ul, ol {
         list-style: initial;
+        p {
+            margin-bottom: $spacing-unit / 6;
+        }
     }
     ul li {
         list-style-type: disc;
@@ -318,8 +325,9 @@
  */
 
  .social {
-    padding: $spacing-unit / 2 0 $spacing-unit / 4 0;
+    padding: $spacing-unit / 20 $spacing-unit / 40;
     height: 20px;
+    margin-top: $spacing-unit * 2;
     .social-button, .fb_iframe_widget > span {
         vertical-align: baseline !important;
         display: inline-block;

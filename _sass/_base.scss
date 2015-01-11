@@ -5,6 +5,7 @@ $header-font-family: 'Courgette',cursive;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$article-line-height: 1.7;
 
 $spacing-unit:     30px;
 
@@ -129,13 +130,16 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $text-color-black;
+    border-left: 4px solid $grey-color;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
+    font-size: 1em;
+    letter-spacing: -0.05rem;
     font-style: italic;
-
+    a {
+        color: $grey-color;
+        text-decoration: underline;
+    }
     > :last-child {
         margin-bottom: 0;
     }

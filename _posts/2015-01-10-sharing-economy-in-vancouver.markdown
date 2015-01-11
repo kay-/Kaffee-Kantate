@@ -3,7 +3,7 @@ layout: post
 title: Sharing-Economy in Vancouver, and Do We Need “Uber”?
 date: 2015-01-10
 published: true
-excerpt: Alternative Options to Owning a Car in Tech City, Vancouver
+excerpt: Alternatives to Owning a Car in Tech City, Vancouver
 tags: vancouver english-article
 cover_image: /2015/0110-sharing1.jpg
 ---

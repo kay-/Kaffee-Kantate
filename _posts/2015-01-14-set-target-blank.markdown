@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ソーシャルボタン設置と横並び配置
-date: 2015-01-08
+title: JavaScriptによるtarget="_blank"の指定
+date: 2015-01-14
 published: false
-excerpt: ソーシャルボタン取得、OGP設定、横並び配置
+excerpt: Markdown記法でtarget="_blank"を指定するのが面倒だったのでJavaScriptで設定するようにしました。
 tags: css
 cover_image: /2015/
 ---

@@ -77,14 +77,14 @@
     &>li {
         display: table-cell;
         a {
-            margin-right: 7px;
+            margin-right: 15px;
             color: $grey-color;
             &:hover {
                 color: $brown-color;
             }
         }
         i {
-            font-size: 28px;
+            font-size: 32px;
 
         }
     }
@@ -170,6 +170,21 @@
     .copyright {
         margin-top: 20px;
     }
+    .site-header {
+        min-height: 90px;
+    }
+    .site-nav {
+        line-height: 90px;
+    }
+    .site-title-group {
+        margin-top: 18px;
+    }
+    .site-title {
+        font-size: 25px;
+    }
+    .site-subtitle {
+        font-size: .5em;
+    }
 }
 
 
@@ -243,7 +258,7 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1.2;
 
@@ -260,7 +275,8 @@
         margin-top: $spacing-unit;
     }
     h2 {
-        font-size: 32px;
+        font-size: 28px;
+        font-weight: 600;
 
         @include media-query($on-laptop) {
             font-size: 28px;

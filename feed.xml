@@ -5,8 +5,8 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Jan 2015 00:50:43 -0800</pubDate>
-    <lastBuildDate>Tue, 20 Jan 2015 00:50:43 -0800</lastBuildDate>
+    <pubDate>Tue, 20 Jan 2015 08:35:41 -0800</pubDate>
+    <lastBuildDate>Tue, 20 Jan 2015 08:35:41 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -15,9 +15,15 @@
 元になるHTMLは以下を使用。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;body&amp;gt;
-	&amp;lt;section class=&quot;full1&quot;&amp;gt;&amp;lt;p&amp;gt;Page1&amp;lt;/p&amp;gt;&amp;lt;/section&amp;gt;
-	&amp;lt;section class=&quot;full2&quot;&amp;gt;&amp;lt;p&amp;gt;Page2&amp;lt;/p&amp;gt;&amp;lt;/section&amp;gt;
-	&amp;lt;section class=&quot;full3&quot;&amp;gt;&amp;lt;p&amp;gt;Page3&amp;lt;/p&amp;gt;&amp;lt;/section&amp;gt;
+	&amp;lt;section class=&quot;full1&quot;&amp;gt;
+		&amp;lt;p&amp;gt;Page1&amp;lt;/p&amp;gt;
+	&amp;lt;/section&amp;gt;
+	&amp;lt;section class=&quot;full2&quot;&amp;gt;
+		&amp;lt;p&amp;gt;Page2&amp;lt;/p&amp;gt;
+	&amp;lt;/section&amp;gt;
+	&amp;lt;section class=&quot;full3&quot;&amp;gt;
+		&amp;lt;p&amp;gt;Page3&amp;lt;/p&amp;gt;
+	&amp;lt;/section&amp;gt;
 &amp;lt;/body&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -99,7 +105,7 @@ p {
 &lt;/a&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;ただし、現時点(2015/1/19)でAndroid Brower4.4以降にしか対応していないため使用するかどうかはまだ微妙なところ。ちなみに2015/1/5時点ではAndroidユーザの中でJelly Beanの割合が約半分(&lt;a href=&quot;http://developer.android.com/about/dashboards/index.html&quot;&gt;Platform Versions&lt;/a&gt;)。&lt;/p&gt;
+&lt;p&gt;現時点(2015/1/19)でAndroid Brower4.4以降にしか対応していないこと、&lt;a href=&quot;http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html&quot;&gt;モバイル版Safariでバグ&lt;/a&gt;が多いことを考えると使うかどうかは微妙なところ(どちらもそこまでユーザは多くないですが)。&lt;/p&gt;
 
 &lt;h2 id=&quot;javascript&quot;&gt;JavaScript&lt;/h2&gt;
 

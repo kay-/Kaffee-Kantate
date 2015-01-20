@@ -27,56 +27,8 @@
   </url>
   <url>
     <loc>http://blog.kaffeekantate.xyz/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
+    <lastmod>2015-01-20T08:35:41-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://blog.kaffeekantate.xyz/tag/jekyll/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://blog.kaffeekantate.xyz/tag/github/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://blog.kaffeekantate.xyz/tag/vancouver/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://blog.kaffeekantate.xyz/tag/english-article/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://blog.kaffeekantate.xyz/tag/cafe/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://blog.kaffeekantate.xyz/tag/%E5%BE%92%E7%84%B6/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://blog.kaffeekantate.xyz/tag/javascript/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://blog.kaffeekantate.xyz/tag/css/</loc>
-    <lastmod>2015-01-20T00:50:43-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>

@@ -5,9 +5,138 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jan 2015 15:36:06 -0800</pubDate>
-    <lastBuildDate>Sun, 18 Jan 2015 15:36:06 -0800</lastBuildDate>
+    <pubDate>Tue, 20 Jan 2015 00:50:43 -0800</pubDate>
+    <lastBuildDate>Tue, 20 Jan 2015 00:50:43 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>ウェブサイトのフルスクリーン表示 (CSS / JavaScript)</title>
+        <description>&lt;p&gt;要素のフルスクリーン表示をCSSとJavaScriptそれぞれで実装。
+元になるHTMLは以下を使用。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;body&amp;gt;
+	&amp;lt;section class=&quot;full1&quot;&amp;gt;&amp;lt;p&amp;gt;Page1&amp;lt;/p&amp;gt;&amp;lt;/section&amp;gt;
+	&amp;lt;section class=&quot;full2&quot;&amp;gt;&amp;lt;p&amp;gt;Page2&amp;lt;/p&amp;gt;&amp;lt;/section&amp;gt;
+	&amp;lt;section class=&quot;full3&quot;&amp;gt;&amp;lt;p&amp;gt;Page3&amp;lt;/p&amp;gt;&amp;lt;/section&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;css1&quot;&gt;CSSその1&lt;/h2&gt;
+
+&lt;p&gt;よく見かける&lt;code&gt;position:absolute&lt;/code&gt;と&lt;code&gt;height:100%&lt;/code&gt;の組み合わせ。
+複数の要素をフルスクリーン表示させる場合、それぞれpositionの指定が必要になるため使いづらい。&lt;/p&gt;
+
+&lt;div data-height=&quot;350&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;emWEJJ&quot; data-default-tab=&quot;css&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;&lt;pre&gt;&lt;code&gt;body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin-top: 0;
+}
+.full1, .full2, .full3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.full1 {
+  background-color: teal;
+  top: 0;
+
+}
+.full2 {
+  background-color: blue;
+  top: 100%;
+}
+.full3 {
+  background-color: black;
+  top: 200%;
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/emWEJJ/&quot;&gt;Full Screen: CSS1&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;css2&quot;&gt;CSSその2&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;height: 100vh&lt;/code&gt;を使った方法。vhはviewport heightの略でビューポートに対する割合を指定可能。上から10%の場合は&lt;code&gt;height: 10vh&lt;/code&gt;。&lt;/p&gt;
+
+&lt;div data-height=&quot;350&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;JoNyGN&quot; data-default-tab=&quot;css&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;&lt;pre&gt;&lt;code&gt;		body {
+			margin: 0;
+			padding: 0;
+		}
+		p {
+			text-align: center;
+			color: white;
+			font-size: 2em;
+			margin-top: 0;
+		}
+		.full1, .full2, .full3 {
+			height: 100vh;
+			width: 100%;
+			display: block;
+		}
+		.full1 {
+			background-color: teal;
+
+		}
+		.full2 {
+			background-color: blue;
+		}
+		.full3 {
+			background-color: black;
+		}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/JoNyGN/&quot;&gt;Full Screen: CSS2&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;%による指定との大きな違いは&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;% の場合は対象となる要素のプロパティが親要素のそれと紐付けられるため、必ずしもビューポートの幅が基準になるとは限りません。(中略)vw, vh にはそのようなプロパティの紐付けがありません。(&lt;a href=&quot;http://dev.classmethod.jp/?p=95757&quot;&gt;CSS には vw, vh, vmin, vmax という単位がある ｜ Developers.IO
+&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ただし、現時点(2015/1/19)でAndroid Brower4.4以降にしか対応していないため使用するかどうかはまだ微妙なところ。ちなみに2015/1/5時点ではAndroidユーザの中でJelly Beanの割合が約半分(&lt;a href=&quot;http://developer.android.com/about/dashboards/index.html&quot;&gt;Platform Versions&lt;/a&gt;)。&lt;/p&gt;
+
+&lt;h2 id=&quot;javascript&quot;&gt;JavaScript&lt;/h2&gt;
+
+&lt;p&gt;こちらは&lt;code&gt;getElementsByTagName&lt;/code&gt;で取得したNodeListの要素へstyle属性を設定するもの。単に要素のリストがほしいだけなので&lt;code&gt;getElementsByTagName&lt;/code&gt;を使用。(&lt;a href=&quot;http://news.mynavi.jp/articles/2010/10/01/javascript-nodelist-difference/&quot;&gt;参考: getElementsByTagName()がquerySelectorAll()より高速な理由&lt;/a&gt;)&lt;/p&gt;
+
+&lt;div data-height=&quot;310&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;vEmJLR&quot; data-default-tab=&quot;js&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;&lt;pre&gt;&lt;code&gt;		window.addEventListener(&amp;#x27;load&amp;#x27;, setGreetHeight, false);
+		window.addEventListener(&amp;#x27;resize&amp;#x27;, setGreetHeight, false);
+		var w = window.innerWidth;
+
+		function setGreetHeight() {
+		  var h = window.innerHeight;
+		  var sec = document.getElementsByTagName(&amp;#x27;section&amp;#x27;);
+		  console.log(sec);
+		  for (var i = 0; i &amp;lt; sec.length; i++) {
+		  	sec[i].style.height = h + &amp;quot;px&amp;quot;;
+		  }
+		}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/vEmJLR/&quot;&gt;Full Screen: JavaScript&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;対象となる要素が一つしかない場合は&lt;code&gt;document.getElementById&lt;/code&gt;を使った方がすっきりすると思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;その他&lt;/h2&gt;
+&lt;p&gt;モバイルでランドスケープ表示にした際、viewport外にある要素が表示されないサイトをたまに見かけるので必要に応じて&lt;code&gt;min-height&lt;/code&gt;の設定を。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 19 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://blog.kaffeekantate.xyz/full-screen/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/full-screen/</guid>
+        
+        <category>javascript</category>
+        
+        <category>css</category>
+        
+        
+      </item>
     
       <item>
         <title>JavaScriptによるtarget=&quot;_blank&quot;の指定</title>
@@ -96,8 +225,6 @@ Document.getElementsByClassName(&#39;post-content&#39;).links
         <pubDate>Tue, 13 Jan 2015 00:00:00 -0800</pubDate>
         <link>http://blog.kaffeekantate.xyz/mijinco-coffee/</link>
         <guid isPermaLink="true">http://blog.kaffeekantate.xyz/mijinco-coffee/</guid>
-        
-        <category>coffee</category>
         
         <category>cafe</category>
         

@@ -4,7 +4,7 @@ title: 自家焙煎珈琲みじんこを想う
 date: 2015-01-13
 published: true
 excerpt: 湯島天神から御茶の水駅へ向かう途中でふと出くわした自家焙煎珈琲のお店、みじんこ
-tags: coffee cafe 徒然
+tags: cafe 徒然
 cover_image: /2015/0113-mijinco.jpg
 ---
 ![pancake at Mijinco coffee](/images/2015/0113-mijinco.jpg)

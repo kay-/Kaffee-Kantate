@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>JavaScriptによるtarget="_blank"の指定 | Kaffee Kantate</title>
-  <meta name="description" content="Markdown記法でtarget="_blank"を指定するのが面倒だったのでJavaScriptで外部サイトは別タブで開くように設定。">
+  <title>2014年に行ったコンサート | Kaffee Kantate</title>
+  <meta name="description" content="クラシックとジャズ。">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.kaffeekantate.xyz/set-target-blank/">
+  <link rel="canonical" href="http://blog.kaffeekantate.xyz/2014-concerts/">
   <link rel="alternate" type="application/rss+xml" title="Kaffee Kantate" href="http://blog.kaffeekantate.xyz/feed.xml" />
 
-  <meta property="og:title" content="JavaScriptによるtarget="_blank"の指定 | Kaffee Kantate" />
+  <meta property="og:title" content="2014年に行ったコンサート | Kaffee Kantate" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Markdown記法でtarget="_blank"を指定するのが面倒だったのでJavaScriptで外部サイトは別タブで開くように設定。"/>
-  <meta property="og:url" content="http://blog.kaffeekantate.xyz/set-target-blank/" />
+  <meta property="og:description" content="クラシックとジャズ。"/>
+  <meta property="og:url" content="http://blog.kaffeekantate.xyz/2014-concerts/" />
   <meta property="og:image" content="http://blog.kaffeekantate.xyz/images/2015/" />
   <meta property="og:site_name" content="Kaffee Kantate" />
   <meta property="fb:app_id" content="1420984721525609" />
@@ -78,50 +78,83 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">JavaScriptによるtarget="_blank"の指定</h1>
-    <p class="post-meta">Jan 18, 2015</p>
-    <div class="post-tag"><a href="/tag/javascript" rel="tag">javascript</a>, <a href="/tag/jekyll" rel="tag">jekyll</a></div>
+    <h1 class="post-title">2014年に行ったコンサート</h1>
+    <p class="post-meta">Jan 21, 2015</p>
+    <div class="post-tag"><a href="/tag/vancouver" rel="tag">vancouver</a>, <a href="/tag/music" rel="tag">music</a></div>
   </header>
 
   <article class="post-content">
-    <p>Markdownで記事本文に外部リンクをはった際に自動でtarget=”_blank”が設定されるように以下のコードを追加。</p>
+    <p>最近知人に「私たちの世代で村上春樹読む人のイメージは、自分でコーヒー豆弾いてジャズ聴くようなちょっと斜めに構えた人」と言われましたが村上春樹はあんまり読んでいないです。</p>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-	<span class="kd">var</span> <span class="nx">links</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">links</span><span class="p">;</span>
-	<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">links</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-		<span class="k">if</span> <span class="p">(</span><span class="nx">links</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">hostname</span> <span class="o">!=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">hostname</span><span class="p">)</span> <span class="p">{</span>
-			<span class="nx">links</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">target</span> <span class="o">=</span> <span class="s1">&#39;_blank&#39;</span><span class="p">;</span>
-		<span class="p">}</span>
-	<span class="p">}</span>
-<span class="p">}());</span></code></pre></div>
+<h2 id="section">ジャズ</h2>
+<p><img src="" alt="Vancouver International Jazz Festival Opening" /></p>
 
-<p>linksプロパティで文書中のarea/anchor要素をHTMLCollectionとして取得し、現在のURLのホスト名と取得した要素のホスト名が異なっていればtarget = “_blank”を指定。</p>
+<h3 id="opening-party-of-vancouver-international-jazz-festival-the-sutton-place-hotels">6/19 Opening party of Vancouver International Jazz Festival (The Sutton Place Hotels)</h3>
 
-<p>ちなみに文書中から全て取得する必要はないので記事のみを対象に
-<code>
-Document.getElementsByClassName('post-content').links
-</code>
-とかやってみたものの、linksはdocumentオブジェクトに属するため無理でした
-(参考: <a href="https://developer.mozilla.org/ja/docs/Web/API/document">documentオブジェクト</a>)。</p>
+<p>たまたまチケットもらえたので。生演奏も料理も良かった。</p>
 
-<p>基本的に外部サイトは別タブで開くようにしているので自分の場合はこれで問題ないですが、どうしても個別に指定したい場合はplugin探すか素直にhtml書いたほうがいいですね。</p>
+<h3 id="vancouver-international-jazz-festival">6/23 Vancouver International Jazz Festival</h3>
 
-<h4 id="section">追記</h4>
-<p>Markdownのパーサーにkramdownを使っていれば</p>
+<p><img src="" alt="Vancouver International Jazz Festival" /></p>
 
-<p><code>
-[link](url){: attribute="value"}
-</code></p>
+<p>初めての上原ひろみの生演奏。会場の音響に少し難はあったもののピアノ演奏は実際に見ると迫力あることと何よりも楽しそうに演奏してる姿が印象的。あとピアノ弾いてない時の控えめな雰囲気とのギャップにも驚いたり。ここ数年は毎年バンクーバーきてるみたいなので今年もきてほしい。</p>
 
-<p>が使えるので<code>{:target="_blank"}</code>をつけてあげれば対応可能と知りました。まあ過去記事含めて修正したい場合はJS使うのが一番早いですが。</p>
+<ul>
+  <li>Hiromi: The Trio Project (Uehara Hiromi/Anthony Jackson/Simon Phillips)</li>
+</ul>
 
+<h2 id="section-1">クラシック</h2>
+<p><img src="" alt="Vancouver Symphony Orchestra" /></p>
+
+<h3 id="preludes-and-pictures-the-orpheum">4/5 Preludes and Pictures (The Orpheum)</h3>
+
+<p>浜松国際とルービンシュタイン国際1位のアレクサンダー・ガヴリリュクがラフマニノフ演奏するということで楽しみにしてたコンサート。ちょっと打鍵が深過ぎて第一楽章は単調だったものの第二楽章以降とアンコール曲のスクリャービンは素晴らしかった。</p>
+
+<p>最後の演奏が終わった瞬間に観客の8割ぐらいが一斉に立ち上がって歓声をあげる光景は日本のクラシックコンサートではあんまり見られないなーと思ったり。ちなみに30歳以下なのでチケット15ドルで買えた。</p>
+
+<p>The Vancouver Symphony
+Conductor:Bramwell Tovey
+Piano:Alexander Gavrylyuk</p>
+
+<ul>
+  <li>Rachmaninoff:Prelude in G minor</li>
+  <li>Mussorgsky/Ravel:Pictures at an Exhibition</li>
+  <li>Rachmaninoff:Piano Concerto No. 3 in D minor</li>
+  <li>Scriabin:Etude in C sharp minor Op.2 No. 1(encore)</li>
+</ul>
+
+<h3 id="preludes-and-pictures">4/7 Preludes and Pictures</h3>
+
+<p>最終日ということもあって観客との一体感も出てきて最後はかなり盛り上がってた。</p>
+
+<ul>
+  <li>Rachmaninoff’s Piano Concerto No. 4 in G Minor</li>
+  <li>Rhapsody on a Theme of Paganini</li>
+  <li>Bach and Stokowski’s Toccata and Fugue in D Minor</li>
+  <li>Balakirev’s Islamey</li>
+</ul>
+
+<h3 id="ryu-goto-plays-brahms-lahav-shani-conductor--ryu-goto-violin">11/7 “Ryu Goto Plays Brahms!” (Lahav Shani conductor / Ryu Goto violin)</h3>
+
+<p>五嶋龍氏のバイオリンは音の響きも素晴らしかったが、オケ、特に第一楽章の金管がバイオリンの音を飲み込んでしまっていて少し残念。</p>
+
+<ul>
+  <li>Glinka: Russlan and Ludmilla: Overture</li>
+  <li>Brahms: Violin Concerto in D Major*</li>
+  <li>Massenet: Thais Meditation</li>
+  <li>Tchaikovsky: Symphony No. 5 in E minor</li>
+</ul>
+
+<hr />
+
+<p>クラシックとジャズしか行ってないと思ったものの日本にいた時も似たようなものだった。</p>
 
     <div class="social">
 	<div class="fb-like social-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="false" height="20"></div>
 
 	<a href="https://twitter.com/share" class="twitter-share-button social-button" data-count="none">Tweet</a>
 
-	<a href="http://b.hatena.ne.jp/entry/http://blog.kaffeekantate.xyz/set-target-blank/" class="hatena-bookmark-button social-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加" target="_blank"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+	<a href="http://b.hatena.ne.jp/entry/http://blog.kaffeekantate.xyz/2014-concerts/" class="hatena-bookmark-button social-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加" target="_blank"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
 
 </div>
 

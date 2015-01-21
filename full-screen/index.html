@@ -63,8 +63,6 @@
         
           
         
-          
-        
       </div>
     </nav>
 
@@ -200,7 +198,7 @@ p {
 </div>
 <script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-<p>ただ、上記のように各要素にクラス名が指定してある場合は<code>getElementsByClassName('full1 full2 full3')</code>を使った方がパフォーマンスが良いみたいです (<a href="http://jsperf.com/js-getelement">参考</a>)。indexされている分、TagNameよりも速いんですかね？(この辺りの理由はよく分からず…)</p>
+<p><code>getElementsByClassName()</code>か<code>getElementById</code>を使った方がパフォーマンスが良いみたいですが (<a href="http://jsperf.com/js-getelement">参考</a>)。indexされている分、TagNameよりも速いんですかね？(この辺りの理由はよく分からず…)</p>
 
 <h2 id="section">その他</h2>
 <p>モバイルでランドスケープ表示にした際、viewport外にある要素が表示されないサイトをたまに見かけるので必要に応じて<code>min-height</code>の設定を。</p>
@@ -231,7 +229,7 @@ p {
 
       <div class="footer-col  footer-col-1">
         <h3>Tags</h3>
-        <div class="footer-tags"><a href="/tag/cafe" class="set-1">cafe</a> <a href="/tag/css" class="set-1">css</a> <a href="/tag/english-article" class="set-1">english-article</a> <a href="/tag/github" class="set-1">github</a> <a href="/tag/javascript" class="set-5">javascript</a> <a href="/tag/jekyll" class="set-5">jekyll</a> <a href="/tag/music" class="set-1">music</a> <a href="/tag/vancouver" class="set-5">vancouver</a> <a href="/tag/%E5%BE%92%E7%84%B6" class="set-1">徒然</a></div>
+        <div class="footer-tags"><a href="/tag/cafe" class="set-1">cafe</a> <a href="/tag/css" class="set-1">css</a> <a href="/tag/english-article" class="set-1">english-article</a> <a href="/tag/github" class="set-1">github</a> <a href="/tag/javascript" class="set-5">javascript</a> <a href="/tag/jekyll" class="set-5">jekyll</a> <a href="/tag/vancouver" class="set-1">vancouver</a> <a href="/tag/%E5%BE%92%E7%84%B6" class="set-1">徒然</a></div>
 
       </div>
 

@@ -13,9 +13,15 @@ cover_image: /2015/
 
 
 	<body>
-		<section class="full1"><p>Page1</p></section>
-		<section class="full2"><p>Page2</p></section>
-		<section class="full3"><p>Page3</p></section>
+		<section class="full1">
+			<p>Page1</p>
+		</section>
+		<section class="full2">
+			<p>Page2</p>
+		</section>
+		<section class="full3">
+			<p>Page3</p>
+		</section>
 	</body>
 
 
@@ -95,7 +101,9 @@ p {
 >% の場合は対象となる要素のプロパティが親要素のそれと紐付けられるため、必ずしもビューポートの幅が基準になるとは限りません。(中略)vw, vh にはそのようなプロパティの紐付けがありません。([CSS には vw, vh, vmin, vmax という単位がある ｜ Developers.IO
 ](http://dev.classmethod.jp/?p=95757))
 
-ただし、現時点(2015/1/19)でAndroid Brower4.4以降にしか対応していないため使用するかどうかはまだ微妙なところ。ちなみに2015/1/5時点ではAndroidユーザの中でJelly Beanの割合が約半分([Platform Versions](http://developer.android.com/about/dashboards/index.html))。
+現時点(2015/1/19)でAndroid Brower4.4以降にしか対応していないこと、[モバイル版Safariでバグ](http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html)が多いことを考えると使うかどうかは微妙なところ(どちらもそこまでユーザは多くないですが)。
+
+
 
 
 ##JavaScript
@@ -117,7 +125,9 @@ p {
 <p>See the Pen <a href='http://codepen.io/kay8/pen/vEmJLR/'>Full Screen: JavaScript</a> by Kei (<a href='http://codepen.io/kay8'>@kay8</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 </div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-対象となる要素が一つしかない場合は`document.getElementById`を使った方がすっきりすると思います。
+`getElementsByClassName()`か`getElementById`を使った方がパフォーマンスが良いみたいですが ([参考](http://jsperf.com/js-getelement))。indexされている分、TagNameよりも速いんですかね？(この辺りの理由はよく分からず...)
+
+
 
 ##その他
 モバイルでランドスケープ表示にした際、viewport外にある要素が表示されないサイトをたまに見かけるので必要に応じて`min-height`の設定を。

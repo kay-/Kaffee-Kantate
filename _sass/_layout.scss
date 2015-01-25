@@ -77,14 +77,14 @@
     &>li {
         display: table-cell;
         a {
-            margin-right: 15px;
+            margin-right: 10px;
             color: $grey-color;
             &:hover {
                 color: $brown-color;
             }
         }
         i {
-            font-size: 32px;
+            font-size: 35px;
 
         }
     }
@@ -284,7 +284,9 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.5;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -353,3 +355,16 @@
         width: 48px;
     }
  }
+
+/**
+ * Tag page
+ */
+
+ul.tag-list {
+    margin-bottom: $spacing-unit * 2;
+    li {
+        list-style-type: disc;
+        margin-top: $spacing-unit / 2;
+        margin-bottom: $spacing-unit / 2;
+    }
+}

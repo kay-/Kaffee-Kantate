@@ -5,9 +5,107 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Jan 2015 23:41:32 -0800</pubDate>
-    <lastBuildDate>Thu, 22 Jan 2015 23:41:32 -0800</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 21:42:51 -0800</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 21:42:51 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>CSSアニメーションによるSVG pathの操作</title>
+        <description>&lt;p&gt;stroke-dasharray/stroke-dashoffsetを使ってSVGのpathをanimateさせようと思った時の話。SVGアニメーションの基本については下記が参考になりました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://2ndidea.com/svg/svg-path-drawing-animation-even-ie/&quot;&gt;SVGのアニメーションで線を引く方法まとめ（IEへの対応も 2.IDEA&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://mkasumi.com/entry-653.html&quot;&gt;SVGのアニメーション mkasumi.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;typographyのアニメーションといえば&lt;a href=&quot;http://carlphilippebrenner.com/portfolio/beatricecreations&quot;&gt;Béatrice Créations&lt;/a&gt;等が有名ですが、画像背景の上でアニメーションさせたいと思い&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;defaultではfill:”none”&lt;/li&gt;
+  &lt;li&gt;keyframesにてfill:”none”からfill:”#000”に変化&lt;/li&gt;
+  &lt;li&gt;animation-fill-mode:forwardsを設定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;を試しました。&lt;/p&gt;
+
+&lt;p data-height=&quot;250&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;gbRgKx&quot; data-default-tab=&quot;result&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/gbRgKx/&quot;&gt;Animate SVG Path: not working in FF&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;WebKitではfill=”#000”になるもののFireFoxでは変化せず。IEはそもそもanimationに対応していないので対象外。&lt;/p&gt;
+
+&lt;p&gt;調べてるとFirefoxのSVG関連バグについての投稿がいろいろでてきたためこれもバグだろと勝手に思ってましたが、W3Cの&lt;a href=&quot;http://www.w3.org/TR/SVG/animate.html#AnimateElement&quot;&gt;19.2.12 The ‘animate’ element&lt;/a&gt;を読めと指摘されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Data type &amp;lt;color&amp;gt;&lt;/code&gt;によると&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Only additive if each value can be converted to an RGB color.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ということで仕様上、noneは指定できないとのこと。WebKitの動きが特殊なだけだと分かりました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;代替案1&lt;/h2&gt;
+
+&lt;p&gt;別のアニメーションを作りanimation-delayで開始時間をずらす。&lt;/p&gt;
+
+&lt;p data-height=&quot;250&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;mywXRg&quot; data-default-tab=&quot;result&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/mywXRg/&quot;&gt;Animate SVG Path: using 2 keyframes&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;代替案2&lt;/h2&gt;
+
+&lt;p&gt;fill-opacityを0から1に変化させる。&lt;/p&gt;
+
+&lt;div data-height=&quot;350&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;GgEQra&quot; data-default-tab=&quot;css&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;&lt;pre&gt;&lt;code&gt;	.letter {
+		position: relative;
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	.letter-svg {
+		margin: 0 auto;
+		position: relative;
+		display: block;
+	}
+
+    .letter-svg-3 path{
+        stroke:#000;
+        fill:#000;
+        fill-opacity:0;
+        stroke-width:.2;
+        stroke-dasharray: 800;
+        stroke-dashoffset:800;
+        -moz-animation:DASH3 3s ease-in-out 1s forwards;
+        -webkit-animation:DASH3 3s ease-in-out 1s forwards;
+        animation:DASH3 3s ease-in-out 1s forwards;
+    }
+
+    @-webkit-keyframes DASH3{
+        0%  {stroke-dashoffset:800;}
+		   80%  {stroke-dashoffset:0;fill-opacity:0;}
+        100%{stroke-dashoffset:0;fill-opacity:1;}
+    }
+    @-moz-keyframes DASH3{
+        0%  {stroke-dashoffset:800;}
+		   80%  {stroke-dashoffset:0;fill-opacity:0;}
+        100%{stroke-dashoffset:0;fill-opacity:1;}
+    }&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/GgEQra/&quot;&gt;Animate SVG Path: using fill-opacity&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;次からはStack Overflowじゃなくて仕様読むようにします。。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://blog.kaffeekantate.xyz/svg-animation/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/svg-animation/</guid>
+        
+        <category>css</category>
+        
+        
+      </item>
     
       <item>
         <title>2014年に行ったコンサート</title>

@@ -1,4 +1,2 @@
 My blog
 ==============
-
-Under construction

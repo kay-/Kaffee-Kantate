@@ -5,13 +5,13 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Jan 2015 21:51:17 -0800</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 21:51:17 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Feb 2015 23:43:06 -0800</pubDate>
+    <lastBuildDate>Sun, 08 Feb 2015 23:43:06 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>CSSアニメーションによるSVG pathの操作</title>
-        <description>&lt;p&gt;stroke-dasharray/stroke-dashoffsetを使ってSVGのpathをanimateさせようと思った時の話。SVGアニメーションの基本については下記が参考になりました。&lt;/p&gt;
+        <description>&lt;p&gt;stroke-dasharray/stroke-dashoffsetを使ってSVGのpathをanimateさせようとした際の話。SVGアニメーションの基本については下記が参考になりました。&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -30,7 +30,7 @@
   &lt;li&gt;animation-fill-mode:forwardsを設定&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;を試す。&lt;/p&gt;
+&lt;p&gt;を試しました。が…&lt;/p&gt;
 
 &lt;p data-height=&quot;250&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;gbRgKx&quot; data-default-tab=&quot;result&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/gbRgKx/&quot;&gt;Animate SVG Path: not working in FF&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;

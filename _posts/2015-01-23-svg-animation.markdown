@@ -8,7 +8,7 @@ tags: css
 cover_image: /2015/
 ---
 
-stroke-dasharray/stroke-dashoffsetを使ってSVGのpathをanimateさせようと思った時の話。SVGアニメーションの基本については下記が参考になりました。
+stroke-dasharray/stroke-dashoffsetを使ってSVGのpathをanimateさせようとした際の話。SVGアニメーションの基本については下記が参考になりました。
 
 - [SVGのアニメーションで線を引く方法まとめ（IEへの対応も 2.IDEA](http://2ndidea.com/svg/svg-path-drawing-animation-even-ie/)
 
@@ -20,20 +20,20 @@ typographyのアニメーションといえば[Béatrice Créations](http://carl
 - keyframesにてfill:"none"からfill:"#000"に変化
 - animation-fill-mode:forwardsを設定
 
-を試しました。
+を試しました。が...
 
 <p data-height="250" data-theme-id="0" data-slug-hash="gbRgKx" data-default-tab="result" data-user="kay8" class='codepen'>See the Pen <a href='http://codepen.io/kay8/pen/gbRgKx/'>Animate SVG Path: not working in FF</a> by Kei (<a href='http://codepen.io/kay8'>@kay8</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 WebKitではfill="#000"になるもののFireFoxでは変化せず。IEはそもそもanimationに対応していないので対象外。
 
-調べてるとFirefoxのSVG関連バグについての投稿がいろいろでてきたためこれもバグだろと勝手に思ってましたが、W3Cの[19.2.12 The ‘animate’ element](http://www.w3.org/TR/SVG/animate.html#AnimateElement)を読めと指摘されました。
+調べてるとFirefoxのSVG関連バグについての投稿がいろいろでてきたためこれもバグだろと勝手に思ってましたが、W3Cの[19.2.12 The ‘animate’ element](http://www.w3.org/TR/SVG/animate.html#AnimateElement)を読めと指摘される。。
 
 `Data type <color>`によると
 
 >Only additive if each value can be converted to an RGB color.
 
-ということで仕様上、noneは指定できないとのこと。WebKitの動きが特殊なだけだと分かりました。
+ということで仕様上、noneは指定できないとのこと。WebKitの動きが特殊なだけだと判明。
 
 ##代替案1
 

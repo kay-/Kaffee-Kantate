@@ -7,7 +7,7 @@ excerpt: 美術館特集が組まれると常に上位に出てくる大塚国�
 tags: art museum
 cover_image: /2015/otsuka/0501-art4.JPG
 ---
-![大塚国際美術館](/images/2015/otsuka/0501-art1.JPG)
+![大塚国際美術館](/images/2015/otsuka/0501-art1.jpg)
 
 (Image credit: [大塚国際美術館 - 663highland](http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:The_Otsuka_Museum_of_Art01s3200.jpg))
 {: .credit}
@@ -34,7 +34,7 @@ cover_image: /2015/otsuka/0501-art4.JPG
 (大塚アートくん。本来は巡回警備用らしい)
 {: .credit}
 
-![大塚アートくん](/images/2015/otsuka/0501-art3.JPG)
+![大塚アートくん](/images/2015/otsuka/0501-art3.jpg)
 
 ガイドロボット:大塚アートくんの解説はB3Fのみ。
 

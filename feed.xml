@@ -5,9 +5,172 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2015 21:23:43 -0700</pubDate>
-    <lastBuildDate>Wed, 13 May 2015 21:23:43 -0700</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2015 13:07:20 -0700</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2015 13:07:20 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>BCIT New Media Design &amp; Web Developmentレビュー</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/2015/0802-bcit.jpg&quot; alt=&quot;BCIT Burnaby Campus&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bcit.ca/&quot;&gt;British Columbia Institute of Technology&lt;/a&gt;(通称BCIT)の&lt;a href=&quot;http://www.bcit.ca/study/programs/6415smcert&quot;&gt;New Media Design &amp;amp; Web Development&lt;/a&gt;レビュー。
+こちらは併設の語学コース(ISEP)ではなくCertificateが発行される1年間の本科プログラム。
+昔書いたその他の情報は以下。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://vancouvernote.hatenablog.com/entry/2014/01/07/083144&quot;&gt;ISEPレビュー&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://vancouvernote.hatenablog.com/entry/2014/04/06/053946&quot;&gt;New Media Design &amp;amp; Web Development学費&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*自分のバックグラウンドとして&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;日本で3年半SEをやっていたためプログラミングの基礎で困ることはなかった&lt;/li&gt;
+  &lt;li&gt;デザインの経験はない&lt;/li&gt;
+  &lt;li&gt;留学経験はないが英語は受験時代から得意であった(もともと外語大志望)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;のためそれなりにバイアスは入っています。&lt;/p&gt;
+
+&lt;h2 id=&quot;bcit&quot;&gt;BCITとは&lt;/h2&gt;
+&lt;p&gt;日本語の情報を探すと州立工科大学と出てくるが、英語名でInstituteとなっているように正確には大学では無い。日本と制度が異なるため置き換えるのは難しいが、専門学校と大学が混ざったような州立の教育機関というイメージ。実際、修了認定のcertificateや学士(bachelor)が取得できるコースからパートタイムとして一科目単位で受けられるプログラムまで内容は様々。&lt;/p&gt;
+
+&lt;p&gt;州立として名が通っており、&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;仕事を探す上で不利にはならない&lt;/li&gt;
+  &lt;li&gt;8ヵ月以上のコースを修了すると同期間以上のOpen Work Permitが発行される&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;点でカナダでの就労、永住を目指す留学生にも人気。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;生徒&lt;/h2&gt;
+&lt;p&gt;生徒は高校出たばかりの人から何年も働いた経験がある人まで多種多様。日本のように採用の際に年齢を見られないため(むしろ年齢で判断するのは違法)キャリアチェンジやスキルの幅を広げる目的でくる人も多い。UBCやSFUといったバンクーバーでトップレベルの大学を卒業後に、理論ではなく実践的な内容を学びたいと考え入学する人もちらほら。ただカナダ人は留学生よりも圧倒的に学費が安いため何となくやりたいことがないから入学する人もそれなりにいる。&lt;/p&gt;
+
+&lt;p&gt;*コースによっては入学に際して関連分野における就労経験やエッセイの提出が求められる場合も。&lt;/p&gt;
+
+&lt;h2 id=&quot;new-media-design--web-development&quot;&gt;New Media Design &amp;amp; Web Developmentコース&lt;/h2&gt;
+&lt;p&gt;全体的な方針としてはWeb業界で必要なスキルを広く身に付ける、というもので1年間を4学期にわけ基本から応用へ進んで行く。入学要件もIELTS6.5のため日本人でも英語が得意な人であれば難しいものではない。&lt;/p&gt;
+
+&lt;p&gt;もともと2年間のプログラムから教養科目を無くし、最低限必要な科目を1年間用に圧縮したintensive programとなる。学期間の休みが1週間しかないため(年末年始のみ2週間)授業数自体は2年間のコースとあまり変わらず、課題も多いことから忙しくて大変とよく言われる。&lt;/p&gt;
+
+&lt;p&gt;ざっくりとした授業区分として&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;デザイン(理論からAdobeソフトウェアの基本、応用)&lt;/li&gt;
+  &lt;li&gt;プログラミング(HTML/CSS/JavaScriptからPHP)&lt;/li&gt;
+  &lt;li&gt;ビジネス(Information ArchitectureやWeb Marketing等)&lt;/li&gt;
+  &lt;li&gt;その他New Media関連(動画編集やMediaにおけるトレンド概論、関連法規など)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;となる。&lt;/p&gt;
+
+&lt;p&gt;1クラス20人程度でBurnabyとDowntownキャンパスでそれぞれ開講される。違いは授業によって講師が異なるぐらいでキャンパス間の交流は特にない。日本人の割合はクラスに1,2人いるかどうか。それでも数年前は1人もいない場合が多かったらしいので徐々に増えてきているとのこと。&lt;/p&gt;
+
+&lt;p&gt;生徒のバックグラウンドとしては上記4分野出身+未経験者(高校出たて/キャリアチェンジ目的)となるが、成績上位かつその後にさくっと就職が決まっているのは当然ながら経験者がほとんど。&lt;/p&gt;
+
+&lt;p&gt;最終学期の後半1ヵ月弱はPracticum(インターンの簡易版?)となるため授業はない。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;講師&lt;/h2&gt;
+&lt;p&gt;BCIT専任講師をやっている人は小数で、他の学校でも教えていたり当該分野で仕事をしている人が大半。授業の細かな内容は講師の裁量に委ねられている場合が多く、実際の現場経験がもとになるため理論だけで使えない授業にはなりにくい。とはいえ、授業の質=講師の質となってしまいやすいので外れの講師に当たると無駄な時間を過ごすことになる。&lt;/p&gt;
+
+&lt;p&gt;個人的に聞いた話ではあるが一度採用され複数授業を持ってしまうとなかなか解雇されにくいとか。州立機関で手続きも多く、採用に半年程度かかりその期間の代わりがいないため。&lt;/p&gt;
+
+&lt;p&gt;*ここで言う講師の質とは人間的にもスキル的にも全く駄目というわけではなく、&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;プログラマー出身のためデザイナーへの教え方が上手くない&lt;/li&gt;
+  &lt;li&gt;授業はいまいちだが課題が少なく評価も甘いため一部の生徒には人気&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;のような場合が多い。全く駄目という人は流石に採用されない…はず&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;第一ターム&lt;/h2&gt;
+&lt;p&gt;1授業3時間程度で午前/午後にそれぞれ1コマが基本となる。最初の学期はデザインの割合が多い。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;デザイン: デザイン基礎理論、グラフィックデザイン、色補正、Photoshop&lt;/li&gt;
+  &lt;li&gt;プログラミング(というかコーディング): HTML/CSS基礎&lt;/li&gt;
+  &lt;li&gt;ビジネス: Information Architecture&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;デザイン経験が全くなかったこと及びネイティブと同等の環境で授業を受けるのが初めてだったため最初は着いて行くのにそれなりに苦労した。ただ、HTML/CSSは基礎的すぎたのでクラスメイトに教えたりする余裕もあった。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;第二ターム&lt;/h2&gt;
+&lt;p&gt;徐々にコーディングの時間が増えてくる。最初のタームでHTML/CSS基礎を真面目にやっていなかった人はかなり辛そうにしていた印象がある。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;デザイン: グラフィックデザイン、Illustrator、Interface Design&lt;/li&gt;
+  &lt;li&gt;プログラミング(というかコーディング): HTML/CSS(Responsive Designなど)、JavaScript&lt;/li&gt;
+  &lt;li&gt;ビジネス: Information Architecture応用&lt;/li&gt;
+  &lt;li&gt;その他: 動画音声編集(Adobe Premiere/Audition)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;このタームで一番時間がかかるのが動画音声編集。講師から与えられる要件に沿って3作品作る必要がありキャンパス内のラボで徹夜作業をしたのも今ではいい思い出。&lt;/p&gt;
+
+&lt;p&gt;一部の授業では講師の教え方が下手すぎて何がしたいのかよく分からないものも。これは別キャンパスや違う時期に入学した人からも同じ話を聞いたので、問題にはなっているが代わりもいない状況らしい。気のいいおじさんではあるが…&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;第三ターム&lt;/h2&gt;
+&lt;p&gt;このタームからフリーランスとして独立するために必要な知識、を教える授業の割合が大きくなる&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;デザイン: Photoshop/Illustrator応用&lt;/li&gt;
+  &lt;li&gt;プログラミング: HTML/CSS/JavaScript、PHP基礎&lt;/li&gt;
+  &lt;li&gt;ビジネス: Project Management&lt;/li&gt;
+  &lt;li&gt;その他: VFX(After Effects)、メディア関連法規&lt;/li&gt;
+  &lt;li&gt;Portfolio制作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Portfolioの授業は特に何かを教えてもらうわけではなく、講師と制作方針の相談をしながら後は黙々とPortfolio作りの時間となる。この段階になって自分でウェブサイトを作るスキルがないと気付いて困る人がちらほら出てくる。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;第四ターム&lt;/h2&gt;
+
+&lt;p&gt;最終タームは制作の時間が一気に減り、理論的な内容が増える。後半1ヵ月弱がPracticumのため授業自体は消化試合という印象が強い。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;プログラミング: PHP、WordPress&lt;/li&gt;
+  &lt;li&gt;ビジネス: Web Marketing、起業論?&lt;/li&gt;
+  &lt;li&gt;その他: キャリア準備(レジェメ、カバーレターの書き方など)、メディアとトレンド&lt;/li&gt;
+  &lt;li&gt;Portfolio制作&lt;/li&gt;
+  &lt;li&gt;Practicum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Practicumについては授業とはほぼ独立したもののため、詳細は別項目とする。&lt;/p&gt;
+
+&lt;h2 id=&quot;practicum&quot;&gt;Practicum&lt;/h2&gt;
+&lt;p&gt;144時間程度クライアントに対して業務に従事することがpassするのための要件となる。インターンの簡易版だからPracticumと呼んでいるらしい。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;労働時間&lt;/h3&gt;
+&lt;p&gt;最低労働時間は決まっているが、144時間を超えることには問題ない。ただ、コース修了日は決まっているので基本的には1ヵ月弱となる。無給が前提ではあるがビザ的に問題が無ければ給与を貰ってもいいとのこと。&lt;/p&gt;
+
+&lt;h3 id=&quot;practicum-1&quot;&gt;Practicum先探し&lt;/h3&gt;
+&lt;p&gt;基本的には自分でレジェメ、カバーレターを送って探すことになり学校のサポートはない。ただ、会社でインターンとして採用される必要はなく、フリーランスとして個人で仕事をもらってもpassの条件は満たせる。そのため現地にコネの多いカナダ人は知り合いからの依頼を受けてフリーランスとして従事する傾向にある。&lt;/p&gt;
+
+&lt;p&gt;卒業後に採用される/Linkedinのリコメンドを貰える等の可能性を考えれば企業でインターンとして従事するのがベストではある。特にBCITの授業の一環として行われるため、無給で従事することが合法となり、とりあえずPracticumの生徒として採用されやすい。とはいえ、全くスキルの足りない生徒は邪魔なだけなので企業でpracticumとして採用されたのはクラスの1/3程度であった。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;総評&lt;/h2&gt;
+
+&lt;p&gt;当該分野での経験がない人が一年間過ごすにはコストパフォーマンスの悪くないコースであったと思う。授業についても完全に満足とはいかないまでも、バンクーバーでは一番質が保たれていると聞くことも多く、学費についても他の学校と比較しても高くはない。卒業後のビザ発行を考えるとベストな選択肢であろう。&lt;/p&gt;
+
+&lt;p&gt;ただ、似たようなプログラムを提供する学校が増えてきているため、学校側としても生徒を確保したいことから、成績にはかなり甘くなってきているらしい。遅刻/欠席が一定を超えるとpassできない規則にも関わらずその通りに運用されていない点に不満を持っている層もそれなりにいた(特に成績上位の層)。&lt;/p&gt;
+
+&lt;p&gt;Practicum探しと卒業後の詳細については別途投稿する予定。&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 02 Aug 2015 00:00:00 -0700</pubDate>
+        <link>http://blog.kaffeekantate.xyz/bcit-new-media/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/bcit-new-media/</guid>
+        
+        <category>bcit</category>
+        
+        <category>留学</category>
+        
+        
+      </item>
     
       <item>
         <title>大塚国際美術館 訪問記</title>

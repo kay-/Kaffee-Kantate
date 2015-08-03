@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://blog.kaffeekantate.xyz/bcit-new-media/</loc>
+    <lastmod>2015-08-02T00:00:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://blog.kaffeekantate.xyz/otsuka-museum-of-art/</loc>
     <lastmod>2015-05-01T00:00:00-07:00</lastmod>
     <priority>0.8</priority>
@@ -42,8 +47,86 @@
   </url>
   <url>
     <loc>http://blog.kaffeekantate.xyz/</loc>
-    <lastmod>2015-05-13T21:23:43-07:00</lastmod>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/jekyll/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/github/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/vancouver/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/english-article/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/cafe/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/%E5%BE%92%E7%84%B6/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/javascript/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/css/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/music/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/art/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/museum/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/bcit/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/%E7%95%99%E5%AD%A6/</loc>
+    <lastmod>2015-08-03T13:07:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

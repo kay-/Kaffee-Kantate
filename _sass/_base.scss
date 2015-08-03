@@ -1,6 +1,8 @@
 @charset "utf-8";
 // Our variables
-$base-font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3",Helvetica,Arial,sans-serif,"ＭＳ Ｐゴシック","MS PGothic";
+//$base-font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3",Helvetica,Arial,sans-serif,"ＭＳ Ｐゴシック","MS PGothic";
+$base-font-family: 'Arial', 'Helvetica', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
 $header-font-family: 'Courgette',cursive;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -9,7 +11,7 @@ $article-line-height: 1.7;
 
 $spacing-unit:     30px;
 
-$text-color-black:       #111;
+$text-color-black:       #454545;
 $text-color-white:       #fefefe;
 $text-color-grey:       #f3f4f4;
 

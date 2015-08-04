@@ -5,8 +5,8 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Aug 2015 18:29:51 -0700</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2015 18:29:51 -0700</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2015 19:01:45 -0700</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2015 19:01:45 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -29,8 +29,8 @@
 &lt;p&gt;*自分のバックグラウンドとして&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;日本で3年半SEをやっていたためプログラミングの基礎で困ることはなかった&lt;/li&gt;
-  &lt;li&gt;Enterprise向けインフラシステム担当してたのでデザインの経験はない&lt;/li&gt;
+  &lt;li&gt;日本で3年半SE (詳細は&lt;a href=&quot;https://medium.com/@kay_ya/working-as-system-engineer-in-japan-after-reading-doing-business-in-japan-by-patrick-mckenzie-e3ff96e09086&quot;&gt;こちら&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;インフラシステム担当してたのでデザインの経験はない&lt;/li&gt;
   &lt;li&gt;留学経験はないが英語は受験時代から得意であった(外語大とか受験してた)&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -78,7 +78,7 @@
 
 &lt;p&gt;1クラス20人程度でBurnabyとDowntownキャンパスでそれぞれ開講される。違いは授業によって講師が異なるぐらいでキャンパス間の交流は特にない。日本人の割合はクラスに1,2人いるかどうか。それでも数年前は1人もいない場合が多かったらしいので徐々に増えてきているとのこと。&lt;/p&gt;
 
-&lt;p&gt;生徒のバックグラウンドとしては上記4分野出身+未経験者(高校出たて/キャリアチェンジ目的)となるが、成績上位かつその後にさくっと就職が決まっているのは当然ながら経験者がほとんど。&lt;/p&gt;
+&lt;p&gt;生徒のバックグラウンドとしては上記分野の経験者+未経験者(高校出たて/キャリアチェンジ目的)となるが、成績上位かつその後にさくっと就職が決まっているのは当然ながら経験者がほとんど。&lt;/p&gt;
 
 &lt;h2 id=&quot;section-4&quot;&gt;講師&lt;/h2&gt;
 &lt;p&gt;BCIT専任講師をやっている人は小数で、他の学校でも教えていたり当該分野で仕事をしている人が大半。授業の細かな内容は講師の裁量に委ねられている場合が多く、実際の現場経験がもとになるため理論だけで使えない授業にはなりにくい。とはいえ、授業の質=講師の質となってしまいやすいので外れの講師に当たるとその分野の経験がない人は後が大変になることも。&lt;/p&gt;
@@ -137,7 +137,7 @@
 &lt;p&gt;最終タームは制作の時間が一気に減り、理論的な内容が増える。後半1ヵ月弱がPracticumのため授業自体は消化試合という印象が強い。&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;プログラミング: PHP、WordPress&lt;/li&gt;
+  &lt;li&gt;プログラミング: PHP、WordPress Theme作成&lt;/li&gt;
   &lt;li&gt;ビジネス: Web Marketing、起業論?&lt;/li&gt;
   &lt;li&gt;その他: キャリア準備(レジェメ、カバーレターの書き方など)、メディアとトレンド&lt;/li&gt;
   &lt;li&gt;Portfolio制作&lt;/li&gt;
@@ -161,7 +161,9 @@
 
 &lt;p&gt;当該分野での経験がない人が一年間過ごすにはコストパフォーマンスの悪くないコースであったと思う。授業についても完全に満足とはいかないまでも、バンクーバーでは一番質が保たれていると聞くことも多く、学費についても他の学校と比較しても高くはない。卒業後のビザ発行を考えるとベストな選択肢であろう。&lt;/p&gt;
 
-&lt;p&gt;ただ、似たようなプログラムを提供する学校が増えてきているため、学校側としても生徒を確保したいことから、かなり生徒に甘くなってきているらしい。遅刻/欠席が一定を超えるとpassできない規則にも関わらずその通りに運用されていない点に不満を持っている層もそれなりにいた(特に成績上位の層)。&lt;/p&gt;
+&lt;p&gt;気になる点としては、他の学校との競争から学校側としてもより多くの生徒を確保したいとかで、生徒に甘くなってきているところ。遅刻/欠席が一定を超えるとpassできない規則にも関わらずその通りに運用されていないことに不満を持っている層もそれなりにいた(特に成績上位の層)。もう少し厳しくして生徒の質は担保すべきだと思う。&lt;/p&gt;
+
+&lt;p&gt;また、外れの講師にあたった場合どうするか。プログラム責任者に直訴して講師を変えてもらう、補講を行ってもらう等してはいるがそこまでうまくいってない模様。こればかりは運と相性もあるから難しいか…&lt;/p&gt;
 
 &lt;p&gt;Practicum探しと卒業後の詳細については別途投稿する予定。&lt;/p&gt;
 

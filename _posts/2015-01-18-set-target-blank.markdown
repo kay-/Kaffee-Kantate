@@ -39,7 +39,7 @@ Markdownのパーサーにkramdownを使っていれば
 [link](url){: attribute="value"}
 ```
 
-が使えるので`{:target="_blank"}`をつけてあげれば対応可能と知りました。まあ過去記事含めて修正したい場合はJS使うのが一番早いですが。
+が使えるので`{:target="_blank"}`をつけてあげれば対応可能と知りました。
 
 
 

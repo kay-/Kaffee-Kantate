@@ -29,7 +29,7 @@ cover_image: /2015/
 ##CSSその1
 
 よく見かける`position:absolute`と`height:100%`の組み合わせ。
-複数の要素をフルスクリーン表示させる場合、それぞれpositionの指定が必要になるため使いづらい。
+複数の要素をフルスクリーン表示させる場合少し面倒くさいか。
 
 
 <div data-height="350" data-theme-id="0" data-slug-hash="emWEJJ" data-default-tab="css" data-user="kay8" class='codepen'><pre><code>body {

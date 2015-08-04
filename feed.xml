@@ -5,8 +5,8 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Aug 2015 19:01:45 -0700</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2015 19:01:45 -0700</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2015 23:22:55 -0700</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2015 23:22:55 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -30,11 +30,12 @@
 
 &lt;ul&gt;
   &lt;li&gt;日本で3年半SE (詳細は&lt;a href=&quot;https://medium.com/@kay_ya/working-as-system-engineer-in-japan-after-reading-doing-business-in-japan-by-patrick-mckenzie-e3ff96e09086&quot;&gt;こちら&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;インフラシステム担当してたのでデザインの経験はない&lt;/li&gt;
+  &lt;li&gt;Web業界ではなくSI業界出身&lt;/li&gt;
+  &lt;li&gt;インフラシステム担当してたのでデザインの知識はない&lt;/li&gt;
   &lt;li&gt;留学経験はないが英語は受験時代から得意であった(外語大とか受験してた)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;のためそれなりにバイアスは入っています。&lt;/p&gt;
+&lt;p&gt;のためそれなりに意見に偏りがあると思います。&lt;/p&gt;
 
 &lt;h2 id=&quot;bcit&quot;&gt;BCITとは&lt;/h2&gt;
 &lt;p&gt;日本語の情報を探すと州立工科大学と出てくるが、英語名でInstituteとなっているように正確には大学では無い。日本と制度が異なるため置き換えるのは難しいが、専門学校と大学が混ざったような州立の教育機関というイメージ。実際、修了認定のcertificateや学士(bachelor)が取得できるコースからパートタイムとして一科目単位で受けられるプログラムまで内容は様々。&lt;/p&gt;
@@ -56,11 +57,13 @@
 &lt;h2 id=&quot;new-media-design--web-development&quot;&gt;New Media Design &amp;amp; Web Developmentコース&lt;/h2&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;概要&lt;/h3&gt;
-&lt;p&gt;全体的な方針としてはWeb業界で必要なスキルを広く身に付ける、というもので1年間を4学期にわけ基本から応用へ進んで行く。入学要件もIELTS6.5のため日本人でも英語が得意な人であればそこまで難しいものではない。&lt;/p&gt;
+&lt;p&gt;全体的な方針としてはWeb業界で必要なスキルを広く身に付ける、というもので1年間を4学期にわけ基本から応用へ進んで行く。入学要件もIELTS6.5のため日本人でも英語が得意な人であればそこまで難しいものではないと思う。*&lt;/p&gt;
 
 &lt;p&gt;もともとは2年間のdiplomaコースから教養科目を省き、最低限必要な科目を1年間用に詰め込んだintensive program。学期間の休みが1週間しかないため(年末年始のみ2週間)授業数自体は他の大学の2年間コースと大きく変わらず、課題も多いことから忙しくて大変とよく言われる。&lt;/p&gt;
 
 &lt;p&gt;最終学期の後半1ヵ月弱はPracticum(インターンの簡易版のようなもの)となるため授業はない。&lt;/p&gt;
+
+&lt;p&gt;*問題内容が異なるので一概には言えないがTOEICで800後半を取るのが苦でなければ独学でも取得できるのでは。&lt;/p&gt;
 
 &lt;h3 id=&quot;section-2&quot;&gt;授業&lt;/h3&gt;
 &lt;p&gt;ざっくりとした授業区分として&lt;/p&gt;
@@ -80,7 +83,14 @@
 
 &lt;p&gt;生徒のバックグラウンドとしては上記分野の経験者+未経験者(高校出たて/キャリアチェンジ目的)となるが、成績上位かつその後にさくっと就職が決まっているのは当然ながら経験者がほとんど。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-4&quot;&gt;講師&lt;/h2&gt;
+&lt;h3 id=&quot;section-4&quot;&gt;課題と成績&lt;/h3&gt;
+&lt;p&gt;ペーパーテストもあるが基本的には制作系の課題が成績の大半を占める(理論系の授業除く)。制作といってもこのコースはアーティストを育成したいわけではないため課題の要件に沿っていれば多少手抜きであっても授業を落とすことは無い。&lt;/p&gt;
+
+&lt;p&gt;課題の要件を満たした後はどこまで制作物に対して自分でこだわるかとなる。講師からのフィードバックはそこまで多くないが、個人的に聞きに行けば詳細を教えてくれる。&lt;/p&gt;
+
+&lt;p&gt;Practicumやその後の就職活動で提示するPortfolioの作品は授業の課題を使うことになるため、課題をなんとなくこなして後から困る人も多い。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;講師&lt;/h2&gt;
 &lt;p&gt;BCIT専任講師をやっている人は小数で、他の学校でも教えていたり当該分野で仕事をしている人が大半。授業の細かな内容は講師の裁量に委ねられている場合が多く、実際の現場経験がもとになるため理論だけで使えない授業にはなりにくい。とはいえ、授業の質=講師の質となってしまいやすいので外れの講師に当たるとその分野の経験がない人は後が大変になることも。&lt;/p&gt;
 
 &lt;p&gt;個人的に聞いた話ではあるが一度採用され複数授業を持ってしまうとなかなか解雇されにくいらしい。州立機関で手続きも多く、採用に半年程度かかりその期間の代わりがいないため。&lt;/p&gt;
@@ -94,7 +104,7 @@
 
 &lt;p&gt;のような場合が多い。全く駄目という人は流石に採用されない…はず。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-5&quot;&gt;第一ターム&lt;/h2&gt;
+&lt;h2 id=&quot;section-6&quot;&gt;第一ターム&lt;/h2&gt;
 &lt;p&gt;1授業3時間程度で午前/午後にそれぞれ1コマが基本となる。最初の学期はデザインの割合が多い。&lt;/p&gt;
 
 &lt;ul&gt;
@@ -105,7 +115,7 @@
 
 &lt;p&gt;デザイン経験が全くなかったこと及びネイティブと同等の環境で授業を受けるのが初めてだったため最初は着いて行くのにそれなりに苦労した。ただ、HTML/CSSは基礎的すぎたのでクラスメイトに教えたりする余裕もあった。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-6&quot;&gt;第二ターム&lt;/h2&gt;
+&lt;h2 id=&quot;section-7&quot;&gt;第二ターム&lt;/h2&gt;
 &lt;p&gt;徐々にコーディングの時間が増えてくる。最初のタームでHTML/CSS基礎を真面目にやっていなかった人はかなり辛そうにしていた印象がある。&lt;/p&gt;
 
 &lt;ul&gt;
@@ -119,7 +129,7 @@
 
 &lt;p&gt;一部の授業では講師の教え方が下手すぎて何がしたいのかよく分からないものも。これは別キャンパスや違う時期に入学した人からも同じ話を聞いたので、問題にはなっているが代わりもいない状況らしい。気のいいおじさんではあるが…&lt;/p&gt;
 
-&lt;h2 id=&quot;section-7&quot;&gt;第三ターム&lt;/h2&gt;
+&lt;h2 id=&quot;section-8&quot;&gt;第三ターム&lt;/h2&gt;
 &lt;p&gt;このタームからフリーランスとして独立するために必要な知識、を教える授業の割合が大きくなる&lt;/p&gt;
 
 &lt;ul&gt;
@@ -132,7 +142,7 @@
 
 &lt;p&gt;Portfolioの授業は特に何かを教えてもらうわけではなく、講師と制作方針の相談をしながら後は黙々とPortfolio作りの時間となる。この段階になって自分でウェブサイトを作るスキルがないと気付いて困る人がちらほら出てくる。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-8&quot;&gt;第四ターム&lt;/h2&gt;
+&lt;h2 id=&quot;section-9&quot;&gt;第四ターム&lt;/h2&gt;
 
 &lt;p&gt;最終タームは制作の時間が一気に減り、理論的な内容が増える。後半1ヵ月弱がPracticumのため授業自体は消化試合という印象が強い。&lt;/p&gt;
 
@@ -149,7 +159,7 @@
 &lt;h2 id=&quot;practicum&quot;&gt;Practicum&lt;/h2&gt;
 &lt;p&gt;144時間程度クライアントに対して業務に従事することがpassするのための要件となる。インターンより簡易なものでPracticumと呼ばれるが違いはよく分からず。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-9&quot;&gt;時間&lt;/h3&gt;
+&lt;h3 id=&quot;section-10&quot;&gt;時間&lt;/h3&gt;
 &lt;p&gt;passするための最低時間は決まっているが、上限は特にない。ただ、コース修了日は決まっているので基本的には1ヵ月弱となる。無給が前提ではあるがビザ的に問題が無ければ給与を貰ってもいいとのこと。&lt;/p&gt;
 
 &lt;h3 id=&quot;practicum-1&quot;&gt;Practicum先探し&lt;/h3&gt;
@@ -157,13 +167,15 @@
 
 &lt;p&gt;卒業後に採用される/Linkedinのリコメンドを貰える等の可能性を考えれば企業でインターンとして従事するのがベストではある。特にBCITの授業の一環として行われるため、無給で従事することが合法となり、とりあえずPracticumの生徒として採用されやすい。とはいえ、全くスキルの足りない生徒は邪魔なだけなのでいくら無給でも採用はされない。実際に企業でpracticumに従事したのはクラスの1/3程度であった。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-10&quot;&gt;総評&lt;/h2&gt;
+&lt;h2 id=&quot;section-11&quot;&gt;総評&lt;/h2&gt;
 
 &lt;p&gt;当該分野での経験がない人が一年間過ごすにはコストパフォーマンスの悪くないコースであったと思う。授業についても完全に満足とはいかないまでも、バンクーバーでは一番質が保たれていると聞くことも多く、学費についても他の学校と比較しても高くはない。卒業後のビザ発行を考えるとベストな選択肢であろう。&lt;/p&gt;
 
-&lt;p&gt;気になる点としては、他の学校との競争から学校側としてもより多くの生徒を確保したいとかで、生徒に甘くなってきているところ。遅刻/欠席が一定を超えるとpassできない規則にも関わらずその通りに運用されていないことに不満を持っている層もそれなりにいた(特に成績上位の層)。もう少し厳しくして生徒の質は担保すべきだと思う。&lt;/p&gt;
+&lt;p&gt;気になる点としては、他学校との競争から学校側としてもより多くの生徒を確保したいとかで、生徒に甘くなってきているところ。遅刻/欠席が一定を超えるとpassできない規則にも関わらずその通りに運用されていないことに不満を持っている層もそれなりにいた(特に成績上位の層)。もう少し厳しくして生徒の質は担保すべきだと思う。&lt;/p&gt;
 
-&lt;p&gt;また、外れの講師にあたった場合どうするか。プログラム責任者に直訴して講師を変えてもらう、補講を行ってもらう等してはいるがそこまでうまくいってない模様。こればかりは運と相性もあるから難しいか…&lt;/p&gt;
+&lt;p&gt;また、外れの講師にあたった場合どうするか。プログラム責任者に直訴して講師を変えてもらう、補講を行ってもらう等は行われるもののそこまでうまくいってない模様。こればかりは運と相性もあるから難しいか…&lt;/p&gt;
+
+&lt;p&gt;ちなみに就職率が高いとよく言われるがWeb業界に限って言うとその辺りは疑問。最近はDeveloper育成Bootcamp等もあり競争は厳しいと思う。卒業後3ヵ月以内に企業に就職したのはクラスの半分以下では。&lt;/p&gt;
 
 &lt;p&gt;Practicum探しと卒業後の詳細については別途投稿する予定。&lt;/p&gt;
 
@@ -509,7 +521,7 @@ http://www.o-museum.or.jp/
 &lt;h2 id=&quot;css1&quot;&gt;CSSその1&lt;/h2&gt;
 
 &lt;p&gt;よく見かける&lt;code&gt;position:absolute&lt;/code&gt;と&lt;code&gt;height:100%&lt;/code&gt;の組み合わせ。
-複数の要素をフルスクリーン表示させる場合、それぞれpositionの指定が必要になるため使いづらい。&lt;/p&gt;
+複数の要素をフルスクリーン表示させる場合少し面倒くさいか。&lt;/p&gt;
 
 &lt;div data-height=&quot;350&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;emWEJJ&quot; data-default-tab=&quot;css&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;&lt;pre&gt;&lt;code&gt;body {
   margin: 0;
@@ -654,7 +666,7 @@ Document.getElementsByClassName(&#39;post-content&#39;).links
 [link](url){: attribute=&quot;value&quot;}
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;が使えるので&lt;code&gt;{:target=&quot;_blank&quot;}&lt;/code&gt;をつけてあげれば対応可能と知りました。まあ過去記事含めて修正したい場合はJS使うのが一番早いですが。&lt;/p&gt;
+&lt;p&gt;が使えるので&lt;code&gt;{:target=&quot;_blank&quot;}&lt;/code&gt;をつけてあげれば対応可能と知りました。&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 18 Jan 2015 00:00:00 -0800</pubDate>

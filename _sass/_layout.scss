@@ -341,6 +341,18 @@
 }
 
 /**
+ * footnotes
+ */
+
+.footnotes {
+    ol {
+        padding-left: $spacing-unit/2;
+        margin-top: $spacing-unit * 1.5;
+        font-size: $small-font-size;
+    }
+}
+
+/**
  * social
  */
 

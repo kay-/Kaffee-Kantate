@@ -5,13 +5,209 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Aug 2015 22:55:36 -0700</pubDate>
-    <lastBuildDate>Fri, 07 Aug 2015 22:55:36 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Aug 2015 16:29:11 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Aug 2015 16:29:11 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>BCIT New Media Design &amp; Web Development Practicum</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/2015/0808-bcit-practicum.jpg&quot; alt=&quot;Practicum Company&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;(Practicum Company Office)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.kaffeekantate.xyz/bcit-new-media/&quot;&gt;前回(BCIT New Media Design &amp;amp; Web Developmentレビュー)&lt;/a&gt;記事からの続き。&lt;/p&gt;
+
+&lt;h2 id=&quot;practicum&quot;&gt;Practicum概要&lt;/h2&gt;
+
+&lt;p&gt;Practicum=インターンシップの簡易版のようなものと書いたが、&lt;a href=&quot;http://www.bcit.ca/business/industry/internships/newmedia.shtml&quot;&gt;学校が提示している概要&lt;/a&gt;としては以下となる。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;BCIT New Media Design and Web Development students in their final term of study are available to work five days a week in your organization for a three week period. (中略) The practicum program provides students with exposure to the new media industry and gives them valuable work experience. At the same time, you receive a recently trained student to work on projects and complete various tasks within your organization. It is a perfect way to try out a potential new entry-level employee with no risk. A win/win for both parties.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;1ヵ月間弱の就労を授業の一環とすることで企業側/生徒側のどちらにもメリットありますよ、というもの。そうはいえども、スキルが不足している生徒を採用してもマイナスにしかならないため、実際には(特に現地にコネの多いカナダ人などは)友人の知り合いをクライアントとしてフリーランス活動する人の方が多い。&lt;/p&gt;
+
+&lt;p&gt;プログラムの趣旨として企業探しも含めて実践的な訓練ととらえているようで、学校側からのサポートはあまり期待できない。インストラクターによってはインターン募集情報を共有してくれる。&lt;/p&gt;
+
+&lt;p&gt;注意点としては、企業によっては生徒=無給で使える単純労働力として見なしているところもあり、1ヵ月弱ひたすらコピペ作業をさせられた例もあるらしい。この辺りは自分で情報を集めて見極めるしかない。(一応インターン先ブラックリストのようなものは存在するらしいが事前共有は無し)&lt;/p&gt;
+
+&lt;h2 id=&quot;practicum-1&quot;&gt;Practicum探し準備&lt;/h2&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;情報収集&lt;/h3&gt;
+
+&lt;p&gt;前回記事にも書いたが、もともとはSI業界でPMのようなことをしてたのでWeb業界の経験はない。そのためPortfolio/Resume/Cover Letter作るにあたって企業側が提示しているrequirement/qualificationを調べることから始めた。基本的には&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;興味のある企業の採用情報&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.indeed.ca/&quot;&gt;Indeed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;で詳細を調べて簡単にまとめていた。(Web Developerで探してました)&lt;/p&gt;
+
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
+
+&lt;p&gt;一応、授業の一環としてPortfolio制作はあるものの、構成についてきちんとアドバイスをもらえるわけではなく、就職活動全般の話+ラボライムのようなもの。Developer向けBootcampとは違い目指すキャリアが生徒によってばらばらなので一人のインストラクターでは対応しきれないため。&lt;/p&gt;
+
+&lt;p&gt;自分はPortfolio制作のインストラクターではなく自分の方向性に合うインストラクターや当該業界で経験のある方に相談していた。特に&lt;a href=&quot;http://vancouverch.com/&quot;&gt;Frog HOUSE&lt;/a&gt;の方々にはとても感謝してる。ちなみにWeb業界の経験がないにも関わらず何となく作れるもの作ってみて後々困っているクラスメイトはかなり多かった。&lt;/p&gt;
+
+&lt;h3 id=&quot;resumecover-letter&quot;&gt;Resume/Cover Letter&lt;/h3&gt;
+
+&lt;p&gt;こちらも授業としてResume/Cover Letter作りがあるが残念なことにPracticumとして企業に応募する期間と被っているため、サンプルをググったりしながら自分で作った。内容や英語のニュアンス等はバイリンガルなシェアメイトが添削してくれたのであまり授業のお世話にはなっていない &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; 。&lt;/p&gt;
+
+&lt;p&gt;授業期間の前半にResume/Cover Letter作りは終えられるようにスケジュールは組んであるものの、他の学校もインターン探しを開始しているので授業のペースに合わせているのはあまりいい選択ではない。この辺りどうにかならないものか。&lt;/p&gt;
+
+&lt;h3 id=&quot;linkedin&quot;&gt;LinkedIn&lt;/h3&gt;
+
+&lt;p&gt;プロフィールの整理も事前に。授業として最低限なにをすべきかの説明はあったと思う。興味ある企業を見つけたらLinkedInで検索して中の人のプロフィールやコネクション確認したりしていた。&lt;/p&gt;
+
+&lt;h2 id=&quot;practicum-2&quot;&gt;Practicum選考&lt;/h2&gt;
+
+&lt;p&gt;準備が終わった後は興味のある会社へメールを送り選考開始。選考をしてみての雑感としては&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;所謂In-house developmentをやっているサービス会社は4ヵ月程度のインターンがミニマムのため1ヵ月弱しかないBCITの生徒は基本的に採用しない&lt;/li&gt;
+  &lt;li&gt;Design Agencyのデベロッパーも1ヵ月では厳しい反応をするところもあり&lt;/li&gt;
+  &lt;li&gt;採用ページにインターンのことを書いていなくてもメール送れば何かしら反応くれるところは多い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以下、実際に話をしたところのみ。*会社名は載せてません&lt;/p&gt;
+
+&lt;h3 id=&quot;a-software-company&quot;&gt;A社 Software Company&lt;/h3&gt;
+
+&lt;p&gt;友人から働いているエンジニアさんを紹介してもらいオフィスに遊びにいかせてもらう。&lt;/p&gt;
+
+&lt;p&gt;リクルーティング担当の方によると、基本的にIn-house development会社のインターンは4ヵ月がミニマムであるため、BCITの1ヵ月はスキルが飛び抜けている等なければ採用を考えないらしい。UBCやSFUでMediaやCSやった学生が4-6ヵ月のインターン申し込んでくるのでそれより優先する理由がないため。&lt;/p&gt;
+
+&lt;p&gt;エンジニアさんと人事の方にはいろいろとアドバイスを頂きPracticum探しをする上でとても助かった。&lt;/p&gt;
+
+&lt;h3 id=&quot;b-design-agency&quot;&gt;B社 Design Agency&lt;/h3&gt;
+
+&lt;p&gt;本採用以外のメールは削除するとサイトに書いてあったものの連絡したら電話面接しましょうと連絡がくる。&lt;/p&gt;
+
+&lt;p&gt;電話面接は15分強で相手はエンジニアとリクルーティングパーソンの二人。流れとしては&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;学校で何やってるかとQualification満たしてる理由を簡単に説明&lt;/li&gt;
+  &lt;li&gt;エンジニアから
+    &lt;ul&gt;
+      &lt;li&gt;こちらの開発環境や使えるソフトウェア&lt;/li&gt;
+      &lt;li&gt;簡単なフロントエンド関連の質問(&lt;a href=&quot;https://github.com/h5bp/Front-end-Developer-Interview-Questions&quot;&gt;Front-end-Developer-Interview-Questions&lt;/a&gt;から一部)&lt;/li&gt;
+      &lt;li&gt;なんでGruntじゃなくてGulp使ってるの？&lt;/li&gt;
+      &lt;li&gt;PsとAiの操作は慣れてる？&lt;/li&gt;
+      &lt;li&gt;School project以外に何かコード書く？&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;自分のポートフォリオについて説明し質問受ける&lt;/li&gt;
+  &lt;li&gt;practicumのスケジュール等詳しい確認&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ただ、可能な限り早くインターンにこれる人を優先的に採用したいらしく可能性は低そうであった。（公式な日程よりも早く開始することは可能か聞かれた）&lt;/p&gt;
+
+&lt;h3 id=&quot;c-web&quot;&gt;C社 Web制作会社&lt;/h3&gt;
+
+&lt;p&gt;オフィスにて面接。日程は授業スケジュールに合わせて調整してくれた。&lt;/p&gt;
+
+&lt;p&gt;15分強で相手はCTOとWeb development部門のDirector。流れはresume見ながら&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Software開発のどこがexciting?&lt;/li&gt;
+  &lt;li&gt;学校では具体的に何勉強してるの？&lt;/li&gt;
+  &lt;li&gt;animationはどれぐらいできる？(CSSでもAfter Effectsでも何でも含めて)&lt;/li&gt;
+  &lt;li&gt;responsive design作ったことある？&lt;/li&gt;
+  &lt;li&gt;designの経験どれぐらい？&lt;/li&gt;
+  &lt;li&gt;website作るときのworkflowは？&lt;/li&gt;
+  &lt;li&gt;インターンの期間とその後のスケジュールは？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ほぼ一問一答で具体的な話は無く、Directorも技術的な回答への反応が微妙。フロントエンドの採用なのにCTOはバックエンドの話をしたがってたしフルスタック求めてるのか？自分の前にも他の学生（UBC）がインターン面接してたのである程度採用しているらしい。&lt;/p&gt;
+
+&lt;h3 id=&quot;d-design-agency&quot;&gt;D社 Design Agency&lt;/h3&gt;
+
+&lt;p&gt;内容はCasual MeetingとInterviewの中間のような内容で相手はCreative DirectorとDeveloperの二人で30分弱。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;バンクーバーきてどれぐらい？&lt;/li&gt;
+  &lt;li&gt;学校どう？&lt;/li&gt;
+  &lt;li&gt;日本とこっちで何か違うと思うことある？&lt;/li&gt;
+  &lt;li&gt;日本だと同じ会社に3年半も勤めるのが普通なの？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;から始まり&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;作ったもののcode説明して&lt;/li&gt;
+  &lt;li&gt;制作環境とかツール教えて&lt;/li&gt;
+  &lt;li&gt;JSどれぐらい書ける？もし書いたものあったら説明して&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;に対してディスプレイに自分のPortfolioサイト映しながら説明。&lt;/p&gt;
+
+&lt;p&gt;Creative Directorもフロントエンドの採用ページにあるような技術の概念は分かってるようで、Developerと同じぐらい質問してくる。&lt;/p&gt;
+
+&lt;p&gt;通り説明が終わったところで&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;今後のキャリアとかやりたいことどう考えてる？卒業後もバンクーバーにいるの？&lt;/li&gt;
+  &lt;li&gt;WordPress以外のCMSで何か作ったことある？&lt;/li&gt;
+  &lt;li&gt;CMSのComponent作りは興味ある？&lt;/li&gt;
+  &lt;li&gt;CSS Frameworkは何か使ったことある？&lt;/li&gt;
+  &lt;li&gt;チームの開発環境について&lt;/li&gt;
+  &lt;li&gt;Liquid Templatingについて質問と雑談&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;「Practicumするとしたら〜っていうCMSのComponent作りをお願いする予定。でも使ったことのないCMSだと思うから週末にちょっと使ってみてからまた話しようか」と言われてその日は終了。翌週に日程調整とCMSの雑感をメールで送ったところオファーが返ってくる。&lt;/p&gt;
+
+&lt;h2 id=&quot;practicum-3&quot;&gt;Practicum&lt;/h2&gt;
+
+&lt;p&gt;上記D社にて実施。創業2年のDigital Media Agencyでbranding/design/development/marketingまで一通りやっている。BC州のMost Creative Media Agenciesみたいなのにもノミネートされていた。社員数は10人弱(契約社員除く)。&lt;/p&gt;
+
+&lt;p&gt;ざっと自分の業務内容をまとめると以下。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creative DirectorとUX Designerの要望及びMockupをもとにFoundationとjQueryベースで作成&lt;/li&gt;
+  &lt;li&gt;Lead Developerの簡単なレビューを受け、必要に応じ修正(拡張性やパフォーマンスなど)&lt;/li&gt;
+  &lt;li&gt;CMSに落とし込みCreative DirectorとLead Developerの最終チェック&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;創業間もないためまだワークフローが定まっておらず口頭ベースでのやりとりが多かった。そのためDeveloperとしての仕事よりも英語でのコミュニケーション面が一番大変だったと思う。特にCreative Directorがイギリス英語かつかなり婉曲的な表現を使うため、意味を理解するのに時間がかかることも…&lt;/p&gt;
+
+&lt;p&gt;会社の雰囲気はカジュアル。オフィスの中にバーカウンターのようなキッチンがありBeer Fridayはそこで飲んだり雑談したり(ちなみにトップの画像は仕事スペース)。&lt;/p&gt;
+
+&lt;p&gt;StartupということもありFront/Backどちらもある程度できる人を求めていたため採用には至らず。Creative Directorからは後日LinkedInでのリコメンドコメントをもらえたので最低限はクリアしていたのかなといった印象。&lt;/p&gt;
+
+&lt;p&gt;*卒業後、別のDesign Agency(スケジュールが合わずPracticumできなかったA社)からオファーを頂くことになるが、D社での経験はかなり役に立っていると思う。&lt;/p&gt;
+
+&lt;h2 id=&quot;practicum-4&quot;&gt;Practicum総評&lt;/h2&gt;
+
+&lt;p&gt;基本的には就職活動と同じことをするため、卒業後にまず何からしようと困ることはない。他大学で実施している4ヵ月のインターンなどと比べると直接採用される可能性は低くなるが1年間のプログラムとしては妥当。&lt;/p&gt;
+
+&lt;p&gt;留学生の場合はビザの問題もあるため簡単ではないが、Practicumからそのまま採用された例もある。中には毎年BCITのnew gradsを採用している会社もあるが、Practicumと本採用後で業務内容が違い、juniorがすぐ辞めるからといった理由のところもあるらしい。こればかりは運の要素も大きい。&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;ちなみにシェアメイトは「&lt;a href=&quot;http://www.amazon.co.jp/gp/product/4756916708&quot;&gt;バンクーバー発! 4コマ漫画で体感するから身につく ほんとに使えるリアルな英語フレーズ&lt;/a&gt;」の著者。しっかり準備して電話面接練習をしてくれたり等とても面倒見がいい方です。 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 08 Aug 2015 00:00:00 -0700</pubDate>
+        <link>http://blog.kaffeekantate.xyz/bcit-practicum/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/bcit-practicum/</guid>
+        
+        <category>bcit</category>
+        
+        <category>留学</category>
+        
+        
+      </item>
     
       <item>
         <title>BCIT New Media Design &amp; Web Developmentレビュー</title>
         <description>&lt;p&gt;&lt;img src=&quot;/images/2015/0802-bcit.jpg&quot; alt=&quot;BCIT Burnaby Campus&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;(BCIT Burnaby Campus)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.bcit.ca/&quot;&gt;British Columbia Institute of Technology&lt;/a&gt;(通称BCIT)の&lt;a href=&quot;http://www.bcit.ca/study/programs/6415smcert&quot;&gt;New Media Design &amp;amp; Web Development&lt;/a&gt;レビュー。
 こちらは併設の語学コース(ISEP)ではなくCertificateが発行される1年間の本科プログラム。
@@ -29,10 +225,11 @@
 &lt;p&gt;*自分のバックグラウンドとして&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;日本で3年半SE (詳細は&lt;a href=&quot;https://medium.com/@kay_ya/working-as-system-engineer-in-japan-after-reading-doing-business-in-japan-by-patrick-mckenzie-e3ff96e09086&quot;&gt;こちら&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;日本で3年半SE(PMっぽい立場) (詳細は&lt;a href=&quot;https://medium.com/@kay_ya/working-as-system-engineer-in-japan-after-reading-doing-business-in-japan-by-patrick-mckenzie-e3ff96e09086&quot;&gt;こちら&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Web業界ではなくSI業界出身&lt;/li&gt;
   &lt;li&gt;インフラシステム担当してたのでデザインの知識はない&lt;/li&gt;
   &lt;li&gt;留学経験はないが英語は受験時代から得意(外語大とか受験してた)&lt;/li&gt;
+  &lt;li&gt;Developer志望&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;のためそれなりに意見に偏りがあると思います。&lt;/p&gt;
@@ -47,7 +244,7 @@
   &lt;li&gt;8ヵ月以上のコースを修了すると同期間以上のOpen Work Permitが発行される&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;点でカナダでの就労、永住を目指す留学生にも人気。&lt;/p&gt;
+&lt;p&gt;点でバンクーバーでの就労、永住を目指す留学生にも人気。&lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;生徒&lt;/h2&gt;
 &lt;p&gt;生徒は高校出たばかりの人から何年も働いた経験がある人まで様々。日本のように採用の際に年齢を見られないため(むしろ年齢で判断するのは違法)キャリアチェンジやスキルの幅を広げる目的でくる人も多い。UBCやSFUといったバンクーバーでトップレベルの大学を卒業後に、理論ではなく実践的な内容を学びたいと考え入学する人もちらほら。ただカナダ人は留学生よりも圧倒的に学費が安いため何となくやりたいことがないから入学する人もそれなりにいる。&lt;/p&gt;
@@ -181,7 +378,7 @@
 &lt;h3 id=&quot;section-13&quot;&gt;未経験者について&lt;/h3&gt;
 &lt;p&gt;Design/Development/Businessどれの経験もない場合はこのコースで教えられることだけをしていても就職できる可能性は低いように感じる。あくまで土台となる基本知識を教えるコースなので授業の課題だけではなく+αとして自分の進みたい分野に必要とされていることを学ぶことは必須。”課題ばかりやってたらクリエイティビティが育たない”等の文句を言っていた人もいたが、そのような勘違いした人にならない/影響されないためにもメンター的な人を見つけた方がいいのでは。&lt;/p&gt;
 
-&lt;p&gt;Practicum探しと卒業後の詳細については別途投稿する予定。&lt;/p&gt;
+&lt;p&gt;*Practicum詳細については別記事の&lt;a href=&quot;http://blog.kaffeekantate.xyz/bcit-practicum/&quot;&gt;こちら&lt;/a&gt;を。&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 02 Aug 2015 00:00:00 -0700</pubDate>

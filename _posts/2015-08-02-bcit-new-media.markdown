@@ -9,6 +9,9 @@ cover_image: /2015/0802-bcit.jpg
 ---
 ![BCIT Burnaby Campus](/images/2015/0802-bcit.jpg)
 
+(BCIT Burnaby Campus)
+{: .credit}
+
 [British Columbia Institute of Technology](http://www.bcit.ca/)(通称BCIT)の[New Media Design & Web Development](http://www.bcit.ca/study/programs/6415smcert)レビュー。
 こちらは併設の語学コース(ISEP)ではなくCertificateが発行される1年間の本科プログラム。
 昔書いたその他の情報は以下。
@@ -19,10 +22,11 @@ cover_image: /2015/0802-bcit.jpg
 
 *自分のバックグラウンドとして
 
-- 日本で3年半SE (詳細は[こちら](https://medium.com/@kay_ya/working-as-system-engineer-in-japan-after-reading-doing-business-in-japan-by-patrick-mckenzie-e3ff96e09086))
+- 日本で3年半SE(PMっぽい立場) (詳細は[こちら](https://medium.com/@kay_ya/working-as-system-engineer-in-japan-after-reading-doing-business-in-japan-by-patrick-mckenzie-e3ff96e09086))
 - Web業界ではなくSI業界出身
 - インフラシステム担当してたのでデザインの知識はない
 - 留学経験はないが英語は受験時代から得意(外語大とか受験してた)
+- Developer志望
 
 のためそれなりに意見に偏りがあると思います。
 
@@ -35,7 +39,7 @@ cover_image: /2015/0802-bcit.jpg
 - 仕事を探す上で不利にはならない
 - 8ヵ月以上のコースを修了すると同期間以上のOpen Work Permitが発行される
 
-点でカナダでの就労、永住を目指す留学生にも人気。
+点でバンクーバーでの就労、永住を目指す留学生にも人気。
 
 ##生徒
 生徒は高校出たばかりの人から何年も働いた経験がある人まで様々。日本のように採用の際に年齢を見られないため(むしろ年齢で判断するのは違法)キャリアチェンジやスキルの幅を広げる目的でくる人も多い。UBCやSFUといったバンクーバーでトップレベルの大学を卒業後に、理論ではなく実践的な内容を学びたいと考え入学する人もちらほら。ただカナダ人は留学生よりも圧倒的に学費が安いため何となくやりたいことがないから入学する人もそれなりにいる。
@@ -158,7 +162,7 @@ passするための最低時間は決まっているが、上限は特にない�
 ###未経験者について
 Design/Development/Businessどれの経験もない場合はこのコースで教えられることだけをしていても就職できる可能性は低いように感じる。あくまで土台となる基本知識を教えるコースなので授業の課題だけではなく+αとして自分の進みたい分野に必要とされていることを学ぶことは必須。"課題ばかりやってたらクリエイティビティが育たない"等の文句を言っていた人もいたが、そのような勘違いした人にならない/影響されないためにもメンター的な人を見つけた方がいいのでは。
 
-Practicum探しと卒業後の詳細については別途投稿する予定。
+*Practicum詳細については別記事の[こちら](http://blog.kaffeekantate.xyz/bcit-practicum/)を。
 
 
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: BCIT New Media Design & Web Developmentレビュー
+title: BCIT New Media Design & Web Developmentコースレビュー
 date: 2015-08-02
 published: true
-excerpt: 2015年4月に修了したBritish Columbia Institute of TechnologyのNew Media Design & Web Developmentコースレビュー
+excerpt: 2015年4月に修了したBritish Columbia Institute of TechnologyのNew Media Design & Web Developmentコースレビュー。
 tags: bcit 留学
 cover_image: /2015/0802-bcit.jpg
 ---

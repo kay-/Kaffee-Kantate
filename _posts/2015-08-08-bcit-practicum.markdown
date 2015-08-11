@@ -1,9 +1,9 @@
 ---
 layout: post
-title: BCIT New Media Design & Web Development Practicum
+title: BCIT New Media Design & Web Development - Practicum内容
 date: 2015-08-08
 published: true
-excerpt: BCITのNew Media Design & Web DevelopmentコースでのPracticumについて
+excerpt: BCITのNew Media Design & Web Developmentコースで実施されるPracticum(インターンの簡易版)。その内容と自身の経験について。
 tags: bcit 留学
 cover_image: /2015/0808-bcit-practicum.jpg
 ---

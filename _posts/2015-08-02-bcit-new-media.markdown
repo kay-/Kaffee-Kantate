@@ -157,7 +157,23 @@ passするための最低時間は決まっているが、上限は特にない�
 
 また、外れの講師にあたった場合どうするか。プログラム責任者に直訴して講師を変えてもらう、補講を行ってもらう等は行われるもののそこまでうまくいってない模様。こればかりは運と相性もあるから難しいか...
 
-ちなみにBCITは就職率が高いとよく言われるがWeb業界に限って言うとその辺りは疑問。最近はDeveloper育成Bootcamp等もあり競争は厳しいと思う。卒業後3ヵ月以内に企業に就職したのはクラスの半分以下。
+###就職率および外部環境
+卒業後3ヵ月以内にdesign/development/media等に関係する企業に就職したのはクラス20人中5人程度で全員何かしらバックグラウンドがあった人。
+BCITは就職率が高いとよく言われるが当該コースに限って言うと当てはまらないと思う。
+
+New Media Design & Web Development以外の選択肢だと
+
+- BCIT: Diploma取得ができるコース
+    - [Digital Design and Development](http://www.bcit.ca/study/programs/6405dipma): New Mediaから編入する人もたまにいる2年コース
+    - [Computer Systems Technology](http://www.bcit.ca/study/programs/cst): Computer Science系の2年コースでデザインはやらない
+
+- その他 (BCITのようにポスグラビザは発行されない)
+    - [Vancouver Institute of Media Arts](http://www.vanarts.com/): 私立。知り合いに話を聞く限りカリキュラムはいいと思う。
+    - [Lighthouse Labs](http://www.lighthouselabs.ca/): BootCamp。最近Lighthouse Labs出身の人に会うことが多くカリキュラムもよさそう。
+    - [Code Core](http://www.codecore.ca/): 上記同様BootCamp。
+
+等がありBCIT内にもBCIT外にも似たコンセプトのコースは多数あるため競争は厳しい。とりあえずBCIT出れば何とかなると勘違いしている人も時々いるので注意。
+
 
 ###未経験者について
 Design/Development/Businessどれの経験もない場合はこのコースで教えられることだけをしていても就職できる可能性は低いように感じる。あくまで土台となる基本知識を教えるコースなので授業の課題だけではなく+αとして自分の進みたい分野に必要とされていることを学ぶことは必須。"課題ばかりやってたらクリエイティビティが育たない"等の文句を言っていた人もいたが、そのような勘違いした人にならない/影響されないためにもメンター的な人を見つけた方がいいのでは。

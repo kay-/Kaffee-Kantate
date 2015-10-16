@@ -24,9 +24,7 @@ Markdownで記事本文に外部リンクをはった際に自動でtarget="_bla
 linksプロパティで文書中のarea/anchor要素をHTMLCollectionとして取得し、現在のURLのホスト名と取得した要素のホスト名が異なっていればtarget = "_blank"を指定。
 
 ちなみに文書中から全て取得する必要はないので記事のみを対象に
-```
-Document.getElementsByClassName('post-content').links
-```
+```Document.getElementsByClassName('post-content').links```
 とかやってみたものの、linksはdocumentオブジェクトに属するため無理でした
 (参考: [documentオブジェクト](https://developer.mozilla.org/ja/docs/Web/API/document))。
 
@@ -35,9 +33,7 @@ Document.getElementsByClassName('post-content').links
 ####追記
 Markdownのパーサーにkramdownを使っていれば
 
-```
-[link](url){: attribute="value"}
-```
+```[link](url){: attribute="value"}```
 
 が使えるので`{:target="_blank"}`をつけてあげれば対応可能と知りました。
 

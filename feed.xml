@@ -5,8 +5,8 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Oct 2015 15:58:18 -0700</pubDate>
-    <lastBuildDate>Sat, 03 Oct 2015 15:58:18 -0700</lastBuildDate>
+    <pubDate>Sun, 18 Oct 2015 00:02:51 -0700</pubDate>
+    <lastBuildDate>Sun, 18 Oct 2015 00:02:51 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -881,9 +881,7 @@ p {
 &lt;p&gt;linksプロパティで文書中のarea/anchor要素をHTMLCollectionとして取得し、現在のURLのホスト名と取得した要素のホスト名が異なっていればtarget = “_blank”を指定。&lt;/p&gt;
 
 &lt;p&gt;ちなみに文書中から全て取得する必要はないので記事のみを対象に
-&lt;code&gt;
-Document.getElementsByClassName(&#39;post-content&#39;).links
-&lt;/code&gt;
+&lt;code&gt;Document.getElementsByClassName(&#39;post-content&#39;).links&lt;/code&gt;
 とかやってみたものの、linksはdocumentオブジェクトに属するため無理でした
 (参考: &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web/API/document&quot;&gt;documentオブジェクト&lt;/a&gt;)。&lt;/p&gt;
 
@@ -892,9 +890,7 @@ Document.getElementsByClassName(&#39;post-content&#39;).links
 &lt;h4 id=&quot;section&quot;&gt;追記&lt;/h4&gt;
 &lt;p&gt;Markdownのパーサーにkramdownを使っていれば&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-[link](url){: attribute=&quot;value&quot;}
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[link](url){: attribute=&quot;value&quot;}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;が使えるので&lt;code&gt;{:target=&quot;_blank&quot;}&lt;/code&gt;をつけてあげれば対応可能と知りました。&lt;/p&gt;
 

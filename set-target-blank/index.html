@@ -127,9 +127,7 @@
 <p>linksプロパティで文書中のarea/anchor要素をHTMLCollectionとして取得し、現在のURLのホスト名と取得した要素のホスト名が異なっていればtarget = “_blank”を指定。</p>
 
 <p>ちなみに文書中から全て取得する必要はないので記事のみを対象に
-<code>
-Document.getElementsByClassName('post-content').links
-</code>
+<code>Document.getElementsByClassName('post-content').links</code>
 とかやってみたものの、linksはdocumentオブジェクトに属するため無理でした
 (参考: <a href="https://developer.mozilla.org/ja/docs/Web/API/document">documentオブジェクト</a>)。</p>
 
@@ -138,9 +136,7 @@ Document.getElementsByClassName('post-content').links
 <h4 id="section">追記</h4>
 <p>Markdownのパーサーにkramdownを使っていれば</p>
 
-<p><code>
-[link](url){: attribute="value"}
-</code></p>
+<p><code>[link](url){: attribute="value"}</code></p>
 
 <p>が使えるので<code>{:target="_blank"}</code>をつけてあげれば対応可能と知りました。</p>
 

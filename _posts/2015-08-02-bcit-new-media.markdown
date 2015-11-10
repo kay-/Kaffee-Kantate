@@ -165,7 +165,9 @@ New Media Design & Web Development以外の選択肢だと
 
 - BCIT: Diploma取得ができるコース
     - [Digital Design and Development](http://www.bcit.ca/study/programs/6405dipma): New Mediaから編入する人もたまにいる2年コース
-    - [Computer Systems Technology](http://www.bcit.ca/study/programs/cst): Computer Science系の2年コースでデザインはやらない
+    - [Computer Systems Technology](http://www.bcit.ca/study/programs/cst): Computer Science系の2年コースでデザインはやらない[^1]
+
+[^1]:Computer Systems Technologyを修了した方のブログは[こちら](http://j6photo77.blogspot.ca/2015/11/bcit-full-time-part-time.html)。BCIT Full-timeとPart-timeコースの違いについて書かれています。
 
 - その他 (BCITのようにポスグラビザは発行されない)
     - [Vancouver Institute of Media Arts](http://www.vanarts.com/): 私立。知り合いに話を聞く限りカリキュラムはいいと思う。

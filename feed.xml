@@ -5,8 +5,8 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2015 22:21:14 -0800</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2015 22:21:14 -0800</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2015 01:00:00 -0800</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2015 01:00:00 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -383,9 +383,12 @@ BCITは就職率が高いとよく言われるが当該コースに限って言�
   &lt;li&gt;BCIT: Diploma取得ができるコース
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.bcit.ca/study/programs/6405dipma&quot;&gt;Digital Design and Development&lt;/a&gt;: New Mediaから編入する人もたまにいる2年コース&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.bcit.ca/study/programs/cst&quot;&gt;Computer Systems Technology&lt;/a&gt;: Computer Science系の2年コースでデザインはやらない&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.bcit.ca/study/programs/cst&quot;&gt;Computer Systems Technology&lt;/a&gt;: Computer Science系の2年コースでデザインはやらない&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
   &lt;li&gt;その他 (BCITのようにポスグラビザは発行されない)
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.vanarts.com/&quot;&gt;Vancouver Institute of Media Arts&lt;/a&gt;: 私立。知り合いに話を聞く限りカリキュラムはいいと思う。&lt;/li&gt;
@@ -402,6 +405,13 @@ BCITは就職率が高いとよく言われるが当該コースに限って言�
 
 &lt;p&gt;*Practicum詳細については別記事の&lt;a href=&quot;http://blog.kaffeekantate.xyz/bcit-practicum/&quot;&gt;こちら&lt;/a&gt;を。&lt;/p&gt;
 
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Computer Systems Technologyを修了した方のブログは&lt;a href=&quot;http://j6photo77.blogspot.ca/2015/11/bcit-full-time-part-time.html&quot;&gt;こちら&lt;/a&gt;。BCIT Full-timeとPart-timeコースの違いについて書かれています。 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Sun, 02 Aug 2015 00:00:00 -0700</pubDate>
         <link>http://blog.kaffeekantate.xyz/bcit-new-media/</link>

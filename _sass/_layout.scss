@@ -363,10 +363,13 @@
     .social-button, .fb_iframe_widget > span {
         vertical-align: baseline !important;
         display: inline-block;
-        padding-right: 20px;
+        padding-right: 10px;
     }
     .fb_iframe_widget {
         width: 48px;
+    }
+    .twitter-share-button {
+        padding-right: 10px;
     }
  }
 

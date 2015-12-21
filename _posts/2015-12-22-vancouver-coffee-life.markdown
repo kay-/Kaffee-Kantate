@@ -5,7 +5,7 @@ date: 2015-12-22
 published: true
 excerpt: コーヒー Advent Calendar 2015 22日目の記事。バンクーバー生活とコーヒーについて書きます。
 tags: coffee vancouver advent
-cover_image: /2015/1213-rachmaninov_concerto_piano_2_theme_1mvt.jpg
+cover_image: /2015/1222-sign.jpg
 ---
 [コーヒー Advent Calendar 2015](http://www.adventar.org/calendars/895) 22日目の記事。バンクーバーお勧めカフェでも書こうと思ってましたが、ググれば日本語でも英語でもたくさん見つかるので普段の生活とコーヒーについてまったり書きます。ちなみに本格的にコーヒーにはまりだしたのは大学を卒業してから([自家焙煎珈琲みじんこを想う](/mijinco-coffee/))。
 

@@ -4,7 +4,7 @@ title: ショパン ワルツ第9番変イ長調作品69-1「別れのワルツ�
 date: 2015-12-06
 published: true
 excerpt: クラシック曲 Advent Calendar 2015 6日目の記事。ショパンのワルツ第9番変イ長調作品69-1、通称「別れのワルツ」について。
-tags: music
+tags: music advent
 cover_image: /2015/1206-chopin.jpg
 ---
 [クラシック曲 Advent Calendar 2015](http://www.adventar.org/calendars/948) 6日目の記事。ショパンのワルツ第9番変イ長調作品69-1、通称「別れのワルツ」について書きます。

@@ -4,7 +4,7 @@ title: ラフマニノフ ピアノ協奏曲第2番ハ短調op.18
 date: 2015-12-13
 published: true
 excerpt: クラシック曲 Advent Calendar 2015 13日目の記事。ラフマニノフのピアノ協奏曲第2番ハ短調op.18について。
-tags: music
+tags: music advent
 cover_image: /2015/1213-rachmaninov_concerto_piano_2_theme_1mvt.jpg
 ---
 [クラシック曲 Advent Calendar 2015](http://www.adventar.org/calendars/948) 13日目の記事。6日目に続いて2回目の記事ですがラフマニノフのピアノ協奏曲第2番ハ短調op.18について書きます。

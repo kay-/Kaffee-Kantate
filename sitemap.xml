@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://blog.kaffeekantate.xyz/vancouver-coffee-life/</loc>
+    <lastmod>2015-12-22T00:00:00-08:00</lastmod>
+  </url>
+  <url>
     <loc>http://blog.kaffeekantate.xyz/rachmaninoff-piano-concerto-2/</loc>
     <lastmod>2015-12-13T00:00:00-08:00</lastmod>
   </url>
@@ -70,6 +74,9 @@
     <loc>http://blog.kaffeekantate.xyz/tag/%E5%BE%92%E7%84%B6/</loc>
   </url>
   <url>
+    <loc>http://blog.kaffeekantate.xyz/tag/coffee/</loc>
+  </url>
+  <url>
     <loc>http://blog.kaffeekantate.xyz/tag/javascript/</loc>
   </url>
   <url>
@@ -91,6 +98,6 @@
     <loc>http://blog.kaffeekantate.xyz/tag/%E7%95%99%E5%AD%A6/</loc>
   </url>
   <url>
-    <loc>http://blog.kaffeekantate.xyz/page2/</loc>
+    <loc>http://blog.kaffeekantate.xyz/tag/advent/</loc>
   </url>
 </urlset>

@@ -7,18 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>JavaScriptによるtarget="_blank"の指定 | Kaffee Kantate</title>
-  <meta name="description" content="Markdown記法でtarget="_blank"を指定するのが面倒だったのでJavaScriptで外部サイトは別タブで開くように設定。">
+  <title>バンクーバー生活とコーヒー | Kaffee Kantate</title>
+  <meta name="description" content="コーヒー Advent Calendar 2015 22日目の記事。バンクーバー生活とコーヒーについて書きます。">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.kaffeekantate.xyz/set-target-blank/">
+  <link rel="canonical" href="http://blog.kaffeekantate.xyz/vancouver-coffee-life/">
   <link rel="alternate" type="application/rss+xml" title="Kaffee Kantate" href="http://blog.kaffeekantate.xyz/feed.xml" />
 
-  <meta property="og:title" content="JavaScriptによるtarget="_blank"の指定 | Kaffee Kantate" />
+  <meta property="og:title" content="バンクーバー生活とコーヒー | Kaffee Kantate" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Markdown記法でtarget="_blank"を指定するのが面倒だったのでJavaScriptで外部サイトは別タブで開くように設定。" />
-  <meta property="og:url" content="http://blog.kaffeekantate.xyz/set-target-blank/" />
-  <meta property="og:image" content="http://blog.kaffeekantate.xyz/images/2015/" />
+  <meta property="og:description" content="コーヒー Advent Calendar 2015 22日目の記事。バンクーバー生活とコーヒーについて書きます。" />
+  <meta property="og:url" content="http://blog.kaffeekantate.xyz/vancouver-coffee-life/" />
+  <meta property="og:image" content="http://blog.kaffeekantate.xyz/images/2015/1213-rachmaninov_concerto_piano_2_theme_1mvt.jpg" />
   <meta property="og:site_name" content="Kaffee Kantate" />
   <meta property="fb:app_id" content="1420984721525609" />
 
@@ -111,38 +111,68 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">JavaScriptによるtarget="_blank"の指定</h1>
-    <p class="post-meta">Jan 18, 2015</p>
-    <div class="post-tag"><a href="/tag/javascript" rel="tag">javascript</a>, <a href="/tag/jekyll" rel="tag">jekyll</a></div>
+    <h1 class="post-title">バンクーバー生活とコーヒー</h1>
+    <p class="post-meta">Dec 22, 2015</p>
+    <div class="post-tag"><a href="/tag/coffee" rel="tag">coffee</a>, <a href="/tag/vancouver" rel="tag">vancouver</a>, <a href="/tag/advent" rel="tag">advent</a></div>
   </header>
 
   <article class="post-content">
-    <p>Markdownで記事本文に外部リンクをはった際に自動でtarget=”_blank”が設定されるように以下のコードを追加。</p>
+    <p><a href="http://www.adventar.org/calendars/895">コーヒー Advent Calendar 2015</a> 22日目の記事。バンクーバーお勧めカフェでも書こうと思ってましたが、ググれば日本語でも英語でもたくさん見つかるので普段の生活とコーヒーについてまったり書きます。ちなみに本格的にコーヒーにはまりだしたのは大学を卒業してから(<a href="/mijinco-coffee/">自家焙煎珈琲みじんこを想う</a>)。</p>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-	<span class="kd">var</span> <span class="nx">links</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">links</span><span class="p">;</span>
-	<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">links</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-		<span class="k">if</span> <span class="p">(</span><span class="nx">links</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">hostname</span> <span class="o">!=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">hostname</span><span class="p">)</span> <span class="p">{</span>
-			<span class="nx">links</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">target</span> <span class="o">=</span> <span class="s1">&#39;_blank&#39;</span><span class="p">;</span>
-		<span class="p">}</span>
-	<span class="p">}</span>
-<span class="p">}());</span></code></pre></div>
+<p><img src="/images/2015/1222-sign.jpg" alt="Medina Cafe: Life is too short for bad coffee" /></p>
 
-<p>linksプロパティで文書中のarea/anchor要素をHTMLCollectionとして取得し、現在のURLのホスト名と取得した要素のホスト名が異なっていればtarget = “_blank”を指定。</p>
+<p class="credit">(Medina Cafe: Life is too short for bad coffee)</p>
 
-<p>ちなみに文書中から全て取得する必要はないので記事のみを対象に
-<code>Document.getElementsByClassName('post-content').links</code>
-とかやってみたものの、linksはdocumentオブジェクトに属するため無理でした
-(参考: <a href="https://developer.mozilla.org/ja/docs/Web/API/document">documentオブジェクト</a>)。</p>
+<h2 id="section">バンクーバーとコーヒー</h2>
 
-<p>基本的に外部サイトは別タブで開くようにしているので自分の場合はこれで問題ないですが、どうしても個別に指定したい場合はplugin探すか素直にhtml書いたほうがいいですね。</p>
+<p>北米でコーヒーといえばセカンドウェーブのシアトル、サードウェーブのポートランド等アメリカを思い浮かべる方が多いと思いますが、ここバンクーバーにもシングルオリジンを扱うローカルカフェが多数存在します。コーヒー文化が過小評価されている都市というテーマのランキング(<a href="http://www.vancitybuzz.com/2015/01/vancouver-ranked-worlds-3rd-best-city-coffee-lovers/">Vancouver ranked world’s 3rd best city for coffee lovers</a>)では3位に位置していたりも。</p>
 
-<h4 id="section">追記</h4>
-<p>Markdownのパーサーにkramdownを使っていれば</p>
+<p>バンクーバーにはこじんまりとしたアーティスト工房やブティックサイズのデザイン会社、スタートアップが多く、コーヒー文化と親和性が高いのではと感じます。たいていのオフィスにはフレンチプレスかエスプレッソマシンがあり電動ミルで豆挽いてる印象。</p>
 
-<p><code>[link](url){: attribute="value"}</code></p>
+<h2 id="section-1">自宅コーヒー環境: シェアハウス</h2>
 
-<p>が使えるので<code>{:target="_blank"}</code>をつけてあげれば対応可能と知りました。</p>
+<p><a href="http://vancouverch.com/">バンクーバーのクリエイター用シェアハウス: Frog HOUSE</a>に住んでいますが、ここはコーヒー関連の器具が揃っており普段家で飲む分には全く困らないという環境。一時期は4日目に記事を書いている<a href="http://t32k.me/mol/log/coffee-lovers/">t32k</a>さんも暮らしてました。</p>
+
+<h3 id="section-2">器具</h3>
+
+<p><img src="/images/2015/1222-coffee-equipment.jpg" alt="Frog HOUSE Coffee Equipment" /></p>
+
+<p class="credit">(Frog HOUSE Coffee Equipment: 梅雨のため部屋が暗く画質が…)</p>
+
+<p>ミル、エスプレッソマシンはシェアハウスの備品、その他の器具はもともとは住人の私物です(面倒くさいので共有として置いてますが)。BIALETTIは6-Cupなので他の住人にコーヒー振る舞う時に便利。</p>
+
+<p>最近は朝急いでコーヒーを淹れることが多く、味のばらつきも大きいのでHARIOドリップスケールを買おうか迷っているところ。</p>
+
+<h3 id="section-3">カップ</h3>
+
+<p><img src="/images/2015/1222-coffee-cup.jpg" alt="Coffee Cup" /></p>
+
+<p>こちらは自分の私物。毎朝ドリップコーヒーをスタバのタンブラーにいれて職場に持っていってます。タンブラー以外は貰い物で、同僚からの<a href="http://revolvercoffee.ca/home/">Revolver</a>コーヒーカップ(Rマーク。バンクーバーのカフェ)と友人からの猫グラスがお気に入り。</p>
+
+<h3 id="section-4">コーヒー豆</h3>
+
+<p><img src="/images/2015/1222-revolver.jpg" alt="Revolver: Coffee Beans" /></p>
+
+<p class="credit">(Revolver: Coffee Beans)</p>
+
+<p>コーヒー豆はローカルのカフェで買うことが多いですが、アメリカへ遊びにいった友人や住人からお土産としてもらったり、ファーマーズマーケットで買ってみることも。お気に入りのお店は有名どころのRevolverとMatchstick。</p>
+
+<ul>
+  <li><a href="http://revolvercoffee.ca/home/">Revolver</a></li>
+  <li><a href="http://www.matchstickcoffee.com/">Matchstick Coffee Roasters</a></li>
+</ul>
+
+<h3 id="section-5">カフェ</h3>
+
+<p><img src="/images/2015/1222-matchstick.jpg" alt="Matchstick Coffee Roasters" /></p>
+
+<p class="credit">(Matchstick Coffee Roasters)</p>
+
+<p>たいていのカフェはwifiを提供しているので美味しいコーヒーを飲みながらゆっくり作業可能。去年は学校の課題に疲れたら気分転換にMatchstickいって作業してました。</p>
+
+<h2 id="section-6">最高のコーヒーを求めて</h2>
+
+<p>いつの間にか趣味となっている珈琲ですが、積読していた「<a href="http://www.amazon.co.jp/ebook/dp/B00IHJN364/">コーヒー　おいしさの方程式</a>」を読むと、まだまだ自分には専門的すぎる部分が多いです。こちらのバリスタともっと詳しい話ができる知識と英語力の必要性を感じる今日この頃。</p>
 
 
     <div class="social">
@@ -150,7 +180,7 @@
 
 	<a href="https://twitter.com/share" class="twitter-share-button social-button" data-count="none">Tweet</a>
 
-	<a href="http://b.hatena.ne.jp/entry/http://blog.kaffeekantate.xyz/set-target-blank/" class="hatena-bookmark-button social-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加" target="_blank"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+	<a href="http://b.hatena.ne.jp/entry/http://blog.kaffeekantate.xyz/vancouver-coffee-life/" class="hatena-bookmark-button social-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加" target="_blank"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
 
 </div>
 

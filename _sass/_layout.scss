@@ -322,7 +322,7 @@
 
     .credit {
         color: $grey-color;
-        font-style: italic;
+        //font-style: italic;
         font-size: 12px;
         a {
             color: $grey-color;
@@ -371,6 +371,14 @@
     }
 }
 
+/**
+ * Instagram
+ */
+.instagram-media {
+    margin: 0 auto $spacing-unit !important;
+    //margin-bottom: $spacing-unit/2;
+
+}
 /**
  * footnotes
  */

@@ -4,7 +4,7 @@ title: 大塚国際美術館 訪問記
 date: 2015-05-01
 published: true
 excerpt: 美術館特集が組まれると常に上位に出てくる大塚国際美術館。やっと行くことができたので感想を徒然と。
-tags: art museum
+tags: art museum trip
 cover_image: /2015/otsuka/0501-art4.JPG
 ---
 ![大塚国際美術館](/images/2015/otsuka/0501-art1.jpg)

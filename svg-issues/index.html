@@ -7,18 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>ウェブサイトのフルスクリーン表示 (CSS / JavaScript) | Kaffee Kantate</title>
-  <meta name="description" content="要素のフルスクリーン表示をCSSとJavaScriptそれぞれで実装。">
+  <title>SVGアニメーションを行う上で遭遇したイシュー | Kaffee Kantate</title>
+  <meta name="description" content="SVGアニメーションにおけるブラウザ動作環境の違いなど">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.kaffeekantate.xyz/full-screen/">
+  <link rel="canonical" href="http://blog.kaffeekantate.xyz/svg-issues/">
   <link rel="alternate" type="application/rss+xml" title="Kaffee Kantate" href="http://blog.kaffeekantate.xyz/feed.xml" />
 
-  <meta property="og:title" content="ウェブサイトのフルスクリーン表示 (CSS / JavaScript) | Kaffee Kantate" />
+  <meta property="og:title" content="SVGアニメーションを行う上で遭遇したイシュー | Kaffee Kantate" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="要素のフルスクリーン表示をCSSとJavaScriptそれぞれで実装。" />
-  <meta property="og:url" content="http://blog.kaffeekantate.xyz/full-screen/" />
-  <meta property="og:image" content="http://blog.kaffeekantate.xyz/images/2015/" />
+  <meta property="og:description" content="SVGアニメーションにおけるブラウザ動作環境の違いなど" />
+  <meta property="og:url" content="http://blog.kaffeekantate.xyz/svg-issues/" />
+  <meta property="og:image" content="http://blog.kaffeekantate.xyz/images/title.jpg" />
   <meta property="og:site_name" content="Kaffee Kantate" />
   <meta property="fb:app_id" content="1420984721525609" />
 
@@ -119,140 +119,71 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">ウェブサイトのフルスクリーン表示 (CSS / JavaScript)</h1>
-    <p class="post-meta">Jan 19, 2015</p>
-    <div class="post-tag"><a href="/tag/javascript" rel="tag">javascript</a>, <a href="/tag/css" rel="tag">css</a></div>
+    <h1 class="post-title">SVGアニメーションを行う上で遭遇したイシュー</h1>
+    <p class="post-meta">Apr 2, 2016</p>
+    <div class="post-tag"><a href="/tag/svg" rel="tag">svg</a>, <a href="/tag/css" rel="tag">css</a></div>
   </header>
 
   <article class="post-content">
-    <p>要素のフルスクリーン表示をCSSとJavaScriptそれぞれで実装。
-元になるHTMLは以下を使用。</p>
+    <p>仕事でSVGアニメーションをやったものの予想以上に大変だったので遭遇したイシューをいくつか。ブラウザ環境に依存する話が多いのであくまで <strong>2016年4月2日</strong> 時点の内容です。</p>
 
-<pre><code>&lt;body&gt;
-	&lt;section class="full1"&gt;
-		&lt;p&gt;Page1&lt;/p&gt;
-	&lt;/section&gt;
-	&lt;section class="full2"&gt;
-		&lt;p&gt;Page2&lt;/p&gt;
-	&lt;/section&gt;
-	&lt;section class="full3"&gt;
-		&lt;p&gt;Page3&lt;/p&gt;
-	&lt;/section&gt;
-&lt;/body&gt;
-</code></pre>
+<h2 id="firefox-svgtransform-origin">[Firefox] SVG要素に対してtransform-originが正しく動作しない</h2>
 
-<h2 id="css1">CSSその1</h2>
+<p>現状だとFirefoxでtransform-originを他のブラウザと同じように動作させるには、</p>
 
-<p>よく見かける<code>position:absolute</code>と<code>height:100%</code>の組み合わせ。
-複数の要素をフルスクリーン表示させる場合少し面倒くさいか。</p>
+<ul>
+  <li><code>transform-box: fill-box;</code>を設定</li>
+  <li>preferenceにて<code>svg.transform-origin.enabled</code>を有効</li>
+</ul>
 
-<div data-height="350" data-theme-id="0" data-slug-hash="emWEJJ" data-default-tab="css" data-user="kay8" class="codepen"><pre><code>body {
-  margin: 0;
-  padding: 0;
-}
-p {
-  text-align: center;
-  color: white;
-  font-size: 2em;
-  margin-top: 0;
-}
-.full1, .full2, .full3 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: block;
-}
-.full1 {
-  background-color: teal;
-  top: 0;
+<p>にしなければならない模様。</p>
 
-}
-.full2 {
-  background-color: blue;
-  top: 100%;
-}
-.full3 {
-  background-color: black;
-  top: 200%;
-}</code></pre>
-<p>See the Pen <a href="http://codepen.io/kay8/pen/emWEJJ/">Full Screen: CSS1</a> by Kei (<a href="http://codepen.io/kay8">@kay8</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-</div>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-<h2 id="css2">CSSその2</h2>
-
-<p><code>height: 100vh</code>を使った方法。vhはviewport heightの略でビューポートに対する割合を指定可能。上から10%の場合は<code>height: 10vh</code>。</p>
-
-<div data-height="350" data-theme-id="0" data-slug-hash="JoNyGN" data-default-tab="css" data-user="kay8" class="codepen"><pre><code>		body {
-			margin: 0;
-			padding: 0;
-		}
-		p {
-			text-align: center;
-			color: white;
-			font-size: 2em;
-			margin-top: 0;
-		}
-		.full1, .full2, .full3 {
-			height: 100vh;
-			width: 100%;
-			display: block;
-		}
-		.full1 {
-			background-color: teal;
-
-		}
-		.full2 {
-			background-color: blue;
-		}
-		.full3 {
-			background-color: black;
-		}</code></pre>
-<p>See the Pen <a href="http://codepen.io/kay8/pen/JoNyGN/">Full Screen: CSS2</a> by Kei (<a href="http://codepen.io/kay8">@kay8</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-</div>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-<p>%による指定との大きな違いは</p>
+<p>これはtransform及びtransform-originにおけるポジションを規定する<code>transform-box</code>というプロパティがまだW3Cにおいてドラフトだから、という理由からくる実装らしい。なのでSVG要素をtransformさせたい場合は現状JavaScriptを使うしかなさそう。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1209061">Bug 1209061 - transform-origin not applied correctly on svg content</a>)</p>
 
 <blockquote>
-  <p>% の場合は対象となる要素のプロパティが親要素のそれと紐付けられるため、必ずしもビューポートの幅が基準になるとは限りません。(中略)vw, vh にはそのようなプロパティの紐付けがありません。(<a href="http://dev.classmethod.jp/?p=95757">CSS には vw, vh, vmin, vmax という単位がある ｜ Developers.IO
-</a>)</p>
+  <p>You’d need to set transform-box: fill-box; and also enable the svg.transform-origin.enabled pref (Firefox 41, 42) or the svg.transform-box.enabled pref (Firefox 43).</p>
 </blockquote>
 
-<p>現時点(2015/1/19)でAndroid Brower4.4以降にしか対応していないこと、<a href="http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html">モバイル版Safariでバグ</a>が多いことを考えると使うかどうかは微妙なところ(どちらもそこまでユーザは多くないですが)。</p>
+<h2 id="ie9-svg">[IE(9以上)] SVG要素を正しいアスペクト比で表示させるには幅と高さの設定が必要</h2>
 
-<h2 id="javascript">JavaScript</h2>
+<p>他のブラウザでは’width’と’height’を設定していなくても問題ないですが、残念ながらIEの場合、元のアスペクト比を保てない。(<a href="http://codepen.io/tomByrer/pen/qEBbzw?editors=110">Test Scaling Of SVG Images In Fluid Layouts</a>)</p>
 
-<p>こちらは<code>getElementsByTagName</code>で取得したNodeListの要素へstyle属性を設定するもの。単に要素のリストがほしいだけなので<code>getElementsByTagName</code>を使用。(<a href="http://news.mynavi.jp/articles/2010/10/01/javascript-nodelist-difference/">参考: getElementsByTagName()がquerySelectorAll()より高速な理由</a>)</p>
+<blockquote>
+  <p>&lt;svg … viewBox=”0 0 500 500” width=”500px” height=”500px” preserveAspectRatio=”xMinYMin meet”&gt;</p>
+</blockquote>
 
-<div data-height="310" data-theme-id="0" data-slug-hash="vEmJLR" data-default-tab="js" data-user="kay8" class="codepen"><pre><code>		window.addEventListener(&#x27;load&#x27;, setGreetHeight, false);
-		window.addEventListener(&#x27;resize&#x27;, setGreetHeight, false);
-		var w = window.innerWidth;
+<p>pxで値を設定してしまうとレスポンシブにならないため、user-agentがIEのときのみwindow resizeに合わせて縦横の値を調整するようにしました。</p>
 
-		function setGreetHeight() {
-		  var h = window.innerHeight;
-		  var sec = document.getElementsByTagName(&#x27;section&#x27;);
-		  console.log(sec);
-		  for (var i = 0; i &lt; sec.length; i++) {
-		  	sec[i].style.height = h + &quot;px&quot;;
-		  }
-		}</code></pre>
-<p>See the Pen <a href="http://codepen.io/kay8/pen/vEmJLR/">Full Screen: JavaScript</a> by Kei (<a href="http://codepen.io/kay8">@kay8</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-</div>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+<h2 id="chrome-stroke-dasharray">[Chrome] 複雑なパスの場合、stroke-dasharrayを正しく描画できない</h2>
 
-<p><code>getElementsByClassName()</code>か<code>getElementById</code>を使った方がパフォーマンスが良いみたいですが (<a href="http://jsperf.com/js-getelement">参考</a>)。indexされている分、TagNameよりも速いんですかね？(この辺りの理由はよく分からず…)</p>
+<p>波線状のストロークを描画する<code>stroke-dasharray</code>を複雑なパスに用いるとChromeでは描画されなくなるバグ。どの程度の複雑性なら描画されるのか不明。それぞれのパスが独立していても全体に影響することが多々あったのでファイルサイズや要素数も関係しているのかもと勝手に予想してはいますが…</p>
 
-<h2 id="section">その他</h2>
-<p>モバイルでランドスケープ表示にした際、viewport外にある要素が表示されないサイトをたまに見かけるので必要に応じて<code>min-height</code>の設定を。</p>
+<p>検索してみるとこの問題を報告しているブログ等が多く見つかるので有名なバグのよう。もとのSVGファイルを修正して破線状のパスを減らすしかないのでは。(<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=364866">SVG stroke-dasharray applies dashes across disconnected (M) path segments.</a>)</p>
 
+<h2 id="snapsvg-animate-api">[Snap.svg] animate APIはパフォーマンスに問題があるため、アニメーションさせたい場合は別の方法との組み合わせを</h2>
+
+<p>SVGを操作するライブラリとして有名な<a href="http://snapsvg.io/">Snap.svg</a>(jQuery for SVGのような役割)ですが、animate APIを使うとかなりパフォーマンスに問題がでます。(<a href="http://www.newicon.net/svg-animation-snapsvg/">Adventures with SVG animation and Snap.svg</a>)</p>
+
+<p>リンク先の記事では以下の通りフレームレートの低さを指摘していますが、CPU使用率もかなり高くなってしまいました。</p>
+
+<blockquote>
+  <p>Both scripting and rendering were taking longer than was needed for a clean 60fps framerate…I found a ton of timers firing as each animation loop stacked atop the other. In addition to this, rendering time was also significant</p>
+</blockquote>
+
+<p>簡単なアニメーションならVanilla JSで、そうでないならパフォーマンス的にも安定した<a href="http://julian.com/research/velocity/">Velocity.js</a>や<a href="https://greensock.com/gsap">GSAP</a>との併用が必要になります。</p>
+
+<h2 id="illustrator-">[Illustrator] 破線状のラインを多用するとファイルサイズが著しく肥大化</h2>
+
+<p>これはイラストレータ及びSVGファイルの話ですが、破線状のラインを使うと、破線のドットそれぞれにanchor pointが設定されるためファイルサイズが極端に肥大化。破線ライン以外には単純な丸と四角のオブジェクトしか使われていないようなファイルが簡単に1MB近くなったりするので注意。</p>
+
+<p>理由がわからず困っていたところ即答してくれた<a href="http://akiaoki.com/">Aki Aoki</a>氏には感謝。</p>
 
     <div class="social">
 	<div class="fb-like social-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="false" height="20"></div>
 
 	<a href="https://twitter.com/share" class="twitter-share-button social-button" data-count="none">Tweet</a>
 
-	<a href="http://b.hatena.ne.jp/entry/http://blog.kaffeekantate.xyz/full-screen/" class="hatena-bookmark-button social-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加" target="_blank"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+	<a href="http://b.hatena.ne.jp/entry/http://blog.kaffeekantate.xyz/svg-issues/" class="hatena-bookmark-button social-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加" target="_blank"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
 
 </div>
 
@@ -288,7 +219,7 @@ p {
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text copyright">&copy; 2015 <a href="/">Kaffee Kantate</a>, Powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
+        <p class="text copyright">&copy; 2016 <a href="/">Kaffee Kantate</a>, Powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
       </div>
     </div>
 

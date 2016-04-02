@@ -5,9 +5,75 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Mar 2016 15:06:48 -0700</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2016 15:06:48 -0700</lastBuildDate>
+    <pubDate>Sat, 02 Apr 2016 16:19:36 -0700</pubDate>
+    <lastBuildDate>Sat, 02 Apr 2016 16:19:36 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>SVGアニメーションを行う上で遭遇したイシュー</title>
+        <description>&lt;p&gt;仕事でSVGアニメーションをやったものの予想以上に大変だったので遭遇したイシューをいくつか。ブラウザ環境に依存する話が多いのであくまで &lt;strong&gt;2016年4月2日&lt;/strong&gt; 時点の内容です。&lt;/p&gt;
+
+&lt;h2 id=&quot;firefox-svgtransform-origin&quot;&gt;[Firefox] SVG要素に対してtransform-originが正しく動作しない&lt;/h2&gt;
+
+&lt;p&gt;現状だとFirefoxでtransform-originを他のブラウザと同じように動作させるには、&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;transform-box: fill-box;&lt;/code&gt;を設定&lt;/li&gt;
+  &lt;li&gt;preferenceにて&lt;code&gt;svg.transform-origin.enabled&lt;/code&gt;を有効&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;にしなければならない模様。&lt;/p&gt;
+
+&lt;p&gt;これはtransform及びtransform-originにおけるポジションを規定する&lt;code&gt;transform-box&lt;/code&gt;というプロパティがまだW3Cにおいてドラフトだから、という理由からくる実装らしい。なのでSVG要素をtransformさせたい場合は現状JavaScriptを使うしかなさそう。(&lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=1209061&quot;&gt;Bug 1209061 - transform-origin not applied correctly on svg content&lt;/a&gt;)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You’d need to set transform-box: fill-box; and also enable the svg.transform-origin.enabled pref (Firefox 41, 42) or the svg.transform-box.enabled pref (Firefox 43).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;ie9-svg&quot;&gt;[IE(9以上)] SVG要素を正しいアスペクト比で表示させるには幅と高さの設定が必要&lt;/h2&gt;
+
+&lt;p&gt;他のブラウザでは’width’と’height’を設定していなくても問題ないですが、残念ながらIEの場合、元のアスペクト比を保てない。(&lt;a href=&quot;http://codepen.io/tomByrer/pen/qEBbzw?editors=110&quot;&gt;Test Scaling Of SVG Images In Fluid Layouts&lt;/a&gt;)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;lt;svg … viewBox=”0 0 500 500” width=”500px” height=”500px” preserveAspectRatio=”xMinYMin meet”&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;pxで値を設定してしまうとレスポンシブにならないため、user-agentがIEのときのみwindow resizeに合わせて縦横の値を調整するようにしました。&lt;/p&gt;
+
+&lt;h2 id=&quot;chrome-stroke-dasharray&quot;&gt;[Chrome] 複雑なパスの場合、stroke-dasharrayを正しく描画できない&lt;/h2&gt;
+
+&lt;p&gt;波線状のストロークを描画する&lt;code&gt;stroke-dasharray&lt;/code&gt;を複雑なパスに用いるとChromeでは描画されなくなるバグ。どの程度の複雑性なら描画されるのか不明。それぞれのパスが独立していても全体に影響することが多々あったのでファイルサイズや要素数も関係しているのかもと勝手に予想してはいますが…&lt;/p&gt;
+
+&lt;p&gt;検索してみるとこの問題を報告しているブログ等が多く見つかるので有名なバグのよう。もとのSVGファイルを修正して破線状のパスを減らすしかないのでは。(&lt;a href=&quot;https://bugs.chromium.org/p/chromium/issues/detail?id=364866&quot;&gt;SVG stroke-dasharray applies dashes across disconnected (M) path segments.&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&quot;snapsvg-animate-api&quot;&gt;[Snap.svg] animate APIはパフォーマンスに問題があるため、アニメーションさせたい場合は別の方法との組み合わせを&lt;/h2&gt;
+
+&lt;p&gt;SVGを操作するライブラリとして有名な&lt;a href=&quot;http://snapsvg.io/&quot;&gt;Snap.svg&lt;/a&gt;(jQuery for SVGのような役割)ですが、animate APIを使うとかなりパフォーマンスに問題がでます。(&lt;a href=&quot;http://www.newicon.net/svg-animation-snapsvg/&quot;&gt;Adventures with SVG animation and Snap.svg&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;リンク先の記事では以下の通りフレームレートの低さを指摘していますが、CPU使用率もかなり高くなってしまいました。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Both scripting and rendering were taking longer than was needed for a clean 60fps framerate…I found a ton of timers firing as each animation loop stacked atop the other. In addition to this, rendering time was also significant&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;簡単なアニメーションならVanilla JSで、そうでないならパフォーマンス的にも安定した&lt;a href=&quot;http://julian.com/research/velocity/&quot;&gt;Velocity.js&lt;/a&gt;や&lt;a href=&quot;https://greensock.com/gsap&quot;&gt;GSAP&lt;/a&gt;との併用が必要になります。&lt;/p&gt;
+
+&lt;h2 id=&quot;illustrator-&quot;&gt;[Illustrator] 破線状のラインを多用するとファイルサイズが著しく肥大化&lt;/h2&gt;
+
+&lt;p&gt;これはイラストレータ及びSVGファイルの話ですが、破線状のラインを使うと、破線のドットそれぞれにanchor pointが設定されるためファイルサイズが極端に肥大化。破線ライン以外には単純な丸と四角のオブジェクトしか使われていないようなファイルが簡単に1MB近くなったりするので注意。&lt;/p&gt;
+
+&lt;p&gt;理由がわからず困っていたところ即答してくれた&lt;a href=&quot;http://akiaoki.com/&quot;&gt;Aki Aoki&lt;/a&gt;氏には感謝。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Apr 2016 00:00:00 -0700</pubDate>
+        <link>http://blog.kaffeekantate.xyz/svg-issues/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/svg-issues/</guid>
+        
+        <category>svg</category>
+        
+        <category>css</category>
+        
+        
+      </item>
     
       <item>
         <title>モントリオール旅行</title>
@@ -969,6 +1035,8 @@ http://www.o-museum.or.jp/
         
         <category>css</category>
         
+        <category>svg</category>
+        
         
       </item>
     
@@ -1048,141 +1116,6 @@ http://www.o-museum.or.jp/
         <category>vancouver</category>
         
         <category>music</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>ウェブサイトのフルスクリーン表示 (CSS / JavaScript)</title>
-        <description>&lt;p&gt;要素のフルスクリーン表示をCSSとJavaScriptそれぞれで実装。
-元になるHTMLは以下を使用。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;body&amp;gt;
-	&amp;lt;section class=&quot;full1&quot;&amp;gt;
-		&amp;lt;p&amp;gt;Page1&amp;lt;/p&amp;gt;
-	&amp;lt;/section&amp;gt;
-	&amp;lt;section class=&quot;full2&quot;&amp;gt;
-		&amp;lt;p&amp;gt;Page2&amp;lt;/p&amp;gt;
-	&amp;lt;/section&amp;gt;
-	&amp;lt;section class=&quot;full3&quot;&amp;gt;
-		&amp;lt;p&amp;gt;Page3&amp;lt;/p&amp;gt;
-	&amp;lt;/section&amp;gt;
-&amp;lt;/body&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;css1&quot;&gt;CSSその1&lt;/h2&gt;
-
-&lt;p&gt;よく見かける&lt;code&gt;position:absolute&lt;/code&gt;と&lt;code&gt;height:100%&lt;/code&gt;の組み合わせ。
-複数の要素をフルスクリーン表示させる場合少し面倒くさいか。&lt;/p&gt;
-
-&lt;div data-height=&quot;350&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;emWEJJ&quot; data-default-tab=&quot;css&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;&lt;pre&gt;&lt;code&gt;body {
-  margin: 0;
-  padding: 0;
-}
-p {
-  text-align: center;
-  color: white;
-  font-size: 2em;
-  margin-top: 0;
-}
-.full1, .full2, .full3 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: block;
-}
-.full1 {
-  background-color: teal;
-  top: 0;
-
-}
-.full2 {
-  background-color: blue;
-  top: 100%;
-}
-.full3 {
-  background-color: black;
-  top: 200%;
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/emWEJJ/&quot;&gt;Full Screen: CSS1&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;css2&quot;&gt;CSSその2&lt;/h2&gt;
-
-&lt;p&gt;&lt;code&gt;height: 100vh&lt;/code&gt;を使った方法。vhはviewport heightの略でビューポートに対する割合を指定可能。上から10%の場合は&lt;code&gt;height: 10vh&lt;/code&gt;。&lt;/p&gt;
-
-&lt;div data-height=&quot;350&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;JoNyGN&quot; data-default-tab=&quot;css&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;&lt;pre&gt;&lt;code&gt;		body {
-			margin: 0;
-			padding: 0;
-		}
-		p {
-			text-align: center;
-			color: white;
-			font-size: 2em;
-			margin-top: 0;
-		}
-		.full1, .full2, .full3 {
-			height: 100vh;
-			width: 100%;
-			display: block;
-		}
-		.full1 {
-			background-color: teal;
-
-		}
-		.full2 {
-			background-color: blue;
-		}
-		.full3 {
-			background-color: black;
-		}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/JoNyGN/&quot;&gt;Full Screen: CSS2&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;%による指定との大きな違いは&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;% の場合は対象となる要素のプロパティが親要素のそれと紐付けられるため、必ずしもビューポートの幅が基準になるとは限りません。(中略)vw, vh にはそのようなプロパティの紐付けがありません。(&lt;a href=&quot;http://dev.classmethod.jp/?p=95757&quot;&gt;CSS には vw, vh, vmin, vmax という単位がある ｜ Developers.IO
-&lt;/a&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;現時点(2015/1/19)でAndroid Brower4.4以降にしか対応していないこと、&lt;a href=&quot;http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html&quot;&gt;モバイル版Safariでバグ&lt;/a&gt;が多いことを考えると使うかどうかは微妙なところ(どちらもそこまでユーザは多くないですが)。&lt;/p&gt;
-
-&lt;h2 id=&quot;javascript&quot;&gt;JavaScript&lt;/h2&gt;
-
-&lt;p&gt;こちらは&lt;code&gt;getElementsByTagName&lt;/code&gt;で取得したNodeListの要素へstyle属性を設定するもの。単に要素のリストがほしいだけなので&lt;code&gt;getElementsByTagName&lt;/code&gt;を使用。(&lt;a href=&quot;http://news.mynavi.jp/articles/2010/10/01/javascript-nodelist-difference/&quot;&gt;参考: getElementsByTagName()がquerySelectorAll()より高速な理由&lt;/a&gt;)&lt;/p&gt;
-
-&lt;div data-height=&quot;310&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;vEmJLR&quot; data-default-tab=&quot;js&quot; data-user=&quot;kay8&quot; class=&quot;codepen&quot;&gt;&lt;pre&gt;&lt;code&gt;		window.addEventListener(&amp;#x27;load&amp;#x27;, setGreetHeight, false);
-		window.addEventListener(&amp;#x27;resize&amp;#x27;, setGreetHeight, false);
-		var w = window.innerWidth;
-
-		function setGreetHeight() {
-		  var h = window.innerHeight;
-		  var sec = document.getElementsByTagName(&amp;#x27;section&amp;#x27;);
-		  console.log(sec);
-		  for (var i = 0; i &amp;lt; sec.length; i++) {
-		  	sec[i].style.height = h + &amp;quot;px&amp;quot;;
-		  }
-		}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See the Pen &lt;a href=&quot;http://codepen.io/kay8/pen/vEmJLR/&quot;&gt;Full Screen: JavaScript&lt;/a&gt; by Kei (&lt;a href=&quot;http://codepen.io/kay8&quot;&gt;@kay8&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;code&gt;getElementsByClassName()&lt;/code&gt;か&lt;code&gt;getElementById&lt;/code&gt;を使った方がパフォーマンスが良いみたいですが (&lt;a href=&quot;http://jsperf.com/js-getelement&quot;&gt;参考&lt;/a&gt;)。indexされている分、TagNameよりも速いんですかね？(この辺りの理由はよく分からず…)&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;その他&lt;/h2&gt;
-&lt;p&gt;モバイルでランドスケープ表示にした際、viewport外にある要素が表示されないサイトをたまに見かけるので必要に応じて&lt;code&gt;min-height&lt;/code&gt;の設定を。&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 19 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://blog.kaffeekantate.xyz/full-screen/</link>
-        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/full-screen/</guid>
-        
-        <category>javascript</category>
-        
-        <category>css</category>
         
         
       </item>

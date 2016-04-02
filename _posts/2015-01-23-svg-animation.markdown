@@ -4,7 +4,7 @@ title: CSSアニメーションによるSVG pathの操作
 date: 2015-01-23
 published: true
 excerpt: stroke-dasharray/stroke-dashoffsetとfill-opacityによるアニメーション。
-tags: css
+tags: css svg
 cover_image: /2015/
 ---
 

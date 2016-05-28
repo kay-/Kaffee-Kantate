@@ -425,3 +425,10 @@ ul.tag-list {
         margin-bottom: $spacing-unit / 2;
     }
 }
+
+.tag-cloud {
+    a::after {
+        content: " / ";
+        color: #000;
+    }
+}

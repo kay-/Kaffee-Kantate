@@ -5,9 +5,105 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Apr 2016 22:21:04 -0700</pubDate>
-    <lastBuildDate>Tue, 05 Apr 2016 22:21:04 -0700</lastBuildDate>
+    <pubDate>Sat, 28 May 2016 16:32:45 -0700</pubDate>
+    <lastBuildDate>Sat, 28 May 2016 16:32:45 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>BCIT New Media Design &amp; Web Development - 卒業後の進路など</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/2016/0529-after-bcit.jpg&quot; alt=&quot;Company office from my seat&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;(勤務先自席からの眺め)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bcit.ca/&quot;&gt;British Columbia Institute of Technology&lt;/a&gt;の&lt;a href=&quot;http://www.bcit.ca/study/programs/6415smcert&quot;&gt;New Media Design &amp;amp; Web Development&lt;/a&gt;を卒業してから早一年。また卒業後に就職してからもうすぐ一年ということで、就職活動やバンクーバーでの就労経験を踏まえての最後のまとめ。&lt;/p&gt;
+
+&lt;p&gt;うまく現地で就職できたということもあり、後付けのバイアスが多分に含まれてますのでそこは差し引いて読んでください。ちなみに今はバンクーバーのデザイン会社でWeb DeveloperとしてウェブサイトやE-Commerceサイトを作っています。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;クラスメイト就職状況&lt;/h2&gt;
+
+&lt;p&gt;以前書いた&lt;a href=&quot;/bcit-new-media/&quot;&gt;コースレビュー&lt;/a&gt;では&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;卒業後3ヵ月以内にdesign/development/media等に関係する企業に就職したのはクラス20人中5人程度で全員何かしらバックグラウンドがあった人。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;と書きましたが、自分が知っている限りこの点は大きく変わらず。&lt;/p&gt;
+
+&lt;p&gt;その後就職できたクラスメイトの進路としては&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;オンラインのプログラミングコース?を修了してWeb製作会社に就職&lt;/li&gt;
+  &lt;li&gt;2年のDiplomaコースである&lt;a href=&quot;http://www.bcit.ca/study/programs/6405dipma&quot;&gt;Digital Design and Development&lt;/a&gt;に編入後、Webサービス系の会社に就職&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;というものがあるように、スキル/ビザといった面での状況を変えないと厳しいのが現実。同時期の別キャンパスや一期前に卒業した人を見ていてもだいたい同じでした。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;クラスメイト就職先&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bcit.ca/study/programs/6415smcert#graduating&quot;&gt;当該コースのウェブページ&lt;/a&gt;にはいろいろと職種が並んでますが、デザイン/製作会社のWeb DeveloperおよびWeb Designerが一番多いです。&lt;/p&gt;
+
+&lt;p&gt;理由としては&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bcit.ca/study/programs/6415smcert#courses&quot;&gt;コーススケジュール&lt;/a&gt;からも見えるように、Media系全般を網羅する&lt;/li&gt;
+  &lt;li&gt;特定技術やスキルに特化するプログラムではない&lt;/li&gt;
+  &lt;li&gt;バンクーバーでは小~中規模のデザイン/製作会社が多い&lt;/li&gt;
+  &lt;li&gt;上記の会社ではJob Titleに直結するスキル+周辺分野の知識が求められることが多い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;という点があげられます。もしIT系スタートアップでDeveloperをやりたい場合、未経験からNew Mediaに入ってもおそらく無理だと思うので、自分は何をやりたいのかを考えてからコース選びをすることをお勧めします。最近だと中退してProgramming Bootcampに移る人もたまにいるようです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;就職に関する公式なデータ&lt;/h2&gt;
+
+&lt;p&gt;上記について&lt;a href=&quot;http://www.bcit.ca/study/programs/6415smcert#graduating&quot;&gt;New Mediaの卒業後進路ページ&lt;/a&gt;で公式なアンケートの結果が発表されていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bcit.ca/files/ir/gp/6415smcert.pdf&quot;&gt;http://www.bcit.ca/files/ir/gp/6415smcert.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;これによると、フルタイムで働いている人が58%、コースで学んだ分野との関連性が73%(Very related: 44% + Somewhat related: 29%)なのでざっと見てNew Media分野でフルタイムに働いている卒業生は約4割。&lt;/p&gt;
+
+&lt;p&gt;有効回答率が55%ということで、おそらく関連分野で就職できた人の方がより回答する傾向にあると予想すると、就職状況の割合は自分の周辺ともほぼ一致するかなと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;授業を振り返ってみて&lt;/h2&gt;
+
+&lt;p&gt;授業によっては賛否両論あったりしますが、私個人としては1年のプログラムとして見るとコストパフォーマンスは良く、キャリアチェンジを図るには悪くないという結論です。&lt;/p&gt;
+
+&lt;p&gt;これは自分がおそらく卒業後に一番多い進路であるデザイン会社にいることもあり、技術的な面以外で必要となる周辺知識について授業で学んだことが役立っている点が大きいです。&lt;/p&gt;
+
+&lt;p&gt;また、ビザの面でも他の私立で取得できるCoopビザと比較し、州立の学校を卒業後に得られるPost-Graduation Work Permitは制約も少ないため、長期的にカナダに滞在するという選択において有利になることも多々あります。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;これから通う人へ&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;強みとなるスキル&lt;/h3&gt;
+
+&lt;p&gt;1年間New Media分野の勉強に集中できますが、基本的にこちらの会社はGeneralistを求めていないため、現地で就職したい場合強みとなるスキルが必要となります。&lt;/p&gt;
+
+&lt;p&gt;授業はあくまでその分野の基礎を扱うものなので、学校の課題だけこなしていても十分なスキルは身につかないと思ってください。基礎を前提として自分で頑張りましょう。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;メンター&lt;/h3&gt;
+
+&lt;p&gt;これは特に当該分野のバックグラウンドがない人に重要ですが、自分のやっていることの方向性やレベルが正しいものなのかを判断することは難しいです。その分野でのメンターを見つけて相談をしましょう。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;製作物の批評&lt;/h3&gt;
+
+&lt;p&gt;自分が作ったものは人に見せて批評を受けましょう。授業によっては批評をもらえない、当たり障りのないことしかクラスメイトは発言しない場面も多いです。質の高い批評をしてくれる人は貴重です。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;その他&lt;/h3&gt;
+
+&lt;p&gt;自分が心がけていたことがうまくまとまっている記事があったのでよかったら読んでみてください。Developer以外にも当てはまると思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.sitepoint.com/become-web-developer-7-simple-steps/&quot;&gt;Become a Web Developer in 7 Simple Steps&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 29 May 2016 00:00:00 -0700</pubDate>
+        <link>http://blog.kaffeekantate.xyz/year-after-bcit/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/year-after-bcit/</guid>
+        
+        <category>bcit</category>
+        
+        <category>留学</category>
+        
+        
+      </item>
     
       <item>
         <title>SVGアニメーションを行う上で遭遇したイシュー</title>
@@ -580,7 +676,7 @@
       </item>
     
       <item>
-        <title>BCIT New Media Design &amp; Web Developmentコースレビュー</title>
+        <title>BCIT New Media Design &amp; Web Development - コースレビュー</title>
         <description>&lt;p&gt;&lt;img src=&quot;/images/2015/0802-bcit.jpg&quot; alt=&quot;BCIT Burnaby Campus&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;credit&quot;&gt;(BCIT Burnaby Campus)&lt;/p&gt;
@@ -1038,86 +1134,6 @@ http://www.o-museum.or.jp/
         <category>css</category>
         
         <category>svg</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>2014年に行ったコンサート</title>
-        <description>&lt;p&gt;最近知人に「私たちの世代で村上春樹読む人って、自分でコーヒー豆弾いてジャズ聴くようなちょっと斜めに構えた人」と言われました。村上春樹ほとんど読んでいないです。&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;ジャズ&lt;/h2&gt;
-
-&lt;h3 id=&quot;opening-party-of-vancouver-international-jazz-festival-the-sutton-place-hotels&quot;&gt;6/19 Opening party of Vancouver International Jazz Festival (The Sutton Place Hotels)&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/0121-concerts1.jpg&quot; alt=&quot;Vancouver International Jazz Festival Opening&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;たまたまチケットもらえたので。生演奏も料理も良かった。&lt;/p&gt;
-
-&lt;h3 id=&quot;vancouver-international-jazz-festival&quot;&gt;6/23 Vancouver International Jazz Festival&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/0121-concerts2.jpg&quot; alt=&quot;Vancouver International Jazz Festival&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;初めての上原ひろみの生演奏。会場の音響に少し難はあったもののピアノ演奏は実際に見ると迫力があることと何よりも楽しそうに演奏してる姿が印象的。あとピアノ弾いてない時の控えめな雰囲気とのギャップにも驚いたり。ここ数年は毎年バンクーバーにきてるみたいなので今年も期待。&lt;/p&gt;
-
-&lt;p&gt;Hiromi: The Trio Project (Uehara Hiromi/Anthony Jackson/Simon Phillips)&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;クラシック&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2015/0121-concerts3.jpg&quot; alt=&quot;Vancouver Symphony Orchestra&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;preludes-and-pictures-the-orpheum&quot;&gt;4/5 Preludes and Pictures (The Orpheum)&lt;/h3&gt;
-
-&lt;p&gt;浜松国際とルービンシュタイン国際1位のアレクサンダー・ガヴリリュクがラフマニノフ演奏するということで楽しみにしてたコンサート。ちょっと打鍵が深過ぎて第一楽章は単調だったものの第二楽章以降とアンコール曲のスクリャービンは素晴らしかった。&lt;/p&gt;
-
-&lt;p&gt;最後の演奏が終わった瞬間に観客の8割ぐらいが一斉に立ち上がって歓声をあげる光景は日本のクラシックコンサートではあんまり見られないなーと思ったり。ちなみに30歳以下なのでチケットは15ドル。&lt;/p&gt;
-
-&lt;p&gt;客層は年齢高めのカナダ人と音楽学校の学生が多くあまり中間層がいない印象。子供連れも大半は子供の音楽教育に力をいれている感じのアジア系で、東京とはかなりクラシック人口違うなと感じました。箱も十分にないみたいだしトロント響もモントリオール響もバンクーバーには来ないんだろうな…&lt;/p&gt;
-
-&lt;p&gt;The Vancouver Symphony (Conductor: Bramwell Tovey / Piano: Alexander Gavrylyuk)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Rachmaninoff:Prelude in G minor&lt;/li&gt;
-  &lt;li&gt;Mussorgsky/Ravel:Pictures at an Exhibition&lt;/li&gt;
-  &lt;li&gt;Rachmaninoff:Piano Concerto No. 3 in D minor&lt;/li&gt;
-  &lt;li&gt;Scriabin:Etude in C sharp minor Op.2 No. 1(encore)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;preludes-and-pictures&quot;&gt;4/7 Preludes and Pictures&lt;/h3&gt;
-
-&lt;p&gt;最終日ということもあって最後は観客総立ちで終了。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Rachmaninoff’s Piano Concerto No. 4 in G Minor&lt;/li&gt;
-  &lt;li&gt;Rhapsody on a Theme of Paganini&lt;/li&gt;
-  &lt;li&gt;Bach and Stokowski’s Toccata and Fugue in D Minor&lt;/li&gt;
-  &lt;li&gt;Balakirev’s Islamey&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ryu-goto-plays-brahms-lahav-shani-conductor--ryu-goto-violin&quot;&gt;11/7 “Ryu Goto Plays Brahms!” (Lahav Shani conductor / Ryu Goto violin)&lt;/h3&gt;
-
-&lt;p&gt;五嶋龍氏のバイオリンは音の響きが美しく、タイスの瞑想曲は鳥肌がたつほど。
-ただ、ブラームスの第一楽章では金管がバイオリンの音を飲み込んでしまっていて少し残念。&lt;/p&gt;
-
-&lt;p&gt;The Vancouver Symphony (Conductor: Lahav Shani / Violin: Ryu Goto)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Glinka: Russlan and Ludmilla: Overture&lt;/li&gt;
-  &lt;li&gt;Brahms: Violin Concerto in D Major*&lt;/li&gt;
-  &lt;li&gt;Massenet: Thais Meditation&lt;/li&gt;
-  &lt;li&gt;Tchaikovsky: Symphony No. 5 in E minor&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;クラシックとジャズしか行ってないと思ったけど日本にいた時も似たようなものだった。蓮沼執太こないかな。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://blog.kaffeekantate.xyz/2014-concerts/</link>
-        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/2014-concerts/</guid>
-        
-        <category>vancouver</category>
-        
-        <category>music</category>
         
         
       </item>

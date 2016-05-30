@@ -1,15 +1,15 @@
 ---
 layout: post
-title: BCIT New Media Design & Web Development - 卒業後の進路など
+title: BCIT New Media Design & Web Development - 卒業後の進路状況など
 date: 2016-05-29
 published: true
-excerpt: BCIT New Mediaプログラムを修了して約1年が経ったということで、振り返ってみての最後のまとめ。
+excerpt: BCIT New Media Design & Web Developmentを修了して約1年が経ったということで、振り返ってみての最後のまとめ。
 tags: bcit 留学
 cover_image: /2016/0529-after-bcit.jpg
 ---
 ![Company office from my seat](/images/2016/0529-after-bcit.jpg)
 
-(勤務先自席からの眺め)
+(自席にて)
 {: .credit}
 
 [British Columbia Institute of Technology](http://www.bcit.ca/)の[New Media Design & Web Development](http://www.bcit.ca/study/programs/6415smcert)を卒業してから早一年。また卒業後に就職してからもうすぐ一年ということで、就職活動やバンクーバーでの就労経験を踏まえての最後のまとめ。
@@ -42,7 +42,7 @@ cover_image: /2016/0529-after-bcit.jpg
 - バンクーバーでは小~中規模のデザイン/製作会社が多い
 - 上記の会社ではJob Titleに直結するスキル+周辺分野の知識が求められることが多い
 
-という点があげられます。もしIT系スタートアップでDeveloperをやりたい場合、未経験からNew Mediaに入ってもおそらく無理だと思うので、自分は何をやりたいのかを考えてからコース選びをすることをお勧めします。最近だと中退してProgramming Bootcampに移る人もたまにいるようです。
+という点があげられます。もしIT系スタートアップでDeveloperとしてプロダクト開発をやりたい場合、未経験からNew Mediaに入ってもおそらく無理でしょう。自分は何をやりたいのかを考えてからコース選びをすることをお勧めします。最近だと中退してProgramming Bootcampに移る人もたまにいるようです。
 
 ##就職に関する公式なデータ
 
@@ -50,9 +50,9 @@ cover_image: /2016/0529-after-bcit.jpg
 
 [http://www.bcit.ca/files/ir/gp/6415smcert.pdf](http://www.bcit.ca/files/ir/gp/6415smcert.pdf)
 
-これによると、フルタイムで働いている人が58%、コースで学んだ分野との関連性が73%(Very related: 44% + Somewhat related: 29%)なのでざっと見てNew Media分野でフルタイムに働いている卒業生は約4割。
+これによると、フルタイムで働いている人が58%、コースで学んだ分野との関連性が73%(Very related: 44% + Somewhat related: 29%)なので雑に見てNew Media分野でフルタイムに働いている卒業生は約4割。
 
-有効回答率が55%ということで、おそらく関連分野で就職できた人の方がより回答する傾向にあると予想すると、就職状況の割合は自分の周辺ともほぼ一致するかなと思います。
+有効回答率が55%ということで、おそらく関連分野で就職できた人の方がより回答する傾向にあると予想すると、就職状況の割合は自分の周辺ともだいたい一致するかなと思います。
 
 ##授業を振り返ってみて
 
@@ -83,7 +83,3 @@ cover_image: /2016/0529-after-bcit.jpg
 自分が心がけていたことがうまくまとまっている記事があったのでよかったら読んでみてください。Developer以外にも当てはまると思います。
 
 [Become a Web Developer in 7 Simple Steps](https://www.sitepoint.com/become-web-developer-7-simple-steps/)
-
-
-
-

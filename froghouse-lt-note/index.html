@@ -7,18 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Tag | Kaffee Kantate</title>
-  <meta name="description" content="Life in Vancouver, Tech, Coffee, etc">
+  <title>Note for Lightning Talk at Frog House 1 | Kaffee Kantate</title>
+  <meta name="description" content="Just a note for Lightning Talk at Frog House 1, or Ginpei Meetup">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.kaffeekantate.xyz/tag/bcit/">
+  <link rel="canonical" href="http://blog.kaffeekantate.xyz/froghouse-lt-note/">
   <link rel="alternate" type="application/rss+xml" title="Kaffee Kantate" href="http://blog.kaffeekantate.xyz/feed.xml" />
 
-  <meta property="og:title" content="Tag | Kaffee Kantate" />
+  <meta property="og:title" content="Note for Lightning Talk at Frog House 1 | Kaffee Kantate" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="" />
-  <meta property="og:url" content="http://blog.kaffeekantate.xyz/tag/bcit/" />
-  <meta property="og:image" content="http://blog.kaffeekantate.xyz/images/title.jpg" />
+  <meta property="og:description" content="Just a note for Lightning Talk at Frog House 1, or Ginpei Meetup" />
+  <meta property="og:url" content="http://blog.kaffeekantate.xyz/froghouse-lt-note/" />
+  <meta property="og:image" content="http://blog.kaffeekantate.xyz/images/2016/0730-frog-lt.jpg" />
   <meta property="og:site_name" content="Kaffee Kantate" />
   <meta property="fb:app_id" content="1420984721525609" />
 
@@ -118,21 +118,98 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <h2>bcit</h2>
-<ul class="tag-list">
+        <div class="post">
 
-  <li><a href="/year-after-bcit/">BCIT New Media Design & Web Development - 卒業後の進路状況など</a> (29 May 2016 | Tags: <a href="/tag/bcit" rel="tag">bcit</a>, <a href="/tag/%E7%95%99%E5%AD%A6" rel="tag">留学</a>)</li>
+  <header class="post-header">
+    <h1 class="post-title">Note for Lightning Talk at Frog House 1</h1>
+    <p class="post-meta">Jul 30, 2016</p>
+    <div class="post-tag"><a href="/tag/font" rel="tag">font</a>, <a href="/tag/css" rel="tag">css</a></div>
+  </header>
 
-  <li><a href="/bcit-practicum/">BCIT New Media Design & Web Development - Practicum内容</a> (08 Aug 2015 | Tags: <a href="/tag/bcit" rel="tag">bcit</a>, <a href="/tag/%E7%95%99%E5%AD%A6" rel="tag">留学</a>)</li>
+  <article class="post-content">
+    <p><img src="/images/2016/0730-frog-lt.jpg" alt="Frog House Lighting Talk Cover" /></p>
 
-  <li><a href="/bcit-new-media/">BCIT New Media Design & Web Development - コースレビュー</a> (02 Aug 2015 | Tags: <a href="/tag/bcit" rel="tag">bcit</a>, <a href="/tag/%E7%95%99%E5%AD%A6" rel="tag">留学</a>)</li>
+<h2 id="font-rendering-difference">Font rendering difference</h2>
 
+<ul>
+  <li>Display (Pixel density)</li>
+  <li>OS / Browser rendering engine</li>
+  <li>CSS</li>
 </ul>
 
-<div id="tag-cloud" class="tag-cloud">
-  <h3>All Tags</h3>
-  <a href="/tag/advent" class="set-4">advent</a> <a href="/tag/art" class="set-1">art</a> <a href="/tag/bcit" class="set-4">bcit</a> <a href="/tag/cafe" class="set-1">cafe</a> <a href="/tag/coffee" class="set-2">coffee</a> <a href="/tag/css" class="set-5">css</a> <a href="/tag/english-article" class="set-1">english-article</a> <a href="/tag/font" class="set-1">font</a> <a href="/tag/github" class="set-1">github</a> <a href="/tag/javascript" class="set-2">javascript</a> <a href="/tag/jekyll" class="set-2">jekyll</a> <a href="/tag/montreal" class="set-1">montreal</a> <a href="/tag/museum" class="set-1">museum</a> <a href="/tag/music" class="set-4">music</a> <a href="/tag/svg" class="set-2">svg</a> <a href="/tag/trip" class="set-2">trip</a> <a href="/tag/vancouver" class="set-4">vancouver</a> <a href="/tag/%E5%BE%92%E7%84%B6" class="set-1">徒然</a> <a href="/tag/%E7%95%99%E5%AD%A6" class="set-4">留学</a>
+<h3 id="rendering-engines">Rendering engines</h3>
+
+<ul>
+  <li><a href="https://skia.org/">Skia</a></li>
+  <li><a href="https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/CoreText_Programming/Introduction/Introduction.html">Core Text</a></li>
+  <li><a href="http://blog.typekit.com/2010/10/15/type-rendering-operating-systems/">Lots more</a></li>
+</ul>
+
+<p>Bug used to cause font rendering difference between OSX Safari and Chrome (<a href="http://clagnut.com/blog/2385/">Chrome just got darker</a>)</p>
+
+<h3 id="css">CSS</h3>
+
+<ul>
+  <li>Lots of properties related to fonts (<a href="https://developer.mozilla.org/en-US/Learn/CSS/Styling_text/Fundamentals">Fundamental text and font styling</a>)</li>
+  <li>Pick up font-smooth</li>
+</ul>
+
+<h2 id="font-smooth-mdn-font-smoothhttpsdevelopermozillaorgen-usdocswebcssfont-smooth">font-smooth (<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth">MDN: font-smooth</a>)</h2>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+  <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="k">font</span><span class="o">-</span><span class="n">smoothing</span><span class="o">:</span> <span class="n">antialiased</span><span class="p">;</span>
+  <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">osx</span><span class="o">-</span><span class="k">font</span><span class="o">-</span><span class="n">smoothing</span><span class="o">:</span> <span class="n">grayscale</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<blockquote>
+  <ul>
+    <li>antialiased - smooth the font on the level of the pixel, as opposed to the subpixel.</li>
+    <li>subpixel-antialiased - on most non-retina displays this will give the sharpest text.</li>
+    <li>grayscale - Render text with grayscale antialiasing, as opposed to the subpixel.</li>
+  </ul>
+</blockquote>
+
+<p>For antialiased and grayscale…</p>
+
+<blockquote>
+  <p>Switching from subpixel rendering to antialiasing for light text on dark backgrounds makes it look lighter.</p>
+</blockquote>
+
+<p data-height="600" data-theme-id="0" data-slug-hash="LkBpVa" data-default-tab="result" data-user="kay8" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/kay8/pen/LkBpVa/">LT: font-smoothing</a> by Kei (<a href="http://codepen.io/kay8">@kay8</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<h3 id="subpixel-rendering">Subpixel rendering</h3>
+
+<ul>
+  <li><a href="http://alienryderflex.com/sub_pixel/">Understanding Sub-Pixel (LCD Screen) Anti-Aliased Font Rendering</a></li>
+  <li><a href="http://usabilitypost.com/2011/02/08/please-stop-disabling-subpixel-rendering/">Please Stop Disabling
+Subpixel Rendering</a></li>
+</ul>
+
+<blockquote>
+  <p>The fonts on our LCD displays are rendered using pixels, each made up of 3 colors: red, green and blue. Instead of using the whole pixel to show a piece of a letter, subpixel rendering actually uses these 3 individual colors separately to increase the effective resolution of the screen</p>
+</blockquote>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li><a href="https://www.smashingmagazine.com/2012/04/a-closer-look-at-font-rendering/">A Closer Look At Font Rendering</a></li>
+  <li><a href="http://www.paulirish.com/2013/webkit-for-developers/">WebKit for Developers</a></li>
+</ul>
+
+    <div class="social">
+	<div class="fb-like social-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="false" height="20"></div>
+
+	<a href="https://twitter.com/share" class="twitter-share-button social-button" data-count="none">Tweet</a>
+
+	<a href="http://b.hatena.ne.jp/entry/http://blog.kaffeekantate.xyz/froghouse-lt-note/" class="hatena-bookmark-button social-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加" target="_blank"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+
 </div>
+
+
+  </article>
+
+</div>
+
       </div>
     </div>
 
@@ -160,7 +237,7 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text copyright">&copy;  <a href="/">Kaffee Kantate</a>, Powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
+        <p class="text copyright">&copy; 2016 <a href="/">Kaffee Kantate</a>, Powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
       </div>
     </div>
 

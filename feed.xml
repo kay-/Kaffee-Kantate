@@ -5,9 +5,75 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>http://blog.kaffeekantate.xyz/</link>
     <atom:link href="http://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jul 2016 14:04:34 -0700</pubDate>
-    <lastBuildDate>Sat, 30 Jul 2016 14:04:34 -0700</lastBuildDate>
+    <pubDate>Sun, 27 Nov 2016 16:37:18 -0800</pubDate>
+    <lastBuildDate>Sun, 27 Nov 2016 16:37:18 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>BCIT New Media Design &amp; Web Development - よくある質問</title>
+        <description>&lt;p&gt;たまに友人経由、ブログ経由で質問を受けるのですが、似た内容が多いので回答をざっとまとめました。
+以下のコースレビューと合わせて読んでください。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/bcit-new-media/&quot;&gt;BCIT New Media Design &amp;amp; Web Development - コースレビュー&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bcit-practicum/&quot;&gt;BCIT New Media Design &amp;amp; Web Development - Practicum内容&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/year-after-bcit/&quot;&gt;BCIT New Media Design &amp;amp; Web Development - 卒業後の進路状況など&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;なお、留学相談系のメールは稀にしか返していないのでより詳細を聞きたい方はIT留学専門の&lt;a href=&quot;https://frogagent.com/&quot;&gt;Frog Creator Production&lt;/a&gt;のようなところへ連絡したほうがいいかと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;前提スキル&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;入学基準の英語力があれば授業についていくことは可能か&lt;/h3&gt;
+
+&lt;p&gt;ネイティブと対等に喋れることができるかどうかはさておき、授業をパスするだけなら問題ないと思います。ビジネス系コースに比べると英語の重要性は比較的低く、喋れることよりも手を動かしてものを作ることができるほうが大事です。&lt;/p&gt;
+
+&lt;h3 id=&quot;html--css--javascript&quot;&gt;入学するに当たり、HTML / CSS / JavaScriptをどの程度勉強しておけば授業についていく事が可能か&lt;/h3&gt;
+
+&lt;p&gt;生徒に甘いプログラムなので全く知らなくても授業についていくことは可能です。ただ、一年で就職できるレベルまでのスキルを身に付けたいならUdemy等のオンラインコースを事前にやっておいたほうがいいかもしれません。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;就職関連&lt;/h2&gt;
+
+&lt;h3 id=&quot;new-media&quot;&gt;バックグラウンドのない初心者がNew Mediaに行って就職可能か&lt;/h3&gt;
+
+&lt;p&gt;あくまで私見ですが、デザインもしくはプログラミングの経験がない人がNew Mediaに進むことはあまりおすすめできないです。理由としては、扱う内容が広く浅いので初心者の場合、各分野の上部だけをさらって終わることが通常だからです。&lt;/p&gt;
+
+&lt;p&gt;また、最初からどの分野に進むか決めていれば大丈夫なのか、という人もいるのですが、未経験の人がどの分野をやりたいか、向いているか最初に判断するのはかなり困難なのではとも思います。例えば単にデベロッパーといっても、分野が多岐に渡るので人によってできることが全く違うなんてこともよくあります。実際に学校が始まって2,3ヶ月ぐらいの時点で「デベロッパーはHTMLとCSSができれば十分就職できる」と誤解している方を見たことがありますがそんな単純な話ではないです。&lt;/p&gt;
+
+&lt;p&gt;自分の見ている限り、デザインやプログラミングの経験ゼロの留学生は卒業後に2年コースに編入するか、プログラミングのブートキャンプに通うか、というのがほとんどです。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;初学者はどうすればいいか&lt;/h3&gt;
+
+&lt;p&gt;New Mediaに在籍している初学者でDesigner or Developerを目指す、という人の最大の問題点はその分野に費やした時間が圧倒的に少ないことです。クラスメイトでdeveloperになると言っていた人はそれなりにいましたが、日々の課題以外で自分でコードを書いていたか、授業以外の内容を自分で調べて学んでいたかといえばそんなことは全くない印象でした。&lt;/p&gt;
+
+&lt;p&gt;特にNew Mediaは生徒に甘いのでできない人でもそれなりにやっておけば授業はパスできます。ですので学校で求められているレベルが実業務視点ではありえないほど低いと気付かないまま就職活動を迎えて困っている人がたくさんいました。&lt;/p&gt;
+
+&lt;p&gt;実際に授業が始まってしまうと課題に加えて自分の進みたい分野の勉強を各自で行う必要があります。授業と寝る以外の時間はdesign/developmentのことに全て使いぐらいではないと厳しいのではないかというのが本音です。一日中パソコンに向かっているのは嫌だと思うならやめておいたほうがいいかもしれません。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;就職できるようになるためにはどこにターゲット絞るのが1番効率的か&lt;/h3&gt;
+
+&lt;p&gt;向き不向きもあるのでわかりません。人からデベロッパーになれ、と言われてなるものでもないと思います。&lt;/p&gt;
+
+&lt;h3 id=&quot;practicum&quot;&gt;学校からの紹介のPracticumはあるか、就職が有利になるか&lt;/h3&gt;
+
+&lt;p&gt;New Mediaについていうと、学校は用意してくれません。インストラクターが募集を共有してくれたりしますが、選考が有利になったりはしません。また、インターン先が見つからない人のために知人の個人事業主を紹介してくれることもありますが就職先にはならないと思います。&lt;/p&gt;
+
+&lt;p&gt;コンピュータサイエンス系のコースの場合は学校の紹介が主だと聞きますが、Design &amp;amp; Developmentを両方やるようなコースだと生徒の得意分野もばらばらになるので学校が紹介できることはあまりないのではないでしょうか。これは2年コースのDigital Design &amp;amp; Developmentでも同じです。&lt;/p&gt;
+
+&lt;h3 id=&quot;new-media-1&quot;&gt;New Mediaを卒業すれば会社側からの評価は高いか&lt;/h3&gt;
+
+&lt;p&gt;BCITで評価されてるのはコンピュータサイエンス系コースやエンジニアリングなので、New Media自体が評価されることは特にないです。Web業界にNew Media出身の人は多いですがそれは単に卒業人数が多いのでそう見えるのでは。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Nov 2016 00:00:00 -0800</pubDate>
+        <link>http://blog.kaffeekantate.xyz/bcit-new-media-faq/</link>
+        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/bcit-new-media-faq/</guid>
+        
+        <category>bcit</category>
+        
+        <category>留学</category>
+        
+        
+      </item>
     
       <item>
         <title>Note for Lightning Talk at Frog House 1</title>
@@ -975,146 +1041,6 @@ BCITは就職率が高いとよく言われるが当該コースに限って言�
         <category>bcit</category>
         
         <category>留学</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>大塚国際美術館 訪問記</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art1.jpg&quot; alt=&quot;大塚国際美術館&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(Image credit: &lt;a href=&quot;http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:The_Otsuka_Museum_of_Art01s3200.jpg&quot;&gt;大塚国際美術館 - 663highland&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;雑誌の美術館特集では前から知っていたものの、展示品はレプリカか…と思いそこまで関心を持たなかった&lt;a href=&quot;http://o-museum.or.jp/&quot;&gt;大塚国際美術館&lt;/a&gt;。
-最初に行ってみたいと思ったのは、ちきりんの日記&lt;a href=&quot;http://d.hatena.ne.jp/Chikirin/20111012&quot;&gt;“日本で一番すごい美術館”&lt;/a&gt;を読んでから。&lt;/p&gt;
-
-&lt;p&gt;頻繁に旅行して本物の絵画を見ているちきりん氏が&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;こういうのを「ニセモノ」と呼ぶ人もいるのかもしれません。ちきりんは多くの海外の美術館を廻っているので、ここにある名画の多くを実際に観ています。それでもこの美術館の存在意義は非常に大きいと思いました。（中略）四国はもちろん関西圏も含め、お近くの人ならぜひ一度は行ってみる価値のある美術館だと思うし、なにより「膨大な資産を得た創業家一族のお金の使い方」として、これほど素敵なお金の使い方をちきりんは初めて見ました。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;とまで言う美術館はどのようなものだろうなと思ったのがきっかけ。&lt;/p&gt;
-
-&lt;p&gt;実際に行ってみての感想としては、もう一日滞在したくなるほどの魅力があり、大塚グループの社会・教育事業としての想いや技術力が盛り込まれた素晴らしい美術館だった。
-レプリカとはいえ、陶板は絵の具の盛上り等もある程度は再現しており問題なく鑑賞できる。世界各地の名画1000点以上をあれだけ身近で楽しめる美術館は他にないだろう。&lt;/p&gt;
-
-&lt;p&gt;写真撮影が許可されているところも陶板ならでは（ストロボ、三脚の使用を除く）。&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;作品ガイド&lt;/h2&gt;
-&lt;p&gt;ここではロボットと解説員による定時での作品ガイドが行われており、知識がなくても十分に学んで帰ることが可能。もちろん作品数が多いため代表的な作品のピックアップになるもののそれでも1-2時間はじっくりと解説を聞きながら回れます&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art2.JPG&quot; alt=&quot;大塚アートくん&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(大塚アートくん。本来は巡回警備用らしい)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art3.jpg&quot; alt=&quot;大塚アートくん&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;ガイドロボット:大塚アートくんの解説はB3Fのみ。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;礼拝堂&lt;/h2&gt;
-
-&lt;p&gt;大塚国際美術館の作品として最も有名であろうシスティーナ礼拝堂とスクロヴェーニ礼拝堂。平日だったためか鑑賞客も少なく荘厳な雰囲気を静かに味わうことができた。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art4.JPG&quot; alt=&quot;システィーナ礼拝堂&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(システィーナ礼拝堂)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art5.JPG&quot; alt=&quot;スクロヴェーニ礼拝堂&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(スクロヴェーニ礼拝堂)&lt;/p&gt;
-
-&lt;p&gt;システィーナ礼拝堂についてはB2F/B1Fの両方から見ることが可能。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;文化財記録・保存の観点から&lt;/h2&gt;
-&lt;p&gt;陶板画は災害や時間の経過による劣化に強いらしく2000年後もそのままの状態を保てるとのこと。最後の晩餐に見られるような作品修復前後の比較や、消失した作品の再現は文化財の記録という観点からも素晴らしいと思う。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art6.JPG&quot; alt=&quot;最後の晩餐　修復前&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(最後の晩餐　修復前)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art7.JPG&quot; alt=&quot;最後の晩餐　修復後&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(最後の晩餐　修復後)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art10.JPG&quot; alt=&quot;ゴッホ　幻のひまわり&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(ゴッホ　幻のひまわり)&lt;/p&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;屋外スペース&lt;/h2&gt;
-&lt;p&gt;屋外スペースにあるモネの大睡蓮。経年劣化に強い陶板画ならではの展示方法。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art8.JPG&quot; alt=&quot;モネの大睡蓮&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(モネの大睡蓮)&lt;/p&gt;
-
-&lt;p&gt;潮の匂いが気持ちよい。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art9.JPG&quot; alt=&quot;Cafe de Giverny&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(Cafe de Giverny)&lt;/p&gt;
-
-&lt;p&gt;睡蓮の池を眺めながら軽食やデザートが楽しめる。こことは別に1階別館にはレストランあり。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-4&quot;&gt;他作品など&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art11.JPG&quot; alt=&quot;ゲルニカ&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(ゲルニカ)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art12.JPG&quot; alt=&quot;1Fテーマ展示&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(1Fテーマ展示)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art13.JPG&quot; alt=&quot;トイレ内の陶板&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(トイレ内の各所にも小型の陶板)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art16.JPG&quot; alt=&quot;B2Fルネサンス～バロック&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(B2Fルネサンス～バロック)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art17.JPG&quot; alt=&quot;2F現代&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(2F現代　難しい…)&lt;/p&gt;
-
-&lt;p&gt;1000点を超える作品数に加え、美術館自体も地上2階・地下3階、鑑賞ルート約4kmと非常に広いためじっくり鑑賞したいなら2日はほしいところ。実際、自分は朝10時から17時までいたものの全てをゆっくり鑑賞することはできず。鳴門駅前からバスで20分程度なので鳴門駅付近に宿を取れば2日間でも苦にはならないはず。&lt;/p&gt;
-
-&lt;p&gt;入館料3,240円（2015/4時点）は高いですがその価値は十分にある美術館でした。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-5&quot;&gt;その他&lt;/h2&gt;
-&lt;p&gt;美術館から鳴門大橋まで歩いても15-20分程度なので途中で休憩も兼ねてそちらへ行くのもあり。当日に限り再入館可能。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art14.JPG&quot; alt=&quot;大塚国際美術館　庭園前&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(大塚国際美術館　庭園前から鳴門大橋へ)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/otsuka/0501-art15.JPG&quot; alt=&quot;瀬戸内海と鳴門大橋&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(瀬戸内海と鳴門大橋)&lt;/p&gt;
-
-&lt;h4 id=&quot;httpwwwo-museumorjp&quot;&gt;&lt;a href=&quot;http://www.o-museum.or.jp/&quot;&gt;大塚国際美術館&lt;/a&gt;&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;徳島県鳴門市鳴門町　鳴門公園内
-http://www.o-museum.or.jp/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;ガイドロボット大塚アートくんは2015年7月に引退したとのこと。 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
-        <link>http://blog.kaffeekantate.xyz/otsuka-museum-of-art/</link>
-        <guid isPermaLink="true">http://blog.kaffeekantate.xyz/otsuka-museum-of-art/</guid>
-        
-        <category>art</category>
-        
-        <category>museum</category>
-        
-        <category>trip</category>
         
         
       </item>

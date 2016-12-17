@@ -19,6 +19,11 @@
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="fb:app_id" content="1420984721525609" />
 
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+  <meta name="twitter:description" content="{{ page.excerpt }}">
+  <meta name="twitter:image" content="{% if page.cover_image %}{{ site.url }}/images{{ page.cover_image }}{% else %}{{ site.image}}{% endif %}">
+
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">

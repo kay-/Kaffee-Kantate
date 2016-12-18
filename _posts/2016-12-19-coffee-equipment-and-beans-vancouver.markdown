@@ -1,6 +1,6 @@
 ---
 layout: post
-title: バンクーバーのカフェ設備について
+title: バンクーバーのカフェ事情 ~ 器具とコーヒー豆について
 date: 2016-12-19
 published: true
 excerpt: コーヒー Advent Calendar 2016 19日目の記事。バンクーバーのカフェにはどのような器具や豆があるのかについて書きます。

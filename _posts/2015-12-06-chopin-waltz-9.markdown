@@ -7,7 +7,7 @@ excerpt: クラシック曲 Advent Calendar 2015 6日目の記事。ショパン
 tags: music advent
 cover_image: /2015/1206-chopin.jpg
 ---
-[クラシック曲 Advent Calendar 2015](http://www.adventar.org/calendars/948) 6日目の記事。ショパンのワルツ第9番変イ長調作品69-1、通称「別れのワルツ」について書きます。
+[クラシック曲 Advent Calendar 2015](https://www.adventar.org/calendars/948) 6日目の記事。ショパンのワルツ第9番変イ長調作品69-1、通称「別れのワルツ」について書きます。
 
 ![Chopin Concert](/images/2015/1206-chopin.jpg)
 
@@ -36,8 +36,8 @@ cover_image: /2015/1206-chopin.jpg
     <iframe width="420" height="315" src="https://www.youtube.com/embed/ls0Hc2l2qYc" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="babylink-box" style="overflow: hidden; font-size: small; zoom: 1; margin: 15px 0; text-align: left;"><div class="babylink-image" style="float: left; margin: 0px 15px 10px 0px; width: 75px; height: 75px; text-align: center;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/" rel="nofollow" target="_blank"><img style="border-top: medium none; border-right: medium none; border-bottom: medium none; border-left: medium none;" src="http://ecx.images-amazon.com/images/I/41GvESaXNbL._SL75_.jpg" width="75" height="74" /></a></div><div class="babylink-info" style="overflow: hidden; zoom: 1; line-height: 120%;"><div class="babylink-title" style="margin-bottom: 2px; line-height: 120%;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/" rel="nofollow" target="_blank">ショパン:ワルツ集(全14曲)</a></div><div class="babylink-manufacturer" style="margin-bottom: 5px;">SMJ</div><div class="babylink-description" style="margin-top: 7px;">ピアニスト、アルトゥール・ルービンシュタインのショパン作品を収録した、1963年録音盤。</div></div>
-<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/" rel="nofollow" target="_blank">Amazon.co.jp で詳細を見る</a>
+<div class="babylink-box" style="overflow: hidden; font-size: small; zoom: 1; margin: 15px 0; text-align: left;"><div class="babylink-image" style="float: left; margin: 0px 15px 10px 0px; width: 75px; height: 75px; text-align: center;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/" rel="nofollow" target="_blank"><img style="border-top: medium none; border-right: medium none; border-bottom: medium none; border-left: medium none;" src="https://ecx.images-amazon.com/images/I/41GvESaXNbL._SL75_.jpg" width="75" height="74" /></a></div><div class="babylink-info" style="overflow: hidden; zoom: 1; line-height: 120%;"><div class="babylink-title" style="margin-bottom: 2px; line-height: 120%;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/" rel="nofollow" target="_blank">ショパン:ワルツ集(全14曲)</a></div><div class="babylink-manufacturer" style="margin-bottom: 5px;">SMJ</div><div class="babylink-description" style="margin-top: 7px;">ピアニスト、アルトゥール・ルービンシュタインのショパン作品を収録した、1963年録音盤。</div></div>
+<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/" rel="nofollow" target="_blank">Amazon.co.jp で詳細を見る</a>
 <div class="booklink-footer" style="clear: left"></div></div>
 
 ###演奏2: Valentina Lisitsa

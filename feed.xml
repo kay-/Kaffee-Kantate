@@ -5,9 +5,150 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>https://blog.kaffeekantate.xyz/</link>
     <atom:link href="https://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Dec 2016 15:12:14 -0800</pubDate>
-    <lastBuildDate>Sun, 18 Dec 2016 15:12:14 -0800</lastBuildDate>
+    <pubDate>Fri, 23 Dec 2016 22:25:22 -0800</pubDate>
+    <lastBuildDate>Fri, 23 Dec 2016 22:25:22 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>バンクーバーのデザイン会社におけるウェブ制作ワークフロー</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/2016/1222-b-party.jpg&quot; alt=&quot;Annual Party&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;勤務先Annual Partyの一幕&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;//frogagent.com/event-post/frog-advent-calendar-2016/&quot;&gt;Frog Advent Calendar 2016&lt;/a&gt; 22日目。こちらのデザイン会社のウェブ制作ワークフローについて紹介します。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;そもそもデザイン会社とは&lt;/h2&gt;
+
+&lt;p&gt;Design Agencyというとデザイン以外の部分はパートナー企業と提携してやっていることが多いため、ウェブ制作を内製しているような会社はDigital AgencyやInteractive Agency若しくはより大きいくくりでCreative Agencyと呼ばれます。&lt;/p&gt;
+
+&lt;p&gt;とはいえ各社が明確な定義に従ってラベリングをしているわけではないため境界線は曖昧。DeveloperとしてDigital Agencyに入ってみたものの開発は全て外注していたため業務は外注管理とQAだったという話を聞いたこともあります。&lt;/p&gt;
+
+&lt;p&gt;勤務先はブランディング・グラフィック・空間デザイン等もやっており、新規クライアントに会社の紹介をする際にはCreative Agencyと説明していることが多いですね。&lt;/p&gt;
+
+&lt;p&gt;参考: &lt;a href=&quot;http://playgroundinc.com/blog/defining-creative-agencies/&quot;&gt;Defining a creative agency&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;discovery-session--creative-brief&quot;&gt;Discovery Session &amp;amp; Creative Brief&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016/1222-people-woman-coffee-meeting.jpg&quot; alt=&quot;Meeting&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;Image from &lt;a href=&quot;https://www.pexels.com/photo/people-coffee-meeting-team-7096/&quot;&gt;Pexels&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;プロジェクトの背景やゴール、ターゲット、顧客からの評価についてカジュアルな雑談形式で深掘りをしていく段階。クライアントチームとの最初の顔合わせの場でもあるのでマネージャーやデザインおよび開発チームのディレクターが同行することが一般的。ある程度のスケジュール感や技術仕様の概略についても話し合われたりします。&lt;/p&gt;
+
+&lt;p&gt;その後、プロジェクト指針をドキュメント化し、クライアントとの合意後に正式にプロジェクトが発足。&lt;/p&gt;
+
+&lt;h2 id=&quot;information-architecture&quot;&gt;Information Architecture&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016/1222-pexels-photo-196645.jpg&quot; alt=&quot;IA&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;Image from &lt;a href=&quot;https://www.pexels.com/photo/white-printer-paper-196645/&quot;&gt;Pexels&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;情報設計。会社によってはUX。プロジェクト指針に基づきワイヤーフレームや機能概要、技術要件を作成。技術面はデベロッパーと相談しながら進め、予算と難易度含めて複数の機能案を提示することもあります。顧客へのプレゼンテーションを行い合意を経て次の段階へ。&lt;/p&gt;
+
+&lt;p&gt;使用されるツールとしては&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ワイヤーフレーム: &lt;a href=&quot;https://www.omnigroup.com/omnigraffle&quot;&gt;Omnigraffle&lt;/a&gt;や&lt;a href=&quot;https://www.sketchapp.com/&quot;&gt;Sketch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;プレゼンテーション: &lt;a href=&quot;https://www.invisionapp.com/&quot;&gt;Invision&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
+
+&lt;p&gt;情報設計に基づきデザイン。ちょっと前まではPhotoshopでモックが作られていましたが、現在はSketchに完全移行。Eコマースのようにパフォーマンスが特に重要であったり、設計が複雑な場合はIA担当者・デザイナー・デベロッパー含めてミーティングします。顧客へのプレゼンテーションを行い合意を経て次の段階へ。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;デザイナーはコードを書けるのか？&lt;/h3&gt;
+
+&lt;p&gt;たまに海外のデザイナーはみんなコードを書ける、という意見を耳にしますが少なくともバンクーバーのデザイン会社においては必ずしもそんなことはありません。中にはデベロッパーからデザイナーへ職種を変えたような人もいますが、コードを書けない人のほうが多いのではないでしょうか。&lt;/p&gt;
+
+&lt;p&gt;デザイン会社の場合、グラフィックデザイナー出身・兼務といった体制がよく見られることも関係しているかもしれません。プロダクトやUIデザイナーになるとまた違うかと思います。&lt;/p&gt;
+
+&lt;p&gt;もちろんbtrax社の言うように&lt;a href=&quot;http://blog.btrax.com/jp/2016/05/02/designer-engineer/&quot;&gt;【これからのスキル】デザイナーとエンジニアの境界線がどんどん無くなる&lt;/a&gt;の風潮はあります。ただ、業務的には&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;単純に考えても、インタラクション要素の増えて来ている最近のメディアやデバイスに対してデザインする場合、静止画だけで表現、説明する事には限界があるからである。例えばクライアントに対して、”この部分がぬるっと動くイメージになります”と伝えた所で全く想像がつかない。むしろ、デザイナーが考える最適な動きを自分自身で表現出来なければ仕事にならない。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;のような点はデザインがわかるデベロッパーとデザイナーが補い合っている側面もあります。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;デザイナーの英語力&lt;/h3&gt;
+
+&lt;p&gt;よくある誤解でデザインスキルがあれば英語はそこまで喋ることができなくても大丈夫、という話もたまに聞きますが間違いです。ジュニアの段階なら多少は大目に見てもらえるのかもしれませんが…&lt;/p&gt;
+
+&lt;p&gt;デザインコンセプトを含めてプレゼンテーションをするには抽象表現と具体例の使い分けから北米でウケる話し方、文化的理解が必要です。帰国子女でもないのにその立場をこなしている友人の日本人デザイナー氏もいます。尊敬。&lt;/p&gt;
+
+&lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016/1222-logos.jpg&quot; alt=&quot;CMS Logos&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;IAとデザインをもとに開発。CMSベースで開発を行う。デプロイ先サーバーは会社、クライアントごとに様々。AWSに一本化しているところもあればクライアント先のサーバーにリモートアクセスして作業していたり等。&lt;/p&gt;
+
+&lt;p&gt;また、アニメーションが用いられる場合は簡単なモックをCSS等で作りデザイナーと調整しながら進めることもあります。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;バージョン管理&lt;/h3&gt;
+
+&lt;p&gt;Git + Bitbucket&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;タスク管理&lt;/h3&gt;
+
+&lt;p&gt;Asana、小規模ならSlackチャンネル上のToDoリスト使うこともあります。&lt;/p&gt;
+
+&lt;h3 id=&quot;cms&quot;&gt;CMS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WordPress: 一番多く使われてます&lt;/li&gt;
+  &lt;li&gt;Drupal: 大規模かつ堅牢性を求める場合に多いです&lt;/li&gt;
+  &lt;li&gt;WordPress + Woocommerce: WordPressベースでEコマースサイト&lt;/li&gt;
+  &lt;li&gt;Shopify: 小~中規模のEコマースサイトには最適。複雑な商品構成だと厳しい&lt;/li&gt;
+  &lt;li&gt;Craft CMS: 新しめのCMSでUIがわかりやすいとのこと。オープンソースではないです。&lt;/li&gt;
+  &lt;li&gt;その他、会社によっていろいろ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;自分がよく使うのは&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WordPress (+ Woocommerce): ただし&lt;a href=&quot;https://roots.io/bedrock/&quot;&gt;Bedrock&lt;/a&gt; + &lt;a href=&quot;https://roots.io/sage/&quot;&gt;Sage&lt;/a&gt;をベースにカスタマイズ&lt;/li&gt;
+  &lt;li&gt;Shopify: Shopページ以外は別CMSを使う場合もあります&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;qa&quot;&gt;内部QA&lt;/h3&gt;
+
+&lt;p&gt;BugHerd&lt;/p&gt;
+
+&lt;h2 id=&quot;qa-1&quot;&gt;クライアントQA&lt;/h2&gt;
+
+&lt;p&gt;Staging serverにデプロイし、クライアントへ提示。合意されていない追加要求やデザイン・仕様変更については合理的な内容であれば見積もりを行い追加開発へ。合理的ではないと思われる場合は要求を押し返すべくディレクターが頑張ります。&lt;/p&gt;
+
+&lt;p&gt;基本的にクライアントは対等にプロジェクトを進めるパートナーであるという認識があり、無闇に変更の要望を受け入れることはあまりありません。もちろんやむを得ない場合もありますが…&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;納品とメンテナンス&lt;/h2&gt;
+
+&lt;p&gt;当初の納期通りにリリースされることは滅多にありません。クライアント側が必要な情報提示を遅れた場合、その分納期が遅れます。その責任をこちらが残業で負担するという話は周りでは聞いたことがないです。&lt;/p&gt;
+
+&lt;p&gt;何を持って納品とするか、その後のメンテナンスはどちらがするかは契約による異なりますが基本的にはサーバーにデプロイし、こちらがメンテナンスを行うケースが多いです。&lt;/p&gt;
+
+&lt;h2 id=&quot;party&quot;&gt;Party&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016/1222-pexels-photo-27431.jpg&quot; alt=&quot;Beer&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;Image from &lt;a href=&quot;https://www.pexels.com/photo/cheers-beer-bar-alcohol-27431/&quot;&gt;Pexels&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;普段はオフィスでBeer Friday、プロジェクト終了後にはバーやレストランで打ち上げ。弊社の場合は4時半~5時に始まり1時間ぐらいでさくっと帰る人は帰る、まったり飲みたい人は残るといった雰囲気。もちろん費用は会社負担。&lt;/p&gt;
+
+&lt;p&gt;日本の制作会社と比較はできませんが、なんとなく雰囲気がわかってもらえればと思います。&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 Dec 2016 00:00:00 -0800</pubDate>
+        <link>https://blog.kaffeekantate.xyz/design-agency-workflow-vancouver/</link>
+        <guid isPermaLink="true">https://blog.kaffeekantate.xyz/design-agency-workflow-vancouver/</guid>
+        
+        <category>design</category>
+        
+        <category>vancouver</category>
+        
+        <category>advent</category>
+        
+        
+      </item>
     
       <item>
         <title>バンクーバーのカフェ事情 ~ 器具とコーヒー豆について</title>
@@ -777,66 +918,6 @@ Subpixel Rendering&lt;/a&gt;&lt;/li&gt;
         <pubDate>Sun, 13 Dec 2015 00:00:00 -0800</pubDate>
         <link>https://blog.kaffeekantate.xyz/rachmaninoff-piano-concerto-2/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/rachmaninoff-piano-concerto-2/</guid>
-        
-        <category>music</category>
-        
-        <category>advent</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>ショパン ワルツ第9番変イ長調作品69-1「別れのワルツ」</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.adventar.org/calendars/948&quot;&gt;クラシック曲 Advent Calendar 2015&lt;/a&gt; 6日目の記事。ショパンのワルツ第9番変イ長調作品69-1、通称「別れのワルツ」について書きます。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/1206-chopin.jpg&quot; alt=&quot;Chopin Concert&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;credit&quot;&gt;(Henryk Siemiradzki: Chopin concert [Public Domain])&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;ワルツ第9番変イ長調作品69-1&lt;/h2&gt;
-
-&lt;p&gt;通称「別れのワルツ」として有名なワルツ第9番は没後に出版されたこと及びこの曲を捧げたマリア・ヴォジンスカと破局したことから後付けで「別れ」のイメージがついた曲。
-実際にはマリアとの交際中に作曲されており、25歳のショパンの心情に「別れ」はないであろう。&lt;/p&gt;
-
-&lt;p&gt;この曲をマリアに献呈したのは滞在先ドレスデンから帰路につく場面だが、これは別れというよりも告白であるため、「告別ワルツ」ではなく「告白ワルツ」とすべきという人もいる。&lt;/p&gt;
-
-&lt;p&gt;その翌年1836年には10年以上に渡って関係を持つことになるジョルジュ・サンドと出会うことを考えると、後付けの解釈としてショパン若き日の淡い思い出として捉えることができるのではと思う。&lt;/p&gt;
-
-&lt;p&gt;自分とワルツ9番についていうと、ピアノを習っていた頃、最初に教えてもらったショパンの曲がこれ。とはいえ、当時はこの曲の良さは分からず。ゆったりしすぎていて面白みにかけると感じていたり、背景知識の勉強もしなかったのでなぜこの曲が「別れ」なんだろうと感じながら13連符の早弾きに熱心だった苦い思い出が。&lt;/p&gt;
-
-&lt;p&gt;じっくり聴くとドレスデンで家族そしてマリアと会いリラックスした中での優雅さ、25歳の感傷的な心情、ロンド形式の中に現れる転調と旋律に遊び心を感じられて味わいのある曲。そのことに自分が気付くのは暫く後になってからであったが。&lt;/p&gt;
-
-&lt;h3 id=&quot;urtext-rubinstein&quot;&gt;演奏1: Urtext Rubinstein&lt;/h3&gt;
-
-&lt;p&gt;ショパンのスタンダードということでまずはルービンシュタイン。一般的なフォンタナ版ではなく原曲版での演奏。&lt;/p&gt;
-
-&lt;div class=&quot;videoWrapper&quot;&gt;
-    &lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ls0Hc2l2qYc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;babylink-box&quot; style=&quot;overflow: hidden; font-size: small; zoom: 1; margin: 15px 0; text-align: left;&quot;&gt;&lt;div class=&quot;babylink-image&quot; style=&quot;float: left; margin: 0px 15px 10px 0px; width: 75px; height: 75px; text-align: center;&quot;&gt;&lt;a href=&quot;https://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;border-top: medium none; border-right: medium none; border-bottom: medium none; border-left: medium none;&quot; src=&quot;https://ecx.images-amazon.com/images/I/41GvESaXNbL._SL75_.jpg&quot; width=&quot;75&quot; height=&quot;74&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;babylink-info&quot; style=&quot;overflow: hidden; zoom: 1; line-height: 120%;&quot;&gt;&lt;div class=&quot;babylink-title&quot; style=&quot;margin-bottom: 2px; line-height: 120%;&quot;&gt;&lt;a href=&quot;https://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;ショパン:ワルツ集(全14曲)&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;babylink-manufacturer&quot; style=&quot;margin-bottom: 5px;&quot;&gt;SMJ&lt;/div&gt;&lt;div class=&quot;babylink-description&quot; style=&quot;margin-top: 7px;&quot;&gt;ピアニスト、アルトゥール・ルービンシュタインのショパン作品を収録した、1963年録音盤。&lt;/div&gt;&lt;/div&gt;
-&lt;a href=&quot;https://www.amazon.co.jp/exec/obidos/ASIN/B0090S4ALI/selfreliant-22/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Amazon.co.jp で詳細を見る&lt;/a&gt;
-&lt;div class=&quot;booklink-footer&quot; style=&quot;clear: left&quot;&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;valentina-lisitsa&quot;&gt;演奏2: Valentina Lisitsa&lt;/h3&gt;
-&lt;p&gt;YouTubeから人気を博したヴァレンティーナ・リシッツァ。スピード感溢れる演奏。&lt;/p&gt;
-
-&lt;div class=&quot;videoWrapper&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZDN4xSKBUnA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;vladimir-ashkenazy&quot;&gt;演奏3: Vladimir Ashkenazy&lt;/h3&gt;
-&lt;p&gt;最後はアシュケナージ。優雅さが全面に出ている。&lt;/p&gt;
-
-&lt;div class=&quot;videoWrapper&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FrO2v6iPBT4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;東京とまでいかないまでもバンクーバーでももう少しピアニストの演奏聴く機会増えればなあ…&lt;/p&gt;
-</description>
-        <pubDate>Sun, 06 Dec 2015 00:00:00 -0800</pubDate>
-        <link>https://blog.kaffeekantate.xyz/chopin-waltz-9/</link>
-        <guid isPermaLink="true">https://blog.kaffeekantate.xyz/chopin-waltz-9/</guid>
         
         <category>music</category>
         

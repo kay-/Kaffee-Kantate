@@ -53,7 +53,7 @@ cover_image: /2016/1228-osm1.jpg
 
 <div class="babylink-box" style="overflow: hidden; font-size: small; zoom: 1; margin: 15px 0; text-align: left;"><div class="babylink-image" style="float: left; margin: 0px 15px 10px 0px; width: 75px; height: 75px; text-align: center;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B002GKRTGK/selfreliant-22/" rel="nofollow" target="_blank"><img style="border-top: medium none; border-right: medium none; border-bottom: medium none; border-left: medium none;" src="https://images-fe.ssl-images-amazon.com/images/I/415p6eIgVsL._SL75_.jpg" width="75" height="75" /></a></div><div class="babylink-info" style="overflow: hidden; zoom: 1; line-height: 120%;"><div class="babylink-title" style="margin-bottom: 2px; line-height: 120%;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B002GKRTGK/selfreliant-22/" rel="nofollow" target="_blank">プロコフィエフ&amp;ラヴェル:ピアノ協奏曲</a></div><div class="babylink-manufacturer" style="margin-bottom: 5px;">ユニバーサル ミュージック クラシック</div></div><div class="booklink-footer" style="clear: left"></div></div>
 
-また最新だとYuja Wangの力強い演奏も好きです。
+また最近のものだとYuja Wangの力強い演奏も好きです。
 
 <div class="videoWrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/q4TyQ97Jcr0" frameborder="0" allowfullscreen></iframe>

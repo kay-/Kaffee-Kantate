@@ -1,12 +1,19 @@
 @charset "utf-8";
 // Our variables
-$base-font-family: 'Arial', 'Helvetica', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+// http://yuheiy.hatenablog.com/entry/2017/09/04/210650
+$font-stack-system-ui: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", "Meiryo", sans-serif;
+//$font-stack: 'Arial', 'Helvetica', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+$base-font-family: $font-stack-system-ui;
 
 $header-font-family: 'Courgette',cursive;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 $article-line-height: 1.7;
+
+$letter-spacing: 0.02em;
 
 $spacing-unit:     30px;
 

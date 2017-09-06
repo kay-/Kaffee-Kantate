@@ -242,6 +242,7 @@
 .post-link {
     display: block;
     font-size: 1.5em;
+    letter-spacing: $letter-spacing;
 }
 
 .pagination {
@@ -259,12 +260,12 @@
 }
 
 .post-title {
-    font-size: 30px;
-    letter-spacing: -1px;
+    font-size: 26px;
+    letter-spacing: $letter-spacing;
     line-height: 1.2;
 
     @include media-query($on-laptop) {
-        font-size: 28px;
+        font-size: 24px;
     }
 }
 

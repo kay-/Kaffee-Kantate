@@ -45,7 +45,7 @@ Propaganda Coffee
 The Dog & Squirrel
 {: .credit}
 
-2016年に飲んだ中で一番コーヒーが美味しいと思ったお店「[The Dog & Squirrel](http://www.thedogandsquirrel.com/)」。[Moja Coffee](http://www.mojacoffee.com/)という有名店で働いているイギリス人バリスタさんが奥さんと一緒にやっておりテーブルが3つしかないこじんまりとしたお店。
+2016年に飲んだ中で一番コーヒーが美味しいと思ったお店「[The Dog & Squirrel](https://www.instagram.com/thedogandsquirrel/)」。[Moja Coffee](http://www.mojacoffee.com/)という有名店で働いているイギリス人バリスタさんが奥さんと一緒にやっておりテーブルが3つしかないこじんまりとしたお店。
 
 こちらの好みや前回飲んだコーヒー豆との違いを踏まえておすすめを教えてくれる素晴らしいお店でしたが、現在移転中。再オープンしたらまたコーヒートークをしにいきたいものです。
 

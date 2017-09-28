@@ -22,7 +22,7 @@ cover_image: /2015/1222-sign.jpg
 自分の場合、コーヒーを目的としてカフェに行く際に重視する要素は
 
 - 提供されているコーヒーについてお店独自のコーヒーノートがある
-- バリスタがコーヒーについて会話できる環境である
+- バリスタとコーヒーについて会話しやすい環境である
 - ハンドドリップが主である
 
 の3点があり、これを満たそうと思うと混雑していないマイクロカフェが候補にあがります。特に不動産・賃貸価格の高いバンクーバーではお店の一部をバリスタが間借りし、マイクロカフェとしてコーヒーを提供していることが多いです。上記をもとにバンクーバーでお勧めのお店を紹介していきます。
@@ -37,13 +37,13 @@ cover_image: /2015/1222-sign.jpg
 
 2016年のバンクーバーベストコーヒーショップにも選ばれた[Aubade Coffee](https://www.aubadecoffee.info/) ([THE 10 BEST VANCOUVER COFFEE SHOPS OF 2016](https://www.vancouvercoffeesnob.com/coffeeshopdefault/the-10-best-vancouver-coffee-shops-of-2016/))。バリスタであるEldricはカナダのエアロプレスチャンピオンシップで2位。彼独自の淹れ方やコーヒーへの考え方を聞くのはとても刺激的です。
 
-雑貨屋の一部を間借りしたお店で席はカウンター周辺に4席と、正面に5人程度が座れるテーブス席があります。
-
 また、Take-over Dayとして他の国から来たバリスタにお店を運営してもらい、普段とは違うコーヒーを飲む機会を提供したり、エアロプレスワークショップを開催したりとバンクーバーのコーヒーコミュニティにも大きく貢献しています。
 
 <div class="videoWrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/HPK1Rsi56DI" frameborder="0" allowfullscreen></iframe>
 </div>
+
+お店は雑貨屋の一部を間借りしておりカフェスペースとしてはカウンター席4席とその向かいに5人程度が座れるソファ席があります。
 
 ##Moving Coffee
 
@@ -52,3 +52,11 @@ Fife Bakeryというパン屋でコーヒーを提供している[Moving Coffee]
 席は4席ほどしかありませんが、Fife Bakeryのパンもとても美味しいのでランチに買っていくのもお勧めです。
 
 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BZRwXOPAT9N/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Kay Yamagishi (@kay_ya8)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-09-20T21:10:47+00:00">Sep 20, 2017 at 2:10pm PDT</time></p></div></blockquote>
+
+##各種リンク
+
+- [Coffee Potluck](https://www.coffeepotluck.com/)
+- [Vancouver Coffee Snob](https://www.vancouvercoffeesnob.com/)
+- [Vancouver Barista](http://www.vancouverbarista.com/)
+
+

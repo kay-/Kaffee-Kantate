@@ -5,9 +5,173 @@
     <description>Life in Vancouver, Tech, Coffee, etc</description>
     <link>https://blog.kaffeekantate.xyz/</link>
     <atom:link href="https://blog.kaffeekantate.xyz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Sep 2017 23:01:06 -0700</pubDate>
-    <lastBuildDate>Wed, 27 Sep 2017 23:01:06 -0700</lastBuildDate>
+    <pubDate>Thu, 07 Dec 2017 01:22:14 +0900</pubDate>
+    <lastBuildDate>Thu, 07 Dec 2017 01:22:14 +0900</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Frog House へようこそ</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://adventar.org/calendars/2350&quot;&gt;Frog Advent Calendar 2017&lt;/a&gt; の7日目の記事は、バンクーバーのクリエイター向けシェアハウス「&lt;a href=&quot;https://frogagent.com/local-support/froghouse/&quot;&gt;Frog House&lt;/a&gt;」についてです。&lt;/p&gt;
+
+&lt;p&gt;Frog House 生活を振り返ったポエムなのであまり海外就職には役立ちませんが Frog House の良さが伝わればと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;frog-house-&quot;&gt;Frog House とは&lt;/h2&gt;
+
+&lt;p&gt;今後バンクーバーで就職を目指す学生から日本でのキャリアが長い方まで主にデザイナー・エンジニアが住むシェアハウスです。家とバンクーバーの雰囲気が気になる方は以下の動画を御覧ください。&lt;/p&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7w0DU_58FV0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;オープン当初&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog1.jpg&quot; alt=&quot;フロッグハウス&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;オープン当初。とても殺風景&lt;/p&gt;
+
+&lt;p&gt;2014年4月にオープン。州立大学に通い始めるタイミングで、学校に近くコンセプトも面白そうだと感じて入居。このときはここから3年半も住むことになるとは思いもよらず。というか当初は3ヶ月で学校内にある Student House に移るつもりでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog2.jpg&quot; alt=&quot;フロッグハウス&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;シェアスペースで仕事してる方もいます&lt;/p&gt;
+
+&lt;p&gt;当初はまだイベントは多くなく、あくまで作業スペースとしての役割が大きかったです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog3.jpg&quot; alt=&quot;フロッグハウスとラスカル&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;裏庭倉庫にラスカル一家が住み着いて大変だった&lt;/p&gt;
+
+&lt;p&gt;一時期はラスカル一家も暮らしていました。最終的には庭を荒らして去って行きましたが…&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;イベント開催&lt;/h2&gt;
+
+&lt;p&gt;入居者募集が落ち着き設備が充実してきた頃からイベント開催が徐々に増えました。ぱっと思い出すだけでも&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;海外就職と英語&lt;/li&gt;
+  &lt;li&gt;デッサン&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;Vue.js&lt;/li&gt;
+  &lt;li&gt;SVG Animation&lt;/li&gt;
+  &lt;li&gt;Docker&lt;/li&gt;
+  &lt;li&gt;ヨガ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などのワークショップが開かれ、住人・訪問者を問わず各々のスキルシェアが行われています。最近は参加者が増えすぎて、Frog の公式イベントとして会場を借りる場合も多いようです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog4.jpg&quot; alt=&quot;ライトニングトーク&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;筋肉エンジニア氏が英語で語る効果的なトレーニング&lt;/p&gt;
+
+&lt;p&gt;英語・技術・趣味の部からなるライトニングトークも定期開催されています。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;設備&lt;/h2&gt;
+
+&lt;p&gt;プロジェクターや録音用マイク、PC用外部ディスプレイ、英語・技術・デザイン関連書籍など一般のシェアハウスにはないものが多数揃っています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog5.jpg&quot; alt=&quot;フロッグハウスコーヒーインフラ&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;コーヒー設備も充実&lt;/p&gt;
+
+&lt;p&gt;エンジニアといえばコーヒーといっても過言ではありません。特に北米ではコーヒー好きも多く日々の生活に根付いています。充実した1日を始めるためにはコーヒーインフラはとても重要なのです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;住人同士の交流&lt;/h2&gt;
+
+&lt;p&gt;その時の住人次第ではありますが適度な社交性と自分の活動へのオタク度合いのバランスが取れている方が多かった印象です。ただ、「クリエイターハウス」というコンセプトもあり、デザインやプログラミングをはじめとしたモノ作りを楽しんでいる方が多く集まります。自分のやっていることにあまり情熱を持てない方には居心地が悪いかもしれません。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog6.jpg&quot; alt=&quot;フロッグハウスとハロウィン&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;ハロウィン仕様&lt;/p&gt;
+
+&lt;p&gt;ハロウィンでは仮装したり家をデコレーションしたりして Trick or Treat しにくる子供たちを迎え撃っていました。この時はホラー映画的音楽も相まって子供が怯えてなかなか入ってこなかったです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog8.jpg&quot; alt=&quot;寿司エンジニア&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;家で寿司が食べられます&lt;/p&gt;
+
+&lt;p&gt;尊敬する JS (JavaScript / Japanese Sushi) エンジニア氏の寿司。とても美味しい。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog0.jpg&quot; alt=&quot;年末パーティー&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;クリスマスパーティー&lt;/p&gt;
+
+&lt;p&gt;北米ではクリスマスは家族と過ごす日なので街は閑散とします。住人同士で分担して作りたいものを作ってパーティーをしていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog9.jpg&quot; alt=&quot;正月&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;バンクーバーでは鏡餅も手に入ります&lt;/p&gt;
+
+&lt;p&gt;日本で一人暮らしをしてた時よりも日本らしいお正月風景。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;海外就職&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog11.jpg&quot; alt=&quot;朝のオフィス&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;朝のオフィス。一人でゆっくりコーヒーを淹れる至福。&lt;/p&gt;
+
+&lt;p&gt;自分のバンクーバーでの就職活動について言えば&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;自社CMSを作っているスタートアップでのインターン&lt;/li&gt;
+  &lt;li&gt;デザイン会社での勤務 (就労ビザ)&lt;/li&gt;
+  &lt;li&gt;広告系の会社での内定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;という結果でした。もともと英語がそこまで苦手ではなかったこと等はありますが、Frog House でメンターとも言えるデザイナー・エンジニアの方々に出会えたおかげだと思っています。&lt;/p&gt;
+
+&lt;p&gt;というのも、バンクーバーでの就職がうまくいかない理由として&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;学校の勉強だけで現場で求められているスキルを意識できていない&lt;/li&gt;
+  &lt;li&gt;日本とカナダで求められるスキルの違いをわかっていない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;とよく聞きますが、業界経験者そしてカナダ生活が長い方々に多くのアドバイスをもらうことができたためです。&lt;/p&gt;
+
+&lt;p&gt;ただし、基本的には自分が取り組んでいることについてアドバイスをもらえる可能性があるだけなので「Frog House に入れば勉強を教えてもらえる」という誤解にはご注意ください。海外まできてやる気が出ない人のやる気をなんとかしてくれる、手取り足取り指導してくれるようなことは期待しないほうがいいでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;日本人向けシェアハウスと英語&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog10.jpg&quot; alt=&quot;Wiiフィット&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;Wiiフィットと住人ごとのキャラクター&lt;/p&gt;
+
+&lt;p&gt;Frog House は日本人ばかりが住んでいるため、カナダまできて日本人の集まるシェアハウスに住むことに疑問を感じる方も多いかもしれません。実際に語学留学の場合はおすすめできませんが、エンジニア・デザイナーとしてのキャリアを現地で積もうと思う方には&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;クリエイターに必須のインターネットインフラ&lt;/li&gt;
+  &lt;li&gt;同じ目標の人々との交流&lt;/li&gt;
+  &lt;li&gt;ビザ情報&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;といった点でとても心地良い環境だと思います。特にカナダのインターネット回線は遅いことが多いため、フロッグのようにちょっとしたビジネスオフィス並みの回線速度を持つシェアハウスはなかなかないはずです。&lt;/p&gt;
+
+&lt;p&gt;また、他の留学している方からオーナーや住人とのトラブルについて聞くことも多かったため、安心して住める環境というのは本来の目的に向けて活動する上でとても良かったです。&lt;/p&gt;
+
+&lt;p&gt;そもそも多国籍なシェアハウスに住んでも住人同士の交流があるかどうかは家次第なので、英語が不安な方は外で日本人以外と交流したり、現地のミートアップに参加してみるなどするといいでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/1207-frog7.jpg&quot; alt=&quot;カナダデイ&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;credit&quot;&gt;カナダ建国150周年パレード&lt;/p&gt;
+
+&lt;p&gt;3年半の Frog House 生活では多くの尊敬するエンジニア・デザイナーと出会うことができました。もともと SIer で業務システムのプロジェクトマネジメントを主にしていた自分がバンクーバーで Web Develper としてキャリアチェンジができたのはここで出会った方々のおかげだと思っています。また、多くの要望に対応していただいた管理人のお二方にも感謝しかありません。&lt;/p&gt;
+
+&lt;p&gt;というわけで Frog House とてもおすすめです m(_ _)m&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Dec 2017 00:00:00 +0900</pubDate>
+        <link>https://blog.kaffeekantate.xyz/welcome-to-froghouse/</link>
+        <guid isPermaLink="true">https://blog.kaffeekantate.xyz/welcome-to-froghouse/</guid>
+        
+        <category>vancouver</category>
+        
+        <category>留学</category>
+        
+        <category>徒然</category>
+        
+        
+      </item>
     
       <item>
         <title>コーヒーの美味しさとバリスタで選ぶバンクーバー・マイクロカフェ</title>
@@ -67,7 +231,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 26 Sep 2017 00:00:00 -0700</pubDate>
+        <pubDate>Tue, 26 Sep 2017 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/coffee-and-barista-vancouver/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/coffee-and-barista-vancouver/</guid>
         
@@ -139,7 +303,7 @@
 &lt;/div&gt;
 
 </description>
-        <pubDate>Mon, 24 Jul 2017 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 24 Jul 2017 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/schumann-piano-concerto/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/schumann-piano-concerto/</guid>
         
@@ -204,7 +368,7 @@
 &lt;/div&gt;
 
 </description>
-        <pubDate>Wed, 28 Dec 2016 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 28 Dec 2016 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/prokofiev-3rd-piano-concerto/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/prokofiev-3rd-piano-concerto/</guid>
         
@@ -343,7 +507,7 @@
 &lt;p&gt;日本の制作会社と比較はできませんが、なんとなく雰囲気がわかってもらえればと思います。&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 22 Dec 2016 00:00:00 -0800</pubDate>
+        <pubDate>Thu, 22 Dec 2016 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/design-agency-workflow-vancouver/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/design-agency-workflow-vancouver/</guid>
         
@@ -448,7 +612,7 @@
 &lt;p&gt;ちなみに去年の記事&lt;a href=&quot;/vancouver-coffee-life/&quot;&gt;バンクーバー生活とコーヒー&lt;/a&gt;で”こちらのバリスタともっと詳しい話ができる知識と英語力の必要性を感じる今日この頃。”と書きましたが、今年はマイクロカフェで顔見知りのバリスタさんが増えてきたり、会社でもコーヒー好きのポジションを確立できたりと悪くない一年だったかと思います。&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 19 Dec 2016 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 19 Dec 2016 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/coffee-equipment-and-beans-vancouver/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/coffee-equipment-and-beans-vancouver/</guid>
         
@@ -550,7 +714,7 @@
 
 &lt;p&gt;おすすめのお店があれば教えてくれると嬉しいです :)&lt;/p&gt;
 </description>
-        <pubDate>Mon, 05 Dec 2016 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 05 Dec 2016 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/enjoy-cafe-and-coffee-in-vancouver/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/enjoy-cafe-and-coffee-in-vancouver/</guid>
         
@@ -628,7 +792,7 @@
 
 &lt;p&gt;BCITで評価されてるのはコンピュータサイエンスやエンジニアリングといったコースなので、New Media自体が評価されることは特にないです。また、カリキュラムがとりわけ優れてるわけでもないと思います。Web業界にNew Media出身の人が多いですがそれは単に卒業人数が多いのでそう見えるだけでは。&lt;/p&gt;
 </description>
-        <pubDate>Sun, 27 Nov 2016 00:00:00 -0800</pubDate>
+        <pubDate>Sun, 27 Nov 2016 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/bcit-new-media-faq/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/bcit-new-media-faq/</guid>
         
@@ -710,7 +874,7 @@ Subpixel Rendering&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.paulirish.com/2013/webkit-for-developers/&quot;&gt;WebKit for Developers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sat, 30 Jul 2016 00:00:00 -0700</pubDate>
+        <pubDate>Sat, 30 Jul 2016 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/froghouse-lt-note/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/froghouse-lt-note/</guid>
         
@@ -805,79 +969,13 @@ Subpixel Rendering&lt;/a&gt;&lt;/li&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.sitepoint.com/become-web-developer-7-simple-steps/&quot;&gt;Become a Web Developer in 7 Simple Steps&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 29 May 2016 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 29 May 2016 00:00:00 +0900</pubDate>
         <link>https://blog.kaffeekantate.xyz/year-after-bcit/</link>
         <guid isPermaLink="true">https://blog.kaffeekantate.xyz/year-after-bcit/</guid>
         
         <category>bcit</category>
         
         <category>留学</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>SVGアニメーションを行う上で遭遇したイシュー</title>
-        <description>&lt;p&gt;仕事でSVGアニメーションをやったものの予想以上に大変だったので遭遇したイシューをいくつか。ブラウザ環境に依存する話が多いのであくまで &lt;strong&gt;2016年4月2日&lt;/strong&gt; 時点の内容です。&lt;/p&gt;
-
-&lt;h2 id=&quot;firefox-svgtransform-origin&quot;&gt;[Firefox] SVG要素に対してtransform-originが正しく動作しない&lt;/h2&gt;
-
-&lt;p&gt;現状だとFirefoxでtransform-originを他のブラウザと同じように動作させるには、&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;transform-box: fill-box;&lt;/code&gt;を設定&lt;/li&gt;
-  &lt;li&gt;preferenceにて&lt;code&gt;svg.transform-origin.enabled&lt;/code&gt;を有効&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;にしなければならない模様。&lt;/p&gt;
-
-&lt;p&gt;これはtransform及びtransform-originにおけるポジションを規定する&lt;code&gt;transform-box&lt;/code&gt;というプロパティがまだW3Cにおいてドラフトだから、という理由からくる実装らしい。なのでSVG要素をtransformさせたい場合は現状JavaScriptを使うしかなさそう。(&lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=1209061&quot;&gt;Bug 1209061 - transform-origin not applied correctly on svg content&lt;/a&gt;)&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You’d need to set transform-box: fill-box; and also enable the svg.transform-origin.enabled pref (Firefox 41, 42) or the svg.transform-box.enabled pref (Firefox 43).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;ie9-svg&quot;&gt;[IE(9以上)] SVG要素を正しいアスペクト比で表示させるには幅と高さの設定が必要&lt;/h2&gt;
-
-&lt;p&gt;他のブラウザでは’width’と’height’を設定していなくても問題ないですが、残念ながらIEの場合、元のアスペクト比を保てない。(&lt;a href=&quot;http://codepen.io/tomByrer/pen/qEBbzw?editors=110&quot;&gt;Test Scaling Of SVG Images In Fluid Layouts&lt;/a&gt;)&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&amp;lt;svg … viewBox=”0 0 500 500” width=”500px” height=”500px” preserveAspectRatio=”xMinYMin meet”&amp;gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;pxで値を設定してしまうとレスポンシブにならないため、user-agentがIEのときのみwindow resizeに合わせて縦横の値を調整するようにしました。&lt;/p&gt;
-
-&lt;h2 id=&quot;chrome-stroke-dasharray&quot;&gt;[Chrome] 複雑なパスの場合、stroke-dasharrayを正しく描画できない&lt;/h2&gt;
-
-&lt;p&gt;波線状のストロークを描画する&lt;code&gt;stroke-dasharray&lt;/code&gt;を複雑なパスに用いるとChromeでは描画されなくなるバグ。どの程度の複雑性なら描画されるのか不明。それぞれのパスが独立していても全体に影響することが多々あったのでファイルサイズや要素数も関係しているのかもと勝手に予想してはいますが…&lt;/p&gt;
-
-&lt;p&gt;検索してみるとこの問題を報告しているブログ等が多く見つかるので有名なバグのよう。もとのSVGファイルを修正して破線状のパスを減らすしかないのでは。(&lt;a href=&quot;https://bugs.chromium.org/p/chromium/issues/detail?id=364866&quot;&gt;SVG stroke-dasharray applies dashes across disconnected (M) path segments.&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h2 id=&quot;snapsvg-animate-api&quot;&gt;[Snap.svg] animate APIはパフォーマンスに問題があるため、アニメーションさせたい場合は別の方法との組み合わせを&lt;/h2&gt;
-
-&lt;p&gt;SVGを操作するライブラリとして有名な&lt;a href=&quot;http://snapsvg.io/&quot;&gt;Snap.svg&lt;/a&gt;(jQuery for SVGのような役割)ですが、animate APIを使うとかなりパフォーマンスに問題がでます。(&lt;a href=&quot;http://www.newicon.net/svg-animation-snapsvg/&quot;&gt;Adventures with SVG animation and Snap.svg&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;リンク先の記事では以下の通りフレームレートの低さを指摘していますが、CPU使用率もかなり高くなってしまいました。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Both scripting and rendering were taking longer than was needed for a clean 60fps framerate…I found a ton of timers firing as each animation loop stacked atop the other. In addition to this, rendering time was also significant&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;簡単なアニメーションならVanilla JSで、そうでないならパフォーマンス的にも安定した&lt;a href=&quot;http://julian.com/research/velocity/&quot;&gt;Velocity.js&lt;/a&gt;や&lt;a href=&quot;https://greensock.com/gsap&quot;&gt;GSAP&lt;/a&gt;との併用が必要になります。&lt;/p&gt;
-
-&lt;h2 id=&quot;illustrator-&quot;&gt;[Illustrator] 破線状のラインを多用するとファイルサイズが著しく肥大化&lt;/h2&gt;
-
-&lt;p&gt;これはイラストレータ及びSVGファイルの話ですが、破線状のラインを使うと、破線のドットそれぞれにanchor pointが設定されるためファイルサイズが極端に肥大化。破線ライン以外には単純な丸と四角のオブジェクトしか使われていないようなファイルが簡単に1MB近くなったりするので注意。&lt;/p&gt;
-
-&lt;p&gt;理由がわからず困っていたところ即答してくれた&lt;a href=&quot;http://akiaoki.com/&quot;&gt;Aki Aoki&lt;/a&gt;氏には感謝。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 Apr 2016 00:00:00 -0700</pubDate>
-        <link>https://blog.kaffeekantate.xyz/svg-issues/</link>
-        <guid isPermaLink="true">https://blog.kaffeekantate.xyz/svg-issues/</guid>
-        
-        <category>svg</category>
-        
-        <category>css</category>
         
         
       </item>

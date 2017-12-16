@@ -4,7 +4,7 @@ title: Frog House へようこそ
 date: 2017-12-07
 published: true
 excerpt: バンクーバーにあるクリエイター専用シェアハウス「Frog House」に3年半ほど住んでいた話
-tags: vancouver 留学 徒然
+tags: advent vancouver 留学 徒然
 cover_image: /2017/1207-frog12.jpg
 ---
 
